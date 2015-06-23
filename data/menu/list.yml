@@ -1,0 +1,29 @@
+-
+  name: "Home"
+  pre: "<span class='fa fa-home'></span>"
+  url: "/"
+-
+  name: "Download"
+  pre: "<span class='fa fa-download'></span>"
+  url: "/download/"
+-
+  name: "Repository"
+  pre: "<span class='fa fa-plus'></span>"
+  url: "/repository/"
+-
+  name: "Forum"
+  pre: "<span class='fa fa-comments'></span>"
+  url: "http://rigsofrods.com/forum/"
+-
+  name: "Blog"
+  pre: "<span class='fa fa-pencil'></span>"
+  url: "/blog/"
+-
+  name: "Docs"
+  pre: "<span class='fa fa-lightbulb-o'></span>"
+  url: "/docs/"
+-
+  name: "Multiplayer"
+  pre: "<span class='fa fa-users'></span>"
+  url: "/races/"
+

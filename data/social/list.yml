@@ -1,0 +1,17 @@
+-
+  name: "Twitter"
+  pre: "fa fa-twitter"
+  url: "https://twitter.com/rigsofrods"
+-
+  name: "Facebook"
+  pre: "fa fa-facebook"
+  url: "https://facebook.com/rigsofrods"
+-
+  name: "VK"
+  pre: "fa fa-vk"
+  url: "https://vk.com/ror_vk"
+-
+  name: "YouTube"
+  pre: "fa fa-youtube"
+  url: "https://youtube.com/OfficialRigsOfRods"
+
