@@ -40,6 +40,7 @@
 activate :i18n, :mount_at_root => false
 
 set :asciidoc_attributes, %w(header_footer=true)
+redirect "index.html", :to => "#{I18n.locale}/index.html"
 I18n.available_locales.each do |locale|
   page "/#{locale}/", :layout => 'base'
   page '/blog/*', :layout => 'blog'
