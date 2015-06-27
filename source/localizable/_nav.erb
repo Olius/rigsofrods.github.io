@@ -10,7 +10,7 @@
 				<section class="top-bar-section">
 					<ul class="left">
 						<% data.menu.list.each do |entry| %>
-							<li<% if entry[:url] == current_page.url %> class="active"<% end %>><a href="<%= entry[:url] %>"><%= entry[:pre] %> <span><%= entry[:name] %></span></a></li>
+							<li<% if entry[:url] == current_page.url %> class="active"<% end %>><a href="<%= entry[:url] %>"><%= entry[:pre] %> <span><%= I18n.t(entry[:id]) %></span></a></li>
 						<% end %>
 					</ul>
 				</section>

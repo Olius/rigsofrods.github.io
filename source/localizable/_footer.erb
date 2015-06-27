@@ -2,27 +2,27 @@
 <div class="footer">
 	<div class="row">
 		<div class="small-12 medium-4 columns">
-			<h4>We are open</h4>
-			<p>Rigs of Rods is free and open source, available under the <a href="https://www.gnu.org/copyleft/" title="copyleft licensing">copyleft</a>-style <a href="http://www.gnu.org/licenses/gpl-3.0.html" title="The GPLv3 license">GPLv3</a> license.</p>
+			<h4><%= I18n.t('footer.open.title') %></h4>
+			<p><%= I18n.t('footer.open.content') %></p>
 		</div>
 		<div class="small-12 medium-2 columns">
-			<h4>Home</h4>
+			<h4><%= I18n.t('nav.home.title') %></h4>
 			<ul>
-				<li><a href="/download" title="Get the game">Download</a></li>
-				<li><a href="/blog" title="Read the development blog">Blog</a></li>
-				<li><a href="/docs" title="Read the docs">Docs</a></li>
+				<li><a href="/download" title="<%= I18n.t('nav.download.tip') %>"><%= I18n.t('nav.download.title') %></a></li>
+				<li><a href="/blog" title="<%= I18n.t('nav.blog.tip') %>"><%= I18n.t('nav.blog.title') %></a></li>
+				<li><a href="/docs" title="<%= I18n.t('nav.docs.tip') %>"><%= I18n.t('nav.docs.title') %></a></li>
 			</ul>
 		</div>
 		<div class="small-12 medium-2 columns">
 			<h4>Forum</h4>
 			<ul>
-				<li><a href="http://rigsofrods.com/forum" title="Talk to the community">Index</a></li>
-				<li><a href="http://rigsofrods.com/sso" title="Register on the forums">Register</a></li>
-				<li><a href="http://rigsofrods.com/search.php" title="Find what you need">Search</a></li>
+				<li><a href="http://rigsofrods.com/forum" title="<%= I18n.t('nav.forum.index.tip') %>"><%= I18n.t('nav.forum.index.title') %></a></li>
+				<li><a href="http://rigsofrods.com/sso" title="<%= I18n.t('nav.forum.register.tip') %>"><%= I18n.t('nav.forum.register.title') %></a></li>
+				<li><a href="http://rigsofrods.com/search.php" title="<%= I18n.t('nav.forum.search.tip') %>"><%= I18n.t('nav.forum.search.title') %></a></li>
 			</ul>
 		</div>
 		<div class="small-12 medium-4 columns">
-			<h4>Follow us</h4>
+			<h4><%= I18n.t('footer.follow.title') %></h4>
 			<ul class="home-social">
 				<li><% data.social.list.each do |entry| %><a href="<%= entry[:url] %>" class="<%= entry[:pre] %>"></a><% end %></li>
 			</ul>

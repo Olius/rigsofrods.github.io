@@ -1,8 +1,76 @@
 ---
 en:
   slogan: "Soft Body Physics Simulator"
-  download: "Download"
+
+  nav:
+    home:
+      title: "Home"
+    download:
+      title: "Download"
+      tip: "Get the game"
+    repository:
+      title: "Repository"
+    forum:
+      title: "Forum"
+      index:
+        title: "Index"
+        tip: "Talk to the community"
+      register:
+        title: "Register"
+        tip: "Register at the forum"
+      search:
+        title: "Search"
+        tip: "Find what you need"
+    blog:
+      title: "Blog"
+    docs:
+      title: "Docs"
+    multiplayer:
+      title: "Multiplayer"
+
+  footer:
+    open:
+      title: "We are open"
+      content: "Rigs of Rods is free and open source, available under the <a href='https://www.gnu.org/Copyleft/' title='Copyleft licensing'>copyleft</a>-style <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='The GPLv3 license'>GPLv3</a> license."
+    follow:
+      title: "Follow us"
+
   index:
     summary:
       title: "Dive into soft body physics"
-      content: "<p>Rigs of Rods is a sandbox-style vehicle simulator.</p><p>What makes Rigs of Rods different to most simulators is its unique soft-body physics model: vehicles, machines, objects, etc. are simulated in real-time as flexible soft-body objects, giving the simulation an extremely accurate behavior which entirely depends on the physical construction of the vehicles or objects you create.</p>"
+      content:
+        about: "Rigs of Rods is a sandbox-style vehicle simulator."
+        different: "What makes Rigs of Rods different to most simulators is its unique soft-body physics model: vehicles, machines, objects, etc. are simulated in real-time as flexible soft-body objects, giving the simulation an extremely accurate behavior which entirely depends on the physical construction of the vehicles or objects you create."
+    toys:
+      title: "Sandbox full of toys"
+      content:
+        preface: "Play with a vast selection of vehicles and terrains. And don’t you worry: real world physics applies to all of them."
+        truck:
+          title: "Truck?"
+          content: "Node and beam simulation with realistic handling and damage - check!"
+        train:
+          title: "Train?"
+          content: "Accurate wheel and rail simulation with derailments on overspeed - also check!"
+        ship:
+          title: "Ship?"
+          content: "Buoyancy model based on elemental pressure gradients - you got it!"
+        aircraft:
+          title: "Aircraft?"
+          content: "Advanced flight model based on blade element theory - this too!"
+    foss:
+      title: "Free. Open. For you."
+      content:
+        about: "Rigs of Rods has been developed since 2005 by hundreds of volunteers around the world. It is open source and available under the <a href='https://www.gnu.org/copyleft/' title='Copyleft licensing'>copyleft</a>-style <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='The GPLv3 license'>GPLv3</a> license."
+        foss: "The game is and will always be free software."
+        community: "Moreover, as volunteer-developed software, our community welcomes all kinds of contributions. In case you would like to give a hand, you can find the source code <a href='https://github.com/rigsofrods/rigs-of-rods'>at GitHub</a>."
+    getting-started:
+      title: "Getting Started"
+      content:
+        docs: "Read the documentation."
+        forum: "Join the forum."
+        bugs: "Report bugs and request features."
+        have-fun: "Have fun!"
+    download:
+      download: "Download"
+      for: "for"
+      alternative: "alternative downloads..."
