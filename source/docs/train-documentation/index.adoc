@@ -1,0 +1,38 @@
+---
+title: "Train Documentation"
+---
+:baseurl: fake/../..
+:imagesdir: {baseurl}/../images
+:doctype: book
+:toc: right
+:toclevels: 5
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums:
+:last-update-label!:
+
+== Basic Principle
+
+The tracks are simple meshes that are placed on the map. They have a collision mesh on which all rail vehicles drive. The track gauge is approximately 1435mm, which is the most common in the world. In reality train wheels have flanges. In RoR wheels can’t have such a geometry, so we use nodes with low friction to keep everything on the rail (we call them guidance nodes). Propulsed rail vehicles use standard wheels spanning the two rails. The result is a quite long wheel what may be odd on the first sight, but if you think about it real train wheels are basically the same. This also helps to keep the nodecount down. See Figure 1.
+
+image::http://www.rigsofrods.com/wiki/images/thumb/d/d2/Trbacon1.jpg/200px-Trbacon1.jpg[]
+
+Fig.1: Basic concept 1 The wagons use low friction nodes instead of wheels. Main reason is the nodecount, e.g. on a 4 axle wagon we can save approx. 120 nodes by doing this, what will give you a much better framerate. See Figure 2.
+
+== Basic node and beam principles
+
+To make your rail vehicle working well, you need to obtain certain principles. 
+
+image::http://www.rigsofrods.com/wiki/images/thumb/9/90/Trbacon2.jpg/200px-Trbacon2.jpg[]
+
+image::http://www.rigsofrods.com/wiki/images/thumb/a/a1/Traingeometry.png/200px-Traingeometry.png[]
+
+Fig.3:Train geometry.
+
+*   First of all your bogie geometry needs to be exactly as shown in Figure 3 
+If you make a wagon without wheels, the low friction nodes running on the rail need to be exactly where the wheel in the picture would touch the rail.
+*   Your guidance nodes (those running on the inner side of the rail) need to be contacters. Give them a mass of 50 kilos. Give them low friction using set_node_defaults. If you don't use a wheel, the nodes sliding on top of the rail also need low friction.
+*   Node 0 needs to be exactly in the middle of your vehicle and 0.5 meters below the rail. Otherwise it won't spawn correctly in the train spawner. Don't forget to flag it with "c": don't detect ground contact.
+*   Make your wheels very hard using the spring and damping options.
+*   Make the bogie node and beam very stiff using set_beam_defaults.

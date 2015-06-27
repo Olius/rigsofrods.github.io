@@ -1,0 +1,8 @@
+---
+en:
+  slogan: "Soft Body Physics Simulator"
+  download: "Download"
+  index:
+    summary:
+      title: "Dive into soft body physics"
+      content: "<p>Rigs of Rods is a sandbox-style vehicle simulator.</p><p>What makes Rigs of Rods different to most simulators is its unique soft-body physics model: vehicles, machines, objects, etc. are simulated in real-time as flexible soft-body objects, giving the simulation an extremely accurate behavior which entirely depends on the physical construction of the vehicles or objects you create.</p>"

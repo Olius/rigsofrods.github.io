@@ -36,17 +36,20 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
+
+activate :i18n, :mount_at_root => false
+
 set :asciidoc_attributes, %w(header_footer=true)
-page '/', :layout => false
-page '/blog/*', :layout => 'blog'
-page '/blog', :layout => false
-page '/blog/archive', :layout => false
+I18n.available_locales.each do |locale|
+  page "/#{locale}/", :layout => 'base'
+  page '/blog/*', :layout => 'blog'
+  page '/blog', :layout => false
+  page '/blog/archive', :layout => false
+end
 
 #configure :development do
 #  activate :livereload
 #end
-
-activate :i18n
 
 activate :blog do |blog|
   blog.prefix = "blog"
