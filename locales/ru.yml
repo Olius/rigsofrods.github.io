@@ -1,8 +1,76 @@
 ---
 ru:
   slogan: "Симулятор мягких тел"
-  download: "Скачать"
+
+  nav:
+    home:
+      title: "Главная"
+    download:
+      title: "Скачать"
+      tip: "Скачать игру"
+    repository:
+      title: "Хранилище"
+    forum:
+      title: "Форум"
+      index:
+        title: "Заглавная"
+        tip: "Общение с сообществом"
+      register:
+        title: "Зарегистрироваться"
+        tip: "Зарегистрироваться на форуме"
+      search:
+        title: "Поиск"
+        tip: "Найти нужную информацию"
+    blog:
+      title: "Блог"
+    docs:
+      title: "Документация"
+    multiplayer:
+      title: "Мультиплеер"
+
+  footer:
+    open:
+      title: "Мы открыты"
+      content: "Rigs of Rods - свободное программное обеспечение, доступное на условиях <a href='https://www.gnu.org/Copyleft/' title='Авторское лево'>авторского лева</a>, лицензии <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='Лицензия GPLv3'>GPLv3</a>."
+    follow:
+      title: "Подпишись"
+
   index:
     summary:
-      title: "Окунитесь в мир физики мягких тел"
-      content: "<p>Rigs of Rods - симулятор транспортных средств.</p><p>What makes Rigs of Rods different to most simulators is its unique soft-body physics model: vehicles, machines, objects, etc. are simulated in real-time as flexible soft-body objects, giving the simulation an extremely accurate behavior which entirely depends on the physical construction of the vehicles or objects you create.</p>"
+      title: "Окунись в мир физики мягких тел"
+      content:
+        about: "Rigs of Rods - симулятор транспортных средств."
+        different: "Что отличает Rigs of Rods от других симуляторов, так это уникальная модель физики мягких тел: машины, объекты и т.д. представлены как гибкие мягкие тела. Их поведение полностью зависит от физической конструкции модели, что придаёт игре непревзойдённую реалистичность."
+    toys:
+      title: "Песочница полная игрушек"
+      content:
+        preface: "Оцени обилие машин и карт. И помни: настоящая физика относится ко всем ним."
+        truck:
+          title: "Авто?"
+          content: "Узлорёберная симуляция с реалистичным управлением и повреждениями."
+        train:
+          title: "Поезд?"
+          content: "Точная обработка физики колёс и пути со сходом с рельс при превышении скорости."
+        ship:
+          title: "Корабль?"
+          content: "Модель плавучести на основе градиентов давления элементов."
+        aircraft:
+          title: "Самолёт?"
+          content: "Продвинутая воздушная модель на основе лопастной теории."
+    foss:
+      title: "Открыта. Свободна. Для тебя."
+      content:
+        about: "Rigs of Rods развивается с 2005 года при участии сотен добровольцев со всего мира. Игра свободна и доступна на условиях <a href='https://www.gnu.org/Copyleft/' title='Авторское лево'>авторского лева</a>, лицензии <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='Лицензия GPLv3'>GPLv3</a>."
+        foss: "Наша игра была, есть и будет свободным программным обеспечением."
+        community: "Более того, наше сообщество примет любую помощь со стороны неравнодушных игроков. Если ты хочешь нам помочь, то скачай исходный код игры <a href='https://github.com/rigsofrods/rigs-of-rods'>на GitHub</a>."
+    getting-started:
+      title: "Ну что, начнём?"
+      content:
+        docs: "Прочти документацию."
+        forum: "Заходи на форум."
+        bugs: "Сообщи о найденных ошибках или предложи идею."
+        have-fun: "Наслаждайся!"
+    download:
+      download: "Скачать"
+      for: "для"
+      alternative: "другие версии..."
