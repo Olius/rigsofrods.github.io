@@ -1,0 +1,18 @@
+doctype html
+html.no-js lang="en"
+head
+	meta charset="utf-8"
+	meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+	- if current_page.data.title
+		title
+			= current_page.data.title
+			| - Rigs of Rods
+	- else
+		title
+			| Rigs of Rods: Soft Body Physics Simulator
+
+	= partial "includes"
+
+body
+	= partial "nav"

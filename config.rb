@@ -37,6 +37,8 @@
 
 # Reload the browser automatically whenever files change
 
+require 'slim'
+
 activate :i18n, :mount_at_root => false
 
 set :asciidoc_attributes, %w(header_footer=true)

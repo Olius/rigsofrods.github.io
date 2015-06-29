@@ -1,0 +1,25 @@
+section.index-common-text#action
+	.row.text-center
+		.small-12.small-centered.columns
+			h2
+				= I18n.t('index.getting-started.title')
+			br
+	.row
+		.small-9.small-centered.columns
+			.small-6.left.columns
+				.right
+					= partial "download-button"
+			.small-6.right.columns
+				.left
+					li
+						a href="/docs"
+							= I18n.t('index.getting-started.content.docs')
+					li
+						a href="http://rigsofrods.com/forum"
+							= I18n.t('index.getting-started.content.forum')
+					li
+						a href="https://github.com/RigsOfRods/rigs-of-rods/issues/new"
+							= I18n.t('index.getting-started.content.bugs')
+					li
+						b
+							= I18n.t('index.getting-started.content.have-fun')

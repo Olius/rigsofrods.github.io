@@ -1,0 +1,19 @@
+a.button.warning.actiondownload href="http://sourceforge.net/projects/rigsofrods/files/rigsofrods/#{data.version.list.current_major}/RoR-Setup-#{data.version.list.current_major}.#{data.version.list.current_minor}.exe"
+	span.fa.fa-download>
+	= I18n.t('index.download.download')
+	br
+	small
+		' v. 
+		= data.version.list.current_major
+		| .
+		= data.version.list.current_minor
+		=<> I18n.t('index.download.for')
+		| Windows
+
+br
+
+.text-center
+	a href="/download"
+		span style="text-align:center;"
+			small
+				= I18n.t('index.download.alternative')

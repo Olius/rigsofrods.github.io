@@ -1,0 +1,8 @@
+= wrap_layout :base_content do
+
+	#header
+		h1
+			= current_page.data.title
+		.details
+	#content
+		= yield

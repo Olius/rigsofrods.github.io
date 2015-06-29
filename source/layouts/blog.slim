@@ -1,0 +1,21 @@
+= wrap_layout 'base_content' do
+
+	#header
+		h1
+			= current_page.title
+		.details
+			span.author#author
+				= current_page.data.author
+			br
+			span.email#email
+				a href="#{current_page.data.profile}"
+					| @#{current_page.data.nick}
+			br
+			span#revdate
+				= current_page.date.strftime("%d %B %Y")
+	#content
+    = yield
+
+	a.previous href="/blog"
+		span.fa.fa-arrow-left
+		b Return to blog index

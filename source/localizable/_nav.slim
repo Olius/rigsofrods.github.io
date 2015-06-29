@@ -1,0 +1,23 @@
+ruby:
+	def nav_current
+		@entry_url == current_page.url ? {tag: 'li', class: 'active'} : {tag: 'li'}
+	end
+
+.row.contain-to-grid.main-header
+	.small-9.small-centered.columns
+		.fixed.main-header
+			nav.top-bar role="navigation"
+				ul.title-area
+					li.name
+						h1
+							a href="/"
+								| Rigs of Rods
+				section.top-bar-section
+					ul.left
+						- data.menu.list.each do |entry|
+							- @entry_url = entry[:url]
+							*nav_current
+								a href="#{entry[:url]}"
+									=> entry[:pre]
+									span<
+										= I18n.t(entry[:id])
