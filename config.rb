@@ -43,11 +43,13 @@ activate :i18n, :mount_at_root => false
 
 set :asciidoc_attributes, %w(header_footer=true)
 redirect "index.html", :to => "#{I18n.locale}/index.html"
+redirect "#{I18n.locale}/forum/", :to => "http://rigsofrods.com/forum"
+
 I18n.available_locales.each do |locale|
   page "/#{locale}/", :layout => 'base'
-  page '/blog/*', :layout => 'blog'
-  page '/blog', :layout => false
-  page '/blog/archive', :layout => false
+  page "/#{locale}/blog/*", :layout => 'blog'
+  page "/#{locale}/blog/", :layout => false
+  page "/#{locale}/blog/archive", :layout => false
 end
 
 #configure :development do
@@ -55,7 +57,7 @@ end
 #end
 
 activate :blog do |blog|
-  blog.prefix = "blog"
+  blog.prefix = "#{I18n.locale}/blog"
 end
 
 # Methods defined in the helpers block are available in templates

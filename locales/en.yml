@@ -74,3 +74,9 @@ en:
       download: "Download"
       for: "for"
       alternative: "alternative downloads..."
+
+  blog:
+    title: "Rigs of Rods Development Blog"
+    readmore: "Read more"
+    archivelink: "View older posts in <a href='/blog/archive/' title='Posts archive'>the archive</a>..."
+    backtoindex: "Return to blog index"

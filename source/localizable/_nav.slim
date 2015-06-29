@@ -15,9 +15,9 @@ ruby:
 				section.top-bar-section
 					ul.left
 						- data.menu.list.each do |entry|
-							- @entry_url = entry[:url]
+							- @entry_url = "/#{I18n.locale}#{entry[:url]}"
 							*nav_current
-								a href="#{entry[:url]}"
+								a href="#{@entry_url}"
 									=> entry[:pre]
 									span<
 										= I18n.t(entry[:id])

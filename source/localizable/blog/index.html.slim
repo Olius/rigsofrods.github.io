@@ -3,7 +3,7 @@
 .row.main-start
   .small-12.columns.bloglist
     h1
-      | Rigs of Rods Development Blog
+      = I18n.t('blog.title')
 
   - blog.articles[0...10].each do |article|
     .small-12.columns
@@ -31,14 +31,14 @@
 
       .right
         a href='#{article.url}'
-          nobr Read more →
+          => I18n.t('blog.readmore')
+          | →
       br
       br
       br
 
   .small-12.columns
     h4
-      'View older posts in
-      a href="/blog/archive/" title="Posts archive" the archive...
+      = I18n.t('blog.archivelink')
 
 = partial "footer"

@@ -13,7 +13,7 @@
 -
   id: 'nav.forum.title'
   pre: "<span class='fa fa-comments'></span>"
-  url: "http://rigsofrods.com/forum/"
+  url: "/forum/"
 -
   id: 'nav.blog.title'
   pre: "<span class='fa fa-pencil'></span>"
