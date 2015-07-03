@@ -1,18 +1,19 @@
 doctype html
-html.no-js lang="en"
-head
-	meta charset="utf-8"
-	meta name="viewport" content="width=device-width, initial-scale=1.0"
+html.no-js lang="#{I18n.locale}"
+	head
+		meta charset="utf-8"
+		meta name="viewport" content="width=device-width, initial-scale=1.0"
 
-	- if current_page.data.title
-		title
-			= current_page.data.title
-			| - Rigs of Rods
-	- else
-		title
-			| Rigs of Rods: Soft Body Physics Simulator
+		- if current_page.data.title
+			title
+				= current_page.data.title
+				| - Rigs of Rods
+		- else
+			title
+				| Rigs of Rods:
+				=< I18n.t('slogan')
 
-	= partial "includes"
+		= partial "includes"
 
-body
-	= partial "nav"
+	body
+		= partial "nav"

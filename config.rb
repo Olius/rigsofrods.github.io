@@ -38,6 +38,7 @@
 # Reload the browser automatically whenever files change
 
 require 'slim'
+Slim::Engine.disable_option_validator!
 
 activate :i18n, :mount_at_root => false
 
