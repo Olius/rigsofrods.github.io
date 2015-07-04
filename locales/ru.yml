@@ -78,5 +78,5 @@ ru:
   blog:
     title: "Блог разработки Rigs of Rods"
     readmore: "Далее"
-    archivelink: "Старые записи можно найти в <a href='/blog/archive/' title='Архив записей'>архиве</a>..."
+    archivelink: "Старые записи можно найти в <a href='/ru/blog/archive/' title='Архив записей'>архиве</a>..."
     backtoindex: "Вернуться в начало"
