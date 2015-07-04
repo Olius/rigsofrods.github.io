@@ -2,7 +2,7 @@
 
 	#header
 		h1
-			= current_page.data.title
+			= current_page.metadata[:page]['title']
 		.details
 	#content
 		= yield

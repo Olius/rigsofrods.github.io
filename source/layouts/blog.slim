@@ -2,14 +2,14 @@
 
 	#header
 		h1
-			= current_page.title
+			= current_page.metadata[:page]['title']
 		.details
 			span.author#author
-				= current_page.data.author
+				= current_page.metadata[:page]['author']
 			br
 			span.email#email
-				a href="#{current_page.data.profile}"
-					| @#{current_page.data.nick}
+				a href="#{current_page.metadata[:page]['profile']}"
+					| @#{current_page.metadata[:page]['nick']}
 			br
 			span#revdate
 				= current_page.date.strftime("%d %B %Y")

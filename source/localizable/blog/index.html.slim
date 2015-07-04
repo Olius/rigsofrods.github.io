@@ -12,11 +12,11 @@
           = article.title
         .details
           span.author#author
-            = article.data.author
+            = article.metadata[:page]['author']
           br
           span.email#email
-            a href="#{article.date}"
-              |@#{article.data.nick}
+            a href="#{article.metadata[:page]['profile']}"
+              | @#{article.metadata[:page]['nick']}
           br
           span#revdate
             = article.date.strftime("%d %B %Y")
