@@ -19,3 +19,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
 gem "slim"
 gem "asciidoctor", "~> 1.5.2"
+gem "coderay"
