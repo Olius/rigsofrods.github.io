@@ -42,7 +42,7 @@ Slim::Engine.disable_option_validator!
 
 activate :i18n, :mount_at_root => false
 
-set :asciidoc_attributes, %w(header_footer=true, source-highlighter=coderay)
+set :asciidoc_attributes, %w(source-highlighter='coderay', safe='unsafe')
 redirect "index.html", :to => "#{I18n.locale}/index.html"
 redirect "#{I18n.locale}/forum/", :to => "http://rigsofrods.com/forum"
 
