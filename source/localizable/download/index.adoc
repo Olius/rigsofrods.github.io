@@ -1,7 +1,7 @@
 ---
 title: "Download"
 ---
-:baseurl: fake/..
+:baseurl: fake/../..
 :imagesdir: {baseurl}/../images
 :doctype: book
 :idprefix:
