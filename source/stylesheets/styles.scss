@@ -39,6 +39,24 @@
 .yellow{color:#bfbf00}
 .yellow-background{background-color:#fafa00}
 
+// Locale select
+
+.locale-select { display: table; height: 100vh; overflow: hidden; }
+.locale-select-block { display: table-cell; vertical-align: middle; }
+
+.logo-locale-select { padding-bottom: 10px; }
+.locale-select-panel { @include panel ($bg:#ee7700); margin-left:70px; margin-right:70px }
+
+.locale-entry { background:#ee7700; text-align: center; padding-top: 5px; padding-bottom: 5px; margin-top: 5px; margin-bottom: 5px; }
+.locale-entry { display: block; color: $white; text-align: center; }
+.locale-entry:hover, .locale-entry:focus { background: $white; }
+.locale-entry:hover, .locale-entry:focus { color: #ee7700; }
+
+.locale-id { font-family: "monospace"; display: inline; text-align: right; }
+.locale-name { display: inline; text-align: left; }
+
+// TOC
+
 .toc-side ul { list-style: none; margin: 0; padding: 0 5px;  }
 .toc-side ul li { display: inline; }
 #TableOfContents > ul > li > ul > li > ul li { margin-right: 8px; }
