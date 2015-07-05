@@ -9,10 +9,11 @@
     .small-12.columns
       .bloglist#header
         h2
-          = article.title
+          = article.metadata[:page]['title']
         .details
           span.author#author
-            = article.metadata[:page]['author']
+            => article.metadata[:page]['firstname']
+            = article.metadata[:page]['lastname']
           br
           span.email#email
             a href="#{article.metadata[:page]['profile']}"

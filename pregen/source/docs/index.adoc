@@ -1,0 +1,30 @@
+= Documentation index
+:baseurl: fake/..
+:imagesdir: {baseurl}/../images
+:doctype: book
+:idprefix:
+:sectanchors:
+:sectlinks:
+:last-update-label!:
+
+Thank you for installing Rigs of Rods! We have created this set of documentation in order to make the world of soft body physics more enjoyable for you.
+
+The goal of this Wiki is to deliver help for newcomers, document file formats used by Rigs of Rods to allow content creators to modify and create content for the game and to hold informations for developers.
+
+First, *a word of caution*: Rigs of Rods is under heavy development right now. File formats may and will change in the future as well as semantics and physics behavior. Your creation may not work in upcoming versions of Rigs of Rods. *You have been warned.*
+
+Ready to develop? Please select your destination:
+
+== Compiling the game
+
+* <<compile-linux/index.adoc#,Compiling on Linux>>
+* <<compile-osx/index.adoc#,Compiling on OS X>>
+* <<compile-windows/index.adoc#,Compiling on Windows>>
+
+== Tutorials
+
+* <<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you create your own truck, train, vehicle or boat>>
+
+== Specifications
+
+* <<truck-description-file/index.adoc#,Truck Description File, format used for defining vehicle behaviour ingame>>

@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-07-05 16:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: pregen/source/docs/train-documentation/index.adoc:1
+#, no-wrap
+msgid "Train Documentation"
+msgstr ""
+
+#. type: Title ==
+#: pregen/source/docs/train-documentation/index.adoc:13
+#, no-wrap
+msgid "Basic Principle"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:16
+msgid ""
+"The tracks are simple meshes that are placed on the map. They have a "
+"collision mesh on which all rail vehicles drive. The track gauge is "
+"approximately 1435mm, which is the most common in the world. In reality "
+"train wheels have flanges. In RoR wheels can’t have such a geometry, so we "
+"use nodes with low friction to keep everything on the rail (we call them "
+"guidance nodes). Propulsed rail vehicles use standard wheels spanning the "
+"two rails. The result is a quite long wheel what may be odd on the first "
+"sight, but if you think about it real train wheels are basically the same. "
+"This also helps to keep the nodecount down. See Figure 1."
+msgstr ""
+
+#. type: Target for macro image
+#: pregen/source/docs/train-documentation/index.adoc:17
+#, no-wrap
+msgid "http://www.rigsofrods.com/wiki/images/thumb/d/d2/Trbacon1.jpg/200px-Trbacon1.jpg"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:20
+msgid ""
+"Fig.1: Basic concept 1 The wagons use low friction nodes instead of wheels. "
+"Main reason is the nodecount, e.g. on a 4 axle wagon we can save approx. 120 "
+"nodes by doing this, what will give you a much better framerate. See Figure "
+"2."
+msgstr ""
+
+#. type: Title ==
+#: pregen/source/docs/train-documentation/index.adoc:21
+#, no-wrap
+msgid "Basic node and beam principles"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:24
+msgid ""
+"To make your rail vehicle working well, you need to obtain certain "
+"principles."
+msgstr ""
+
+#. type: Target for macro image
+#: pregen/source/docs/train-documentation/index.adoc:25
+#, no-wrap
+msgid "http://www.rigsofrods.com/wiki/images/thumb/9/90/Trbacon2.jpg/200px-Trbacon2.jpg"
+msgstr ""
+
+#. type: Target for macro image
+#: pregen/source/docs/train-documentation/index.adoc:27
+#, no-wrap
+msgid "http://www.rigsofrods.com/wiki/images/thumb/a/a1/Traingeometry.png/200px-Traingeometry.png"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:30
+msgid "Fig.3:Train geometry."
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:33
+msgid ""
+"First of all your bogie geometry needs to be exactly as shown in Figure 3 If "
+"you make a wagon without wheels, the low friction nodes running on the rail "
+"need to be exactly where the wheel in the picture would touch the rail."
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:34
+msgid ""
+"Your guidance nodes (those running on the inner side of the rail) need to be "
+"contacters. Give them a mass of 50 kilos. Give them low friction using "
+"set_node_defaults. If you don't use a wheel, the nodes sliding on top of the "
+"rail also need low friction."
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:35
+msgid ""
+"Node 0 needs to be exactly in the middle of your vehicle and 0.5 meters "
+"below the rail. Otherwise it won't spawn correctly in the train spawner. "
+"Don't forget to flag it with \"c\": don't detect ground contact."
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:36
+msgid "Make your wheels very hard using the spring and damping options."
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/train-documentation/index.adoc:36
+msgid "Make the bogie node and beam very stiff using set_beam_defaults."
+msgstr ""

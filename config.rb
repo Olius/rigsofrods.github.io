@@ -42,7 +42,7 @@ Slim::Engine.disable_option_validator!
 
 activate :i18n, :mount_at_root => false
 
-set :asciidoc_attributes, %w(source-highlighter='coderay', safe='unsafe')
+set :asciidoc_attributes, %w(source-highlighter='coderay' safe='unsafe')
 redirect "index.html", :to => "#{I18n.locale}/index.html"
 redirect "#{I18n.locale}/forum/", :to => "http://rigsofrods.com/forum"
 
@@ -59,6 +59,7 @@ end
 
 activate :blog do |blog|
   blog.prefix = "#{I18n.locale}/blog"
+  blog.permalink = "{year}-{month}-{day}-{title}.html"
 end
 
 # Methods defined in the helpers block are available in templates
