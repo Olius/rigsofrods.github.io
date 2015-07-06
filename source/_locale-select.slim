@@ -1,0 +1,15 @@
+body style="background-color: #333;"
+  .row
+    .small-6.small-centered.columns
+      section.locale-select
+        .locale-select-block
+          img.logo-locale-select src="/images/logos/rorlogo.png"
+          .locale-select-panel
+            - data.menu.locales.each do |locale|
+                a.locale-entry href="#{locale.id}"
+                    span
+                      .row
+                        .small-4.columns.locale-id
+                          =<> locale.id
+                        .small-8.columns.locale-name
+                          = locale.name
