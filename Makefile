@@ -8,7 +8,7 @@ deploy: clean translate
 
 clean:
 	rm -rf build/* source/localizable/blog/2* source/localizable/docs source/localizable/download
-	- find pregen/po | grep ".po~" | xargs rm
+	find pregen/po | grep ".po~" | xargs rm -f
 
 translate:
 	cp -rf pregen/source/* source/localizable

@@ -53,8 +53,9 @@ I18n.available_locales.each do |locale|
   page "/#{locale}/blog/", :layout => false
   page "/#{locale}/blog/archive", :layout => false
 
-  redirect "#{I18n.locale}/forum/", :to => "http://rigsofrods.com/forum"
-  redirect "#{I18n.locale}/forum/", :to => "http://rigsofrods.com/repository"
+  redirect "#{locale}/forum/index.html", :to => "http://rigsofrods.com/forum"
+  redirect "#{locale}/repository/index.html", :to => "http://rigsofrods.com/repository"
+  redirect "#{locale}/races/index.html", :to => "http://rigsofrods.com/races"
 end
 
 #configure :development do
