@@ -6,8 +6,10 @@ deploy: clean translate
 	bundle exec middleman build
 	bundle exec middleman deploy
 
-clean:
+clean: clean-po
 	rm -rf build/* source/localizable/blog/2* source/localizable/docs source/localizable/download
+
+clean-po:
 	find pregen/po | grep ".po~" | xargs rm -f
 
 translate:
@@ -20,3 +22,4 @@ gettextize:
 
 updatepo:
 	po4a-bulk-updatepo pregen/source asciidoc adoc pregen/po "ru"
+	make clean-po
