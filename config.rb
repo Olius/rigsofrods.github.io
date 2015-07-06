@@ -45,6 +45,7 @@ activate :i18n, :mount_at_root => false
 set :asciidoc_attributes, %w(source-highlighter='coderay' safe='unsafe')
 
 page "/", :layout => false
+page "/locale-select", :layout => false
 
 I18n.available_locales.each do |locale|
   page "/#{locale}/", :layout => 'base'
