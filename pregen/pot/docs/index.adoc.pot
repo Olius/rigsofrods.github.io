@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-05 16:43+0300\n"
+"POT-Creation-Date: 2015-07-06 17:38+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,8 +93,20 @@ msgid "Specifications"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:30
+#: pregen/source/docs/index.adoc:31
+msgid ""
+"http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external "
+"link)]"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/index.adoc:32
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/docs/index.adoc:32
+msgid "<<train-documentation/index.adoc#,Train Documentation>>"
 msgstr ""

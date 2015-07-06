@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-05 16:36+0300\n"
-"PO-Revision-Date: 2015-07-05 17:16+0300\n"
+"POT-Creation-Date: 2015-07-06 17:38+0300\n"
+"PO-Revision-Date: 2015-07-06 17:38+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
 "Language: \n"
@@ -105,7 +105,16 @@ msgid "Specifications"
 msgstr "Спецификации"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:30
+#: pregen/source/docs/index.adoc:31
+msgid ""
+"http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external "
+"link)]"
+msgstr ""
+"http://anotherfoxguy.github.io/RoRdocs/[Документация Doxygen (внешняя "
+"ссылка)]"
+
+#. type: Plain text
+#: pregen/source/docs/index.adoc:32
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
@@ -113,3 +122,8 @@ msgstr ""
 "<<truck-description-file/index.adoc#,Файл описания грузовика _(Truck "
 "Description File)_ - формат, используемый для определения поведения "
 "транспортных средств>>"
+
+#. type: Plain text
+#: pregen/source/docs/index.adoc:32
+msgid "<<train-documentation/index.adoc#,Train Documentation>>"
+msgstr "<<train-documentation/index.adoc#,Документация по ЖД>>"
