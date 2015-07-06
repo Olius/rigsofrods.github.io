@@ -29,3 +29,4 @@ Ready to develop? Please select your destination:
 
 * http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external link)]
 * <<truck-description-file/index.adoc#,Truck Description File, format used for defining vehicle behaviour ingame>>
+* <<train-documentation/index.adoc#,Train Documentation>>
