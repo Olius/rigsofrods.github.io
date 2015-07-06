@@ -1,0 +1,22 @@
+= Rigs of Rods website
+
+This is the source code for Rigs of Rods website.
+
+== Technology
+* Written in http://slim-lang.org[Slim], http://asciidoctor.org[AsciiDoc] and YAML.
+* Coded with https://ruby-lang.org[Ruby] and JavaScript.
+* Translated through Ruby I18n and https://www.gnu.org/software/gettext/[GNU gettext]
+
+* Translations baked with https://po4a.alioth.debian.org/[po4a] and https://github.com/skybon/po4a-bulk[po4a-bulk].
+* Website baked with https://middlemanapp.com[Middleman] and Make.
+
+* Hosted by https://pages.github.com[GitHub Pages].
+
+== Commands
+* `make server` - Start a test server: examine the website at localhost:4567.
+* `make deploy` - Build and deploy the website.
+
+''''
+* `make gettextize` - update gettext template files.
+* `make updatepo` - update gettext translation files.
+* `make translate` - create translated documents.
