@@ -456,7 +456,7 @@ engine
 
 One good source of practical gear ratios is http://www.roadranger.com/Roadranger/productssolutions/transmissions/index.htm[Eaton Fuller]. To see the ratios, click the name of the transmission and find "Product Specifications Guide". It's wise to make sure you can get into final gear. If your vehicle decelerates in a gear you may not have enough power, or the gear ratio may be too high.
 
-==== Engoption  ====
+==== Engoption
 
 Engoption sets optional parameters to the engine. It is mainly used for car engines.
 
