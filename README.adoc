@@ -20,3 +20,6 @@ This is the source code for Rigs of Rods website.
 * `make gettextize` - update gettext template files.
 * `make updatepo` - update gettext translation files.
 * `make translate` - create translated documents.
+
+== License
+Rigs of Rods website source code is available under the terms of GNU Affero General Public License v3 or any later version.
