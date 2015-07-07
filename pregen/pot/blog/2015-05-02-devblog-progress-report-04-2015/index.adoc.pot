@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-06 17:38+0300\n"
+"POT-Creation-Date: 2015-07-07 23:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,20 +16,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Plain text
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:1 pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:10
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:9
+msgid ""
+"title: \"DevBlog: Progress report 04/2015\" date: \"2015-05-02\" firstname: "
+"\"Petr\" lastname: \"Ohlídal\" profile: \"https://github.com/only-a-ptr\" "
+"nick: \"only_a_ptr\""
+msgstr ""
+
 #. type: Title =
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:1
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:11
 #, no-wrap
 msgid "DevBlog: Progress report 04/2015"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:19
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:30
 #, no-wrap
 msgid "*Hello RoR fans!*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:21
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:32
 msgid ""
 "Another 2 months have passed and 1 new progress report is here! It turned "
 "out everyone (including me) was so busy in march that barely any development "
@@ -42,13 +56,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:22
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:33
 #, no-wrap
 msgid "Vehicle compatibility status"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:25
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:36
 msgid ""
 "...has improved! I tested with many more vehicles and I re-thought my "
 "approach to parser design. For one thing, I began loosening the very strict "
@@ -64,7 +78,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:27
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:38
 msgid ""
 "But most importantly, I changed my philosophical approach to processing the "
 ".truck format. From the very start, I knew that the parsing process used in "
@@ -88,7 +102,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:29
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:40
 msgid ""
 "Nonetheless, I began bumping into prevailing v0.38 -> v0.4.0.7 "
 "incompatibilities, such as this one. Those will be harder to tackle because "
@@ -98,7 +112,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:31
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:42
 msgid ""
 "Again, I encourage everyone to "
 "link:http://www.rigsofrods.com/threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[download "
@@ -107,13 +121,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:32
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:43
 #, no-wrap
 msgid "Rig editor status"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:35
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:46
 msgid ""
 "The editor is still not usable, but it's progressing steadily. This time, I "
 "added support for wheels (meshwheels2 + flexbodywheels so far). There's a "
@@ -130,7 +144,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:37
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:48
 msgid ""
 "Anyway, at this point, some of you may legitimately question my efforts to "
 "create the rig editor. Although it's a nice thing to have, it doesn't seem "
@@ -143,13 +157,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:38
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:49
 #, no-wrap
 msgid "Physics of the future"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:41
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:52
 msgid ""
 "Currently, RoR can handle roughly 500 nodes + 3000 beams per vehicle. With "
 "so few elements, it's reasonable to do this work manually. However, this "
@@ -161,7 +175,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:43
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:54
 msgid ""
 "Now imagine I created a completely new physics engine which could handle "
 "roughly *ten times more N/B* than the current engine (think *5 000 nodes* "
@@ -178,7 +192,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:45
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:56
 msgid ""
 "There is only one way to deal with such a modding challenge - using a "
 "CAD-like editor where the vehicle can be modelled the way technical "
@@ -192,7 +206,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:47
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:58
 msgid ""
 "Naturally, this is only an enthusiast project done in people's free time. It "
 "may not succeed. But I'll incorporate enough scripting support to spread the "
@@ -201,6 +215,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:48
+#: pregen/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:59
 msgid "Until then, please bear with me."
 msgstr ""

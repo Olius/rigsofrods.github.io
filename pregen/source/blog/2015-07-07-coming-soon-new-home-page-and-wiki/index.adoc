@@ -1,10 +1,20 @@
+---
+
+title: "Coming Soon: New Home page and Wiki"
+date: "2015-07-07"
+firstname: "Artem"
+lastname: "Vorotnikov"
+profile: "https://github.com/skybon"
+nick: "skybon"
+
+---
 = Coming Soon: New Home page and Wiki
 :firstname: Artem
 :lastname: Vorotnikov
 :profile: https://github.com/skybon
 :nick: skybon
-:revdate: 7 July 2015
-:email: {profile}[{nick}]
+:email: {profile}[@{nick}]
+:revdate: 2015-07-07
 :baseurl: fake/../..
 :imagesdir: {baseurl}/../images
 :doctype: article

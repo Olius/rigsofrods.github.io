@@ -1,10 +1,20 @@
+---
+
+title: "DevBlog: Progress report 05/2015"
+date: "2015-06-07"
+firstname: "Petr"
+lastname: "Ohlídal"
+profile: "https://github.com/only-a-ptr"
+nick: "only_a_ptr"
+
+---
 = DevBlog: Progress report 05/2015
 :firstname: Petr
 :lastname: Ohlídal
 :profile: https://github.com/only-a-ptr
 :nick: only_a_ptr
+:email: {profile}[@{nick}]
 :revdate: 7 June 2015
-:email: {profile}[{nick}]
 :baseurl: fake/../..
 :imagesdir: {baseurl}/../images
 :doctype: article

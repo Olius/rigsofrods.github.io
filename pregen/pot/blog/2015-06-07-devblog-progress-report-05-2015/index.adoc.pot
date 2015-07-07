@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-06 17:38+0300\n"
+"POT-Creation-Date: 2015-07-07 23:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,45 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Plain text
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:1 pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:10
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:9
+msgid ""
+"title: \"DevBlog: Progress report 05/2015\" date: \"2015-06-07\" firstname: "
+"\"Petr\" lastname: \"Ohlídal\" profile: \"https://github.com/only-a-ptr\" "
+"nick: \"only_a_ptr\""
+msgstr ""
+
 #. type: Title =
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:1
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:11
 #, no-wrap
 msgid "DevBlog: Progress report 05/2015"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:20
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:30
 #, no-wrap
 msgid "*Hello RoR fans!*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:22
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:32
 msgid "Late as usual, I bring you an overview of development done during May."
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:23
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:33
 #, no-wrap
 msgid "The project"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:26
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:36
 msgid ""
 "I'm happy to state RoR has a healthy "
 "link:https://github.com/RigsOfRods/rigs-of-rods/pulse[pulse]. The GitHub "
@@ -51,7 +65,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:28
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:38
 msgid ""
 "Hiradur worked hard to set up "
 "link:https://travis-ci.org/RigsOfRods/rigs-of-rods[Travis CI] for RoR. It's "
@@ -62,7 +76,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:30
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:40
 msgid ""
 "Max98 had a great idea to set up "
 "link:https://gitter.im/RigsOfRods/rigs-of-rods[Gitter] discussion board for "
@@ -73,13 +87,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:31
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:41
 #, no-wrap
 msgid "The 0.4.5-NextStable"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:34
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:44
 msgid ""
 "It's still in development, there's still no release date and the purpose has "
 "slowly and silently changed. Original plan was to only make RoR stable, "
@@ -93,7 +107,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:36
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:46
 msgid ""
 "The fix of the month are definitely FlexBodies. Somewhere between 0.39 and "
 "0.4.0x they became malformed, as reported in "
@@ -103,7 +117,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:38
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:48
 msgid ""
 "Another improvement is speed of vehicle loading. During testing, I got angry "
 "about vehicles taking too long to load, so I incorporated a tiny "
@@ -126,13 +140,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:39
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:49
 #, no-wrap
 msgid "The future"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:42
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:52
 msgid ""
 "I've done enough dreaming in the last devblog post. Now I'm back to the "
 "boring but necessary fixing of vehicle/map compatibility. Current work: "
@@ -145,6 +159,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:43
+#: pregen/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:53
 msgid "Have fun playing RoR!"
 msgstr ""

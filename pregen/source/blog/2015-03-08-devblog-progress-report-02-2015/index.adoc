@@ -1,10 +1,20 @@
+---
+
+title: "DevBlog: Progress report 02/2015"
+date: "2015-03-08"
+firstname: "Petr"
+lastname: "Ohlídal"
+profile: "https://github.com/only-a-ptr"
+nick: "only_a_ptr"
+
+---
 = DevBlog: Progress report 02/2015
 :firstname: Petr
 :lastname: Ohlídal
 :profile: https://github.com/only-a-ptr
 :nick: only_a_ptr
+:email: {profile}[@{nick}]
 :revdate: 8 March 2015
-:email: {profile}[{nick}]
 :baseurl: fake/../..
 :imagesdir: {baseurl}/../images
 :doctype: article
@@ -13,6 +23,7 @@
 :sectanchors:
 :sectlinks:
 :sectnums!:
+:skip-front-matter:
 :last-update-label!:
 
 Hi all RoR fans!

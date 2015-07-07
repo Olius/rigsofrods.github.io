@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-06 17:38+0300\n"
+"POT-Creation-Date: 2015-07-07 23:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,19 +16,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Plain text
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:1 pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:10
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:9
+msgid ""
+"title: \"DevBlog: Progress report 01/2015\" date: \"2015-02-03\" firstname: "
+"\"Petr\" lastname: \"Ohlídal\" profile: \"https://github.com/only-a-ptr\" "
+"nick: \"only_a_ptr\""
+msgstr ""
+
 #. type: Title =
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:1
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:11
 #, no-wrap
 msgid "DevBlog: Progress report 01/2015"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:19
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:30
 msgid "Hello all RoR fans!"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:21
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:32
 msgid ""
 "My name is *Petr Ohlidal* (a.k.a *only_a_ptr*) and I would like to give you "
 "an update on Rigs of Rods development in the past month. I will also sum up "
@@ -37,7 +51,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:23
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:34
 msgid ""
 "I joined the project in fall 2013. At the time, RoR was a dying project: the "
 "original authors left to develop a commercial *BeamNG* project and community "
@@ -51,14 +65,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:25
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:36
 msgid ""
 "To my great cheer, my enthusiasm has sparkled a new wave of collaborative "
 "development, and today, RoR has *4 active developers*:"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:27
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:38
 #, no-wrap
 msgid ""
 "*Me* - Self-invited lead coder, a code greasemonkey focused on internals and "
@@ -66,7 +80,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:28
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:39
 #, no-wrap
 msgid ""
 "*Max98* - Cheerful enthusiast with focus on GUI and graphics. Fixed some "
@@ -74,7 +88,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:29
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:40
 #, no-wrap
 msgid ""
 "*Hiradur* - Valuable compiler specialist and analyst. Keeps RoR running on "
@@ -82,13 +96,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:30
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:41
 #, no-wrap
 msgid "*Aperion* - Old community member and contributor who came back to help.\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:32
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:43
 msgid ""
 "At the moment, the development is aimed towards delivering a new stable "
 "release. This is very important to shake off the \"dead project\" "
@@ -106,7 +120,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:34
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:45
 msgid ""
 "RoR got main menu! Until now, RoR worked in a straightforward scenario "
 "\"start - select track - select vehicle - play - exit game\", which wasn't "
@@ -115,7 +129,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:35
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:46
 msgid ""
 "RoR got new GUI skin. The previous \"orange with bright orange\" was really "
 "lame. New one comes in orange+black and really feels like a vehicle-driving "
@@ -123,7 +137,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:36
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:47
 msgid ""
 "RoR got in-game configuration panels. Previously, all the configuration had "
 "to be done in external configurator, which works, but it's not very "
@@ -131,7 +145,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:37
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:48
 msgid ""
 "RoR got a built-in editor for vehicles. Until now, modding had to be done "
 "with variety of external tools and a lot of hand-writing. However, this "
@@ -142,7 +156,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:38
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:49
 msgid ""
 "Rig definition file format (.truck) was completely re-coded. The old logic "
 "was flawed, bloated and effectively blocked any future enhancements. The new "
@@ -154,19 +168,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:39
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:50
 msgid ""
 "Max98 fixed two inflamous graphics bugs - shadows and skidmarks. He's also "
 "putting a lot of attention into sky, water and environment in general."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:41
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:52
 msgid "Following is a list of things to definitely expect in NextStable:"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:43
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:54
 msgid ""
 "It will provide a list of errors and warnings every time a vehicle "
 "spawned. This is mainly to help modders, but also to inform players of "
@@ -174,7 +188,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:44
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:55
 msgid ""
 "It will support most of the vehicles which are currently broken. Sadly, some "
 "of them will not be compatible due to legacy flaws or bad practices of mod "
@@ -182,7 +196,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:45
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:56
 msgid ""
 "Not much else to change. This is actually a good feature, because more "
 "changes would mean more waiting and I know everyone is already tired of "
@@ -190,7 +204,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:47
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:58
 msgid ""
 "Actually, if you feel like NextStable is coming out pretty slowly, it's not "
 "just you. I've been putting off the work for a long time because, honestly, "
@@ -203,7 +217,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:49
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:60
 msgid ""
 "From now on, I'll be publishing a progress report blog post every "
 "month. This idea came from Max98, big thanks to him, a dev blog is a big "
@@ -213,6 +227,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:50
+#: pregen/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:61
 msgid "Cheers"
 msgstr ""
