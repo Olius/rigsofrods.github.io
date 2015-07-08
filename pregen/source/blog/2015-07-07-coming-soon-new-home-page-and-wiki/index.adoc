@@ -26,6 +26,28 @@ nick: "skybon"
 :skip-front-matter:
 :last-update-label!:
 
+:agpl-uri: http://www.gnu.org/licenses/agpl.html
+
+:github-org: rigsofrods
+:site-repo-name: rigsofrods.github.io
+:ror-repo-name: rigs-of-rods
+
+:site-repo-uri: https://github.com/{github-org}/{site-repo-name}
+:ror-repo-uri: https://github.com/{github-org}/{ror-repo-name}
+
+:site-uri: https://{site-repo-name}
+:ru-docs-uri: {site-uri}/ru/docs
+
+:sql-inj: https://www.netsparker.com/blog/web-security/sql-injection-vulnerability-history
+:wordpress-vuln: http://www.zdnet.com/article/over-1-million-wordpress-websites-at-risk-from-sql-injection
+:drupal-vuln: http://www.bbc.com/news/technology-29846539
+:joomla-vuln: http://krebsonsecurity.com/2013/08/simple-hack-threatens-oudated-joomla-sites
+:vbulletin-vuln: http://krebsonsecurity.com/2013/10/thousands-of-sites-hacked-via-vbulletin-hole
+
+:atom-uri: https://atom.io
+:asciidoctor-uri: http://asciidoctor.org
+:webp-enwiki: https://en.wikipedia.org/wiki/WebP
+
 *Dear friends*
 
 My name is *Artem Vorotnikov*, and as some of you know, I have recently joined the RoR development team. Today I am going to talk about the RoR website goodies we have prepared for you this summer.
@@ -49,9 +71,9 @@ Yet they have their own pitfalls. Sometimes nightmares. Read on.
 === Security
 The vast majority of content management systems (incl. vBulletin) require a database engine, usually MySQL for data storage. It is faster than plain text files and allows for more end user interactivity.
 
-The latter part comes with a very hefty price. Ever heard of https://www.netsparker.com/blog/web-security/sql-injection-vulnerability-history/['SQL injection']? Say, access a specially crafted link and you make the database engine execute the wrong code. It is one of the top online vulnerabilities today. And do you know how this became known to the public? You guessed it. http://www.zdnet.com/article/over-1-million-wordpress-websites-at-risk-from-sql-injection/[Wordpress]. http://www.bbc.com/news/technology-29846539[Drupal]. In short, content management systems.
+The latter part comes with a very hefty price. Ever heard of {sql-inj}['SQL injection']? Say, access a specially crafted link and you make the database engine execute the wrong code. It is one of the top online vulnerabilities today. And do you know how this became known to the public? You guessed it. {wordpress-vuln}[Wordpress]. {drupal-vuln}[Drupal]. In short, content management systems.
 
-There're other exploits: http://krebsonsecurity.com/2013/08/simple-hack-threatens-oudated-joomla-sites/[Joomla]. *http://krebsonsecurity.com/2013/10/thousands-of-sites-hacked-via-vbulletin-hole/[vBulletin]*. CMS are just too bloated, complex to maintain and therefore buggy.
+There're other exploits: {joomla-vuln}[Joomla]. *{vbulletin-vuln}[vBulletin]*. CMS are just too bloated, complex to maintain and therefore buggy.
 
 Speaking of our software, right now I am aware of several 0-day vulnerabilities that could break website database instantly. Pop. Nothing. Error 403 or 404 instead of years of RoR history.
 
@@ -63,7 +85,7 @@ And even if they do, you need to do maintenance work regularly, update. This con
 === Flexibility
 Clothes make the man. If you manage to catch the eye of a potential user, you have the following, if you don't then my condolences.
 
-To do that on the Internet one must have a modern, nice looking, professionally done and informative home page. It's the `/` that tells the players basic 80% about the game. And unless it stands out from the crowd of thousands of such 'home's your average web surfer will skip it to never return.
+To do that on the Internet one must have a modern, nice looking, professionally done and informative home page. It is that very thing tells the players basic 80% about the game. And unless it stands out from the crowd of thousands of such 'home's your average web surfer will skip it to never return.
 
 What do we have today? A wall of text that really looks like a long forum post. A huge paragraph. Then another one. And another. Then a bullet list. Afterwards a video. And... that's it.
 
@@ -79,7 +101,7 @@ Back in 1990s all websites were coded by hand. Yes, fire up the text editor and 
 
 Handcrafted website creation has never been easier than today, in 2015. Now we have rapid templating, light markup and website generators. There is no need for huge databases for most of the tasks anymore.
 
-So, behold, the https://rigsofrods.github.io[new home page]
+So, behold, the {site-uri}[new home page]
 
 === 100% static
 No databases, no CMS. All content is created once at build time. Hence the site is *fast*, *secure* and *flexible*. JavaScript and browser features are used where we need interactivity.
@@ -90,31 +112,31 @@ This home page actually stands out and catches the visitor's eye.
 === New Wiki
 And yes, we have a new wiki (called 'docs').
 
-No more MediaWiki, no more databases. Pages are stored in plain text and may be easily edited in Notepad (although I recommend https://atom.io[Atom], hehe ;-) ).
+No more MediaWiki, no more databases. Pages are stored in plain text and may be easily edited in Notepad (although I recommend {atom-uri}[Atom], hehe ;-) ).
 
-Docs use http://asciidoctor.org[AsciiDoc] for markup now. The preferred image format is https://en.wikipedia.org/wiki/WebP[WebP] (it's open and has better compression than JPEG and PNG).
+Docs use {asciidoctor-uri}[AsciiDoc] for markup now. The preferred image format is {webp-enwiki}[WebP] (it's open and has better compression than JPEG and PNG).
 
 === First-class localization
 Да. Ja. Oui.
 
-The new website is multilingual. Just try visiting the https://rigsofrods.github.io[root of the site]. If your browser language matches one of available locales, you'll be redirected. Otherwise you can choose the language yourself.
+The new website is multilingual. Just try visiting the {site-uri}[root of the site]. If your browser language matches one of available locales, you'll be redirected. Otherwise you can choose the language yourself.
 
 Most importantly, all content is *kept in sync*. All translations are directly based on English source articles. Even if some parts are added, foreign visitors will still be able to read them untranslated.
 
 Feel free to help with translation, you can find instructions here.
 
-The new documentation is *also fully localizable*, just see the Russian example https://rigsofrods.github.io/ru/docs[here].
+The new documentation is *also fully localizable*, just see the Russian example {ru-docs-uri}[here].
 
 === Streamlined workflow
-The new website is developed with git software and https://github.com/rigsofrods/rigsofrods.github.io[hosted on GitHub]. This corresponds with Rigs of Rods main development which also https://github.com/rigsofrods/rigs-of-rods[occurs on GitHub]. Therefore if you wish to report bugs or fix stuff yourself - you can do it the same way as for RoR itself.
+The new website is developed with git software and {site-repo-uri}[hosted on GitHub]. This corresponds with Rigs of Rods main development which also {ror-repo-uri}[occurs on GitHub]. Therefore if you wish to report bugs or fix stuff yourself - you can do it the same way as for RoR itself.
 
 === Free and open source
-In line with the project spirit the new website code is open source under the http://www.gnu.org/licenses/agpl.html[GNU Affero General Public License v3]. You can always tinker with it, see how it works for yourself.
+In line with the project spirit the new website code is open source under the {agpl-uri}[GNU Affero General Public License v3]. You can always tinker with it, see how it works for yourself.
 
 == About the forums
 vBulletin forum has served us well so far and there're no immediate deprecation plans. It will be moved to _forum.rigsofrods.com_, however.
 
 == All hands on deck
-What you see is a developer preview right now. We need all the help we can get for porting content, weeding out bugs. Please visit our repository page for more information
+What you see is a developer preview right now. We need all the help we can get for porting content, weeding out bugs. Please visit our {site-repo-uri}[GitHub repository page] for more information
 
 Thank you for reading, I hope you enjoy our work.

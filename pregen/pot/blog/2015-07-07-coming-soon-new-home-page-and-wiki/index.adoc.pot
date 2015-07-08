@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-07 23:16+0300\n"
+"POT-Creation-Date: 2015-07-08 14:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,13 +37,13 @@ msgid "Coming Soon: New Home page and Wiki"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:30
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:52
 #, no-wrap
 msgid "*Dear friends*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:32
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:54
 msgid ""
 "My name is *Artem Vorotnikov*, and as some of you know, I have recently "
 "joined the RoR development team. Today I am going to talk about the RoR "
@@ -51,20 +51,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:33
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:55
 #, no-wrap
 msgid "About current website"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:35
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:57
 msgid ""
 "rigsofrods.com is a dynamic website that uses a content management system "
 "and several other software packages."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:37
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:59
 msgid ""
 "The primary part is of course vBulletin forum CMS. MediaWiki with numerous "
 "extensions is used for /wiki subpart. Both of these components share PHP "
@@ -73,27 +73,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:39
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:61
 msgid ""
 "In this blog post I am going to describe how CMS work and why we should move "
 "away from it."
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:40
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:62
 #, no-wrap
 msgid "Dynamic past"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:42
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:64
 msgid ""
 "Site authors have always wanted to author and publish content without much "
 "hassle."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:44
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:66
 msgid ""
 "Back in 2000s we had no swiss army knife browsers with JavaScript, modern "
 "CSS, web frameworks et al. So Content Management Systems were "
@@ -103,7 +103,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:46
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:68
 msgid ""
 "It did its job then, and does today. Adding and modifying content is very "
 "easy for both owner and end user. Deployment does not require significant "
@@ -113,18 +113,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:48
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:70
 msgid "Yet they have their own pitfalls. Sometimes nightmares. Read on."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:49
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:71
 #, no-wrap
 msgid "Security"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:51
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:73
 msgid ""
 "The vast majority of content management systems (incl. vBulletin) require a "
 "database engine, usually MySQL for data storage. It is faster than plain "
@@ -132,30 +132,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:53
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:75
 msgid ""
-"The latter part comes with a very hefty price. Ever heard of "
-"https://www.netsparker.com/blog/web-security/sql-injection-vulnerability-history/['SQL "
+"The latter part comes with a very hefty price. Ever heard of {sql-inj}['SQL "
 "injection']? Say, access a specially crafted link and you make the database "
 "engine execute the wrong code. It is one of the top online vulnerabilities "
 "today. And do you know how this became known to the public? You guessed "
-"it. "
-"http://www.zdnet.com/article/over-1-million-wordpress-websites-at-risk-from-sql-injection/[Wordpress]. "
-"http://www.bbc.com/news/technology-29846539[Drupal]. In short, content "
+"it. {wordpress-vuln}[Wordpress]. {drupal-vuln}[Drupal]. In short, content "
 "management systems."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:55
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:77
 msgid ""
 "There're other exploits: "
-"http://krebsonsecurity.com/2013/08/simple-hack-threatens-oudated-joomla-sites/[Joomla]. "
-"*http://krebsonsecurity.com/2013/10/thousands-of-sites-hacked-via-vbulletin-hole/[vBulletin]*. "
-"CMS are just too bloated, complex to maintain and therefore buggy."
+"{joomla-vuln}[Joomla]. *{vbulletin-vuln}[vBulletin]*. CMS are just too "
+"bloated, complex to maintain and therefore buggy."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:57
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:79
 msgid ""
 "Speaking of our software, right now I am aware of several 0-day "
 "vulnerabilities that could break website database "
@@ -163,50 +159,50 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:58
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:80
 #, no-wrap
 msgid "Upkeep"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:60
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:82
 msgid ""
 "As I have already mentioned dynamic websites require a database engine, "
 "usually MySQL. Not every hosting service can provide you with that."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:62
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:84
 msgid ""
 "And even if they do, you need to do maintenance work regularly, update. This "
 "consumes our precious time we could spend on improving the game itself."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:63
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:85
 #, no-wrap
 msgid "Flexibility"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:65
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:87
 msgid ""
 "Clothes make the man. If you manage to catch the eye of a potential user, "
 "you have the following, if you don't then my condolences."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:67
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:89
 msgid ""
 "To do that on the Internet one must have a modern, nice looking, "
-"professionally done and informative home page. It's the `/` that tells the "
-"players basic 80% about the game. And unless it stands out from the crowd of "
-"thousands of such 'home's your average web surfer will skip it to never "
-"return."
+"professionally done and informative home page. It is that very thing tells "
+"the players basic 80% about the game. And unless it stands out from the "
+"crowd of thousands of such 'home's your average web surfer will skip it to "
+"never return."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:69
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:91
 msgid ""
 "What do we have today? A wall of text that really looks like a long forum "
 "post. A huge paragraph. Then another one. And another. Then a bullet "
@@ -214,7 +210,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:71
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:93
 msgid ""
 "Nothing strange as the whole website is based on forum software. It may be "
 "robust and flexible as a forum, true, but really, really not as anything "
@@ -222,32 +218,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:73
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:95
 msgid ""
 "Home page is almost always custom made, hand-crafted by web designer. This "
 "is exactly what CMS are *not* able to provide."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:76
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:98
 msgid "'''' This is unacceptable so it's time to move on. Here's what awaits you."
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:77
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:99
 #, no-wrap
 msgid "Everything old is new again"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:79
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:101
 msgid ""
 "Back in 1990s all websites were coded by hand. Yes, fire up the text editor "
 "and type, type, type."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:81
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:103
 msgid ""
 "Handcrafted website creation has never been easier than today, in 2015. Now "
 "we have rapid templating, light markup and website generators. There is no "
@@ -255,18 +251,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:83
-msgid "So, behold, the https://rigsofrods.github.io[new home page]"
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:105
+msgid "So, behold, the {site-uri}[new home page]"
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:84
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:106
 #, no-wrap
 msgid "100% static"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:86
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:108
 msgid ""
 "No databases, no CMS. All content is created once at build time. Hence the "
 "site is *fast*, *secure* and *flexible*. JavaScript and browser features are "
@@ -274,65 +270,64 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:87
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:109
 #, no-wrap
 msgid "The look of 2015"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:89
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:111
 msgid "This home page actually stands out and catches the visitor's eye."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:90
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:112
 #, no-wrap
 msgid "New Wiki"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:92
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:114
 msgid "And yes, we have a new wiki (called 'docs')."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:94
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:116
 msgid ""
 "No more MediaWiki, no more databases. Pages are stored in plain text and may "
-"be easily edited in Notepad (although I recommend https://atom.io[Atom], "
-"hehe ;-) )."
+"be easily edited in Notepad (although I recommend {atom-uri}[Atom], hehe ;-) "
+")."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:96
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:118
 msgid ""
-"Docs use http://asciidoctor.org[AsciiDoc] for markup now. The preferred "
-"image format is https://en.wikipedia.org/wiki/WebP[WebP] (it's open and has "
-"better compression than JPEG and PNG)."
+"Docs use {asciidoctor-uri}[AsciiDoc] for markup now. The preferred image "
+"format is {webp-enwiki}[WebP] (it's open and has better compression than "
+"JPEG and PNG)."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:97
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:119
 #, no-wrap
 msgid "First-class localization"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:99
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:121
 msgid "Да. Ja. Oui."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:101
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:123
 msgid ""
-"The new website is multilingual. Just try visiting the "
-"https://rigsofrods.github.io[root of the site]. If your browser language "
-"matches one of available locales, you'll be redirected. Otherwise you can "
-"choose the language yourself."
+"The new website is multilingual. Just try visiting the {site-uri}[root of "
+"the site]. If your browser language matches one of available locales, you'll "
+"be redirected. Otherwise you can choose the language yourself."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:103
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:125
 msgid ""
 "Most importantly, all content is *kept in sync*. All translations are "
 "directly based on English source articles. Even if some parts are added, "
@@ -340,76 +335,74 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:105
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:127
 msgid "Feel free to help with translation, you can find instructions here."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:107
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:129
 msgid ""
 "The new documentation is *also fully localizable*, just see the Russian "
-"example https://rigsofrods.github.io/ru/docs[here]."
+"example {ru-docs-uri}[here]."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:108
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:130
 #, no-wrap
 msgid "Streamlined workflow"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:110
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:132
 msgid ""
-"The new website is developed with git software and "
-"https://github.com/rigsofrods/rigsofrods.github.io[hosted on GitHub]. This "
-"corresponds with Rigs of Rods main development which also "
-"https://github.com/rigsofrods/rigs-of-rods[occurs on GitHub]. Therefore if "
-"you wish to report bugs or fix stuff yourself - you can do it the same way "
-"as for RoR itself."
+"The new website is developed with git software and {site-repo-uri}[hosted on "
+"GitHub]. This corresponds with Rigs of Rods main development which also "
+"{ror-repo-uri}[occurs on GitHub]. Therefore if you wish to report bugs or "
+"fix stuff yourself - you can do it the same way as for RoR itself."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:111
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:133
 #, no-wrap
 msgid "Free and open source"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:113
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:135
 msgid ""
 "In line with the project spirit the new website code is open source under "
-"the http://www.gnu.org/licenses/agpl.html[GNU Affero General Public License "
-"v3]. You can always tinker with it, see how it works for yourself."
+"the {agpl-uri}[GNU Affero General Public License v3]. You can always tinker "
+"with it, see how it works for yourself."
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:114
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:136
 #, no-wrap
 msgid "About the forums"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:116
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:138
 msgid ""
 "vBulletin forum has served us well so far and there're no immediate "
 "deprecation plans. It will be moved to _forum.rigsofrods.com_, however."
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:117
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:139
 #, no-wrap
 msgid "All hands on deck"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:119
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:141
 msgid ""
 "What you see is a developer preview right now. We need all the help we can "
-"get for porting content, weeding out bugs. Please visit our repository page "
-"for more information"
+"get for porting content, weeding out bugs. Please visit our "
+"{site-repo-uri}[GitHub repository page] for more information"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:120
+#: pregen/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:142
 msgid "Thank you for reading, I hope you enjoy our work."
 msgstr ""
