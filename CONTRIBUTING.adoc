@@ -1,0 +1,23 @@
+= Contributing Guide
+
+Please read link:README.adoc[README] first for general site overview.
+
+== Adding/Editing content page
+Content pages are stored in _/content/source_ directory. Note that all pages have the format of [title]/index.adoc - that is for website/webserver compatibility.
+
+(there shall be guide on metadata, front matter and attributes here, for now just copy over from existing pages)
+
+== Creating a translation template
+*Only on Linux (for now)*: call `make translate` from website root.
+
+== Creating a translation for a language
+Just copy the template from content/pot/_path_/index.adoc.pot to content/po/_language_/_path_/index.adoc.po.
+
+== Updating translations
+*Only on Linux (for now)*: run `make updatepo` from website root.
+
+== Testing it all
+You can either preview a single AsciiDoc document using an editor or test the whole website.
+
+* *AsciiDoc Live Preview*: see http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/[this page] for more information.
+* *Test the website*: *only on Linux (for now)* - run `make server` from website root. The site will become accessible at `localhost:4567`
