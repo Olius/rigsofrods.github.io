@@ -1,17 +1,20 @@
 -
-  name: "Twitter"
-  pre: "fa fa-twitter"
-  url: "https://twitter.com/rigsofrods"
--
-  name: "Facebook"
-  pre: "fa fa-facebook"
-  url: "https://facebook.com/rigsofrods"
+  name: "Skype"
+  pre: "fa fa-skype"
+  url: "skype:?chat&blob=exB2MnslJgrO7xk2xk1JRT6whqW6Ujju4gfIg9DbnMeqJJcSlvqjcSiDJkskBWBYAy2ZS0TiomfDPYLCfqeGNvUUeRmWNuXkg57cxYe6"
 -
   name: "VK"
   pre: "fa fa-vk"
   url: "https://vk.com/ror_vk"
 -
+  name: "Facebook"
+  pre: "fa fa-facebook"
+  url: "https://facebook.com/rigsofrods"
+-
+  name: "Twitter"
+  pre: "fa fa-twitter"
+  url: "https://twitter.com/rigsofrods"
+-
   name: "YouTube"
   pre: "fa fa-youtube"
   url: "https://youtube.com/OfficialRigsOfRods"
-
