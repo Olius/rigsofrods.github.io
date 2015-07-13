@@ -3,7 +3,7 @@
 :imagesdir: {baseurl}/../images
 :exampledir: {baseurl}/../examples
 :doctype: book
-:toc: right
+:toc: macro
 :toclevels: 5
 :idprefix:
 :sectanchors:
@@ -12,6 +12,8 @@
 :last-update-label!:
 
 This is a big tutorial that will help you create your very own vehicle.
+
+toc::[]
 
 == Introduction
 
