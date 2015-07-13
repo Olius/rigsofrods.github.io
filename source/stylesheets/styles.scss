@@ -57,18 +57,30 @@
 
 // TOC
 
-.toc-side ul { list-style: none; margin: 0; padding: 0 5px;  }
-.toc-side ul li { display: inline; }
-#TableOfContents > ul > li > ul > li > ul li { margin-right: 8px; }
-#TableOfContents > ul > li > ul > li > a, #TableOfContents > ul > li > a   { font-weight: bold; background-color: #eeeeee; padding: 0 10px; margin: 0 2px; }
-#TableOfContents > ul > li > ul > li > a { font-style: italic; }
-.toc-side.compact ul > li > ul > li > ul  { display: none; }
-
-#toc-side {
-	position:fixed;
-	background-color: rgba(0, 0, 0, 0.1);
-	padding: 10px 50px 10px 20px;
-}
+#toc{border-bottom:1px solid #efefed;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media only screen and (min-width:768px){#toctitle{font-size:1.375em}
+#toc.toc{padding-left:15em;padding-right:0}
+#toc.toc{margin-top:$topbar-height!important;background-color:#f8f8f7;position:fixed;width:15em;left:auto;right:0;top:0;border-right:1px solid #efefed;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc #toctitle{margin-top:0;font-size:1.2em}
+#toc.toc>ul{font-size:.9em;margin-bottom:0}
+#toc.toc ul ul{margin-left:0;padding-left:1em}
+#toc.toc ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:0+rem(.5em);margin-bottom:.5em}
+#toc.toc.toc-right{padding-left:0;padding-right:15em}
+#toc.toc.toc-right #toc.toc{border-right-width:0;border-left:1px solid #efefed;}}@media only screen and (min-width:1280px){#toc.toc{padding-left:20em;padding-right:0}
+#toc.toc{width:25em}
+#toc.toc #toctitle{font-size:1.375em}
+#toc.toc>ul{font-size:.95em}
+#toc.toc ul ul{padding-left:1.25em}
+#toc.toc.toc-right{padding-left:0;padding-right:20em}}#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
 
 // Header
 
@@ -76,7 +88,7 @@
 {
 	background: $topbar-bg-color;
 	width: 100%;
-	z-index: 1;
+	z-index: 1001;
 	margin: 0 0 $topbar-height;
 }
 
