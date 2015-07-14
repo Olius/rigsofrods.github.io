@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2015-07-14 03:13+0300\n"
-"PO-Revision-Date: 2015-07-14 00:09+0300\n"
+"PO-Revision-Date: 2015-07-14 04:55+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
 "Language: \n"
@@ -112,13 +112,13 @@ msgstr ""
 msgid ""
 "In this blog post I am going to describe how CMS work and why we should move "
 "away from it."
-msgstr ""
+msgstr "В этом посте я объясню что такое CMS и почему мы уходим от них."
 
 #. type: Title ==
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:67
 #, no-wrap
 msgid "Dynamic past"
-msgstr ""
+msgstr "Динамическое прошлое"
 
 #. type: Plain text
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:69
@@ -126,6 +126,8 @@ msgid ""
 "Site authors have always wanted to author and publish content without much "
 "hassle."
 msgstr ""
+"Владельцам сайтов всегда хотелось без лишних усилий создавать и размещать "
+"контент."
 
 #. type: Plain text
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:71
@@ -136,6 +138,10 @@ msgid ""
 "All content is stored internally; web page is generated on every single "
 "request."
 msgstr ""
+"В 00-х не было мощных браузеров с такими технологиями как JavaScript, CSS и "
+"т.п. Для этого были созданы системы управления контентом. Основанные на PHP "
+"и MySQL, эти монстры дают администратору мощный движок. Всё содержимое "
+"хранится в базе данных, а веб-страница формируется заново при каждом запросе."
 
 #. type: Plain text
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:73
