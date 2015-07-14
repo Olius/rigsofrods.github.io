@@ -1,4 +1,82 @@
 ---
 fr:
-  slogan: "Doux corps physique Simulator"
-  download: "Télécharger"
+  slogan: "Soft Body Physics Simulator"
+
+  nav:
+    home:
+      title: "Accueil"
+    download:
+      title: "Télécharger"
+      tip: "Obtenir le jeu"
+    repository:
+      title: "Dépot de mods"
+    forum:
+      title: "Forum"
+      index:
+        title: "Index"
+        tip: "Rester en contact avec la communauté"
+      register:
+        title: "Inscription"
+        tip: "s'inscrire au forum"
+      search:
+        title: "Rechercher"
+        tip: "Rechercher ce que vous voulez"
+    blog:
+      title: "Blog"
+    docs:
+      title: "Docs"
+    multiplayer:
+      title: "Multi-joueur"
+
+  footer:
+    open:
+      title: "On est Open!"
+      content: "Rigs of Rods est gratuit et open source, disponible sous le style de la license <a href='https://www.gnu.org/Copyleft/' title='Copyleft licensing'>copyleft</a> <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='La license GPLv3'>GPLv3</a>."
+    follow:
+      title: "Suivez-nous!"
+
+  index:
+    summary:
+      title: "Immergez vous au 'soft body physics'"
+      content:
+        about: "Rigs of Rods est un simulateur de véhicule du style sandbox."
+        different: "Ce qui rend Rigs of Rods différentes de la plupart des autres simulateurs est son modèle unique de la 'soft body physics': véhicules, machines, objets, etc. sont simulés en temps réel en etant des objets flexible, donnant la simulation un comportement extrêmement précis et réel qui dépend entièrement de la construction physique des véhicules ou des objets que vous créez."
+    toys:
+      title: "Sandbox, plein de fun!"
+      content:
+        preface: "Jouez avec un vaste choix de véhicules et de terrains. Et ne vous inquiétez pas: la physique réelle du monde s'applique à chacun d'eux."
+        truck:
+          title: "Camions?"
+          content: "Simulation et dommages extremeent réalistes a base de noeuds et de poutres - check!"
+        train:
+          title: "Trains?"
+          content: "Simulation ferroviaire précise avec deraillements en cas de survitesse - check!"
+        ship:
+          title: "Bateaux?"
+          content: "Modèle de flottabilité basé sur les gradients de pression élémentaires - check aussi!"
+        aircraft:
+          title: "Avions?"
+          content: "Modèle de vol avancé, basé sur théorie de l'élément pale - cela aussi!"
+    foss:
+      title: "Gratuit. Open. Pour vous."
+      content:
+        about: "Rigs of Rods a été développé depuis 2005 par des centaines de volontaires à travers le monde. Il est open source et disponible sous le style de la license <a href='https://www.gnu.org/Copyleft/' title='Copyleft licensing'>copyleft</a> <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='La license GPLv3'>GPLv3</a>."
+        foss: "Ce jeu est, et sera toujour gratuit."
+        community: "En outre, en tant que logiciel de bénévoles-développé, notre communauté accueille toutes sortes de contributions. Dans le cas où vous souhaitez donner un coup de main, vous pouvez trouver le code source <a href='https://github.com/rigsofrods/rigs-of-rods'>a GitHub</a>."
+    getting-started:
+      title: "Pour Commencer"
+      content:
+        docs: "Lire la documentation."
+        forum: "Rejoindre le forum."
+        bugs: "Reporter des bugs et demander l'ajout de nouvelles fonctionalités."
+        have-fun: "Amusez vous!"
+    download:
+      download: "Telecharger"
+      for: "pour"
+      alternative: "téléchargement alternative..."
+
+  blog:
+    title: "Rigs of Rods Dev-Blog"
+    readmore: "Lire plus"
+    archivelink: "Voir des posts plus anciens <a href='/en/blog/archive/' title='Posts archive'>L'archive</a>..."
+    backtoindex: "Retourner au blog"
