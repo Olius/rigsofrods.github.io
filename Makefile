@@ -9,19 +9,24 @@ deploy: clean translate
 	bundle exec middleman deploy
 
 clean: clean-po
-	rm -rf build/* source/localizable/blog/2* source/localizable/docs source/localizable/download
+	rm -rf build/* source/blog/2* source/localizable/docs source/localizable/download
 
 clean-po:
-	find content/po | grep ".po~" | xargs rm -f
+	find {blog,content}/po | grep ".po~" | xargs rm -f
 
 translate:
-	cp -rf content/source/* source/localizable
 	po4a-bulk-translate content/source asciidoc adoc content/po source/localizable $(LINGUAS)
+	po4a-bulk-translate blog/source asciidoc adoc blog/po source $(LINGUAS)
+
+	./copy_en.sh
 
 gettextize:
 	rm -rf content/pot/*
+	rm -rf blog/pot/*
 	po4a-bulk-gettextize content/source asciidoc adoc content/pot
+	po4a-bulk-gettextize blog/source asciidoc adoc blog/pot
 
 updatepo:
 	po4a-bulk-updatepo content/source asciidoc adoc content/po $(LINGUAS)
+	po4a-bulk-updatepo blog/source asciidoc adoc blog/po $(LINGUAS)
 	make clean-po

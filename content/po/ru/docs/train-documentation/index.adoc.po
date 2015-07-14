@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-06 17:31+0300\n"
+"POT-Creation-Date: 2015-07-14 00:08+0300\n"
 "PO-Revision-Date: 2015-07-06 17:36+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -20,19 +20,19 @@ msgstr ""
 "X-Generator: Gtranslator 2.91.7\n"
 
 #. type: Title =
-#: pregen/source/docs/train-documentation/index.adoc:1
+#: content/source/docs/train-documentation/index.adoc:1
 #, no-wrap
 msgid "Train Documentation"
 msgstr "Документация по ЖД"
 
 #. type: Title ==
-#: pregen/source/docs/train-documentation/index.adoc:13
+#: content/source/docs/train-documentation/index.adoc:13
 #, no-wrap
 msgid "Basic Principle"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:16
+#: content/source/docs/train-documentation/index.adoc:16
 msgid ""
 "The tracks are simple meshes that are placed on the map. They have a "
 "collision mesh on which all rail vehicles drive. The track gauge is "
@@ -46,31 +46,31 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/train-documentation/index.adoc:17
+#: content/source/docs/train-documentation/index.adoc:17
 #, no-wrap
 msgid "Basic concept 1"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/train-documentation/index.adoc:17
+#: content/source/docs/train-documentation/index.adoc:17
 #, no-wrap
 msgid "train-basic-concept-1.webp"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/train-documentation/index.adoc:18
+#: content/source/docs/train-documentation/index.adoc:18
 #, no-wrap
 msgid "Basic concept 2"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/train-documentation/index.adoc:18
+#: content/source/docs/train-documentation/index.adoc:18
 #, no-wrap
 msgid "train-basic-concept-2.webp"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:21
+#: content/source/docs/train-documentation/index.adoc:21
 msgid ""
 "The wagons use low friction nodes instead of wheels. Main reason is the "
 "nodecount, e.g. on a 4 axle wagon we can save approx. 120 nodes by doing "
@@ -78,32 +78,32 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/train-documentation/index.adoc:22
+#: content/source/docs/train-documentation/index.adoc:22
 #, no-wrap
 msgid "Basic node and beam principles"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:25
+#: content/source/docs/train-documentation/index.adoc:25
 msgid ""
 "To make your rail vehicle working well, you need to obtain certain "
 "principles."
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/train-documentation/index.adoc:26
+#: content/source/docs/train-documentation/index.adoc:26
 #, no-wrap
 msgid "Train geometry"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/train-documentation/index.adoc:26
+#: content/source/docs/train-documentation/index.adoc:26
 #, no-wrap
 msgid "train-geometry.webp"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:30
+#: content/source/docs/train-documentation/index.adoc:30
 msgid ""
 "First of all your bogie geometry needs to be exactly as shown in Figure 3 If "
 "you make a wagon without wheels, the low friction nodes running on the rail "
@@ -111,7 +111,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:31
+#: content/source/docs/train-documentation/index.adoc:31
 msgid ""
 "Your guidance nodes (those running on the inner side of the rail) need to be "
 "contacters. Give them a mass of 50 kilos. Give them low friction using "
@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:32
+#: content/source/docs/train-documentation/index.adoc:32
 msgid ""
 "Node 0 needs to be exactly in the middle of your vehicle and 0.5 meters "
 "below the rail. Otherwise it won't spawn correctly in the train spawner. "
@@ -128,40 +128,40 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:33
+#: content/source/docs/train-documentation/index.adoc:33
 msgid "Make your wheels very hard using the spring and damping options."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:34
+#: content/source/docs/train-documentation/index.adoc:34
 msgid "Make the bogie node and beam very stiff using set_beam_defaults."
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/train-documentation/index.adoc:35
+#: content/source/docs/train-documentation/index.adoc:35
 #, no-wrap
 msgid "Building a railway line"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:38
+#: content/source/docs/train-documentation/index.adoc:38
 msgid "There are two ways to place the tracks on a map"
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/train-documentation/index.adoc:39
+#: content/source/docs/train-documentation/index.adoc:39
 #, no-wrap
 msgid "Placing tracks using RoRToolkit"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:42
+#: content/source/docs/train-documentation/index.adoc:42
 #, no-wrap
 msgid "*[underline]#Beware: Due to a bug in RoR Toolkit you can't build train tracks going up- or downhill properly...#*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:44
+#: content/source/docs/train-documentation/index.adoc:44
 msgid ""
 "First copy everything from http://www.rigsofrods.com/attachment.php?"
 "attachmentid=337492&d=1344894876[this zip] over to your map zip. IMPORTANT: "
@@ -170,7 +170,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:46
+#: content/source/docs/train-documentation/index.adoc:46
 msgid ""
 "http://www.gamefront.com/files/user/lepes[Download RoRToolkit 0.37]. "
 "*[underline]#Since RoR 0.38 the Toolkit will only work after you renamed the "
@@ -181,19 +181,19 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/train-documentation/index.adoc:47
+#: content/source/docs/train-documentation/index.adoc:47
 #, no-wrap
 msgid "Toolkit placement"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/train-documentation/index.adoc:47
+#: content/source/docs/train-documentation/index.adoc:47
 #, no-wrap
 msgid "rail-toolkit-placement.webp"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:50
+#: content/source/docs/train-documentation/index.adoc:50
 msgid ""
 "If you need help on using the toolkit, search the forums. When finished with "
 "placing, save the terrain file and put it into your map zip. Open the terrn "
@@ -205,19 +205,19 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/train-documentation/index.adoc:51
+#: content/source/docs/train-documentation/index.adoc:51
 #, no-wrap
 msgid "Terrn file modifications"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/train-documentation/index.adoc:51
+#: content/source/docs/train-documentation/index.adoc:51
 #, no-wrap
 msgid "rail-switch-placement-terrn.webp"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/train-documentation/index.adoc:53
+#: content/source/docs/train-documentation/index.adoc:53
 msgid ""
 "This will add the node and beam of the switch so you can actually change "
 "direction. *[underline]#Don't forget to rename your RoR content folder to "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-06 17:38+0300\n"
+"POT-Creation-Date: 2015-07-14 00:08+0300\n"
 "PO-Revision-Date: 2015-07-06 17:38+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -20,13 +20,13 @@ msgstr ""
 "X-Generator: Gtranslator 2.91.7\n"
 
 #. type: Title =
-#: pregen/source/docs/index.adoc:1
+#: content/source/docs/index.adoc:1
 #, no-wrap
 msgid "Documentation index"
 msgstr "Документация"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:11
+#: content/source/docs/index.adoc:11
 msgid ""
 "Thank you for installing Rigs of Rods! We have created this set of "
 "documentation in order to make the world of soft body physics more enjoyable "
@@ -36,7 +36,7 @@ msgstr ""
 "документацию, которая откроет для тебя мир физики мягких тел"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:13
+#: content/source/docs/index.adoc:13
 msgid ""
 "The goal of this Wiki is to deliver help for newcomers, document file "
 "formats used by Rigs of Rods to allow content creators to modify and create "
@@ -46,7 +46,7 @@ msgstr ""
 "облегчения моддинга игры и служение опорной точкой при разработке игры."
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:15
+#: content/source/docs/index.adoc:15
 msgid ""
 "First, *a word of caution*: Rigs of Rods is under heavy development right "
 "now. File formats may and will change in the future as well as semantics and "
@@ -58,39 +58,39 @@ msgstr ""
 "можем гарантировать работу существующих модов в будущем.*"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:17
+#: content/source/docs/index.adoc:17
 msgid "Ready to develop? Please select your destination:"
 msgstr "Готов к разработке? Поехали:"
 
 #. type: Title ==
-#: pregen/source/docs/index.adoc:18
+#: content/source/docs/index.adoc:18
 #, no-wrap
 msgid "Compiling the game"
 msgstr "Сборка игры"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:21
+#: content/source/docs/index.adoc:21
 msgid "<<compile-linux/index.adoc#,Compiling on Linux>>"
 msgstr "<<compile-linux/index.adoc#,Сборка под Linux>>"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:22
+#: content/source/docs/index.adoc:22
 msgid "<<compile-osx/index.adoc#,Compiling on OS X>>"
 msgstr "<<compile-osx/index.adoc#,Сборка под OS X>>"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:23
+#: content/source/docs/index.adoc:23
 msgid "<<compile-windows/index.adoc#,Compiling on Windows>>"
 msgstr "<<compile-windows/index.adoc#,Сборка под Windows>>"
 
 #. type: Title ==
-#: pregen/source/docs/index.adoc:24
+#: content/source/docs/index.adoc:24
 #, no-wrap
 msgid "Tutorials"
 msgstr "Обучение"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:27
+#: content/source/docs/index.adoc:27
 msgid ""
 "<<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you "
 "create your own truck, train, vehicle or boat>>"
@@ -99,13 +99,13 @@ msgstr ""
 "транспортного средства>>"
 
 #. type: Title ==
-#: pregen/source/docs/index.adoc:28
+#: content/source/docs/index.adoc:28
 #, no-wrap
 msgid "Specifications"
 msgstr "Спецификации"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:31
+#: content/source/docs/index.adoc:31
 msgid ""
 "http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external "
 "link)]"
@@ -114,7 +114,7 @@ msgstr ""
 "ссылка)]"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:32
+#: content/source/docs/index.adoc:32
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
@@ -124,6 +124,6 @@ msgstr ""
 "транспортных средств>>"
 
 #. type: Plain text
-#: pregen/source/docs/index.adoc:32
+#: content/source/docs/index.adoc:32
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
 msgstr "<<train-documentation/index.adoc#,Документация по ЖД>>"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-07 23:16+0300\n"
+"POT-Creation-Date: 2015-07-14 03:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,30 +17,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: pregen/source/docs/rorbook/index.adoc:1
+#: content/source/docs/rorbook/index.adoc:1
 #, no-wrap
 msgid "RoRBook"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:15
+#: content/source/docs/rorbook/index.adoc:15
 msgid "This is a big tutorial that will help you create your very own vehicle."
 msgstr ""
 
+#. type: Plain text
+#: content/source/docs/rorbook/index.adoc:17
+msgid "toc::[]"
+msgstr ""
+
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:16 pregen/source/docs/rorbook/index.adoc:71 pregen/source/docs/rorbook/index.adoc:177 pregen/source/docs/rorbook/index.adoc:243
+#: content/source/docs/rorbook/index.adoc:18 content/source/docs/rorbook/index.adoc:73 content/source/docs/rorbook/index.adoc:179 content/source/docs/rorbook/index.adoc:245
 #, no-wrap
 msgid "Introduction"
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:18
+#: content/source/docs/rorbook/index.adoc:20
 #, no-wrap
 msgid "Description"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:21
+#: content/source/docs/rorbook/index.adoc:23
 #, no-wrap
 msgid ""
 "*Rigs of Rods* (RoR) is not your typical vehicle simulator. Other vehicle "
@@ -50,7 +55,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:24
+#: content/source/docs/rorbook/index.adoc:26
 msgid ""
 "RoR does not do this. In RoR, all vehicles are based on only two elements: "
 "<<{baseurl}/truck-description-file/index.adoc#nodes,nodes>> and "
@@ -65,18 +70,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:26
+#: content/source/docs/rorbook/index.adoc:28
 msgid "So what are these nodes and beams, then?"
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:27 pregen/source/docs/rorbook/index.adoc:181
+#: content/source/docs/rorbook/index.adoc:29 content/source/docs/rorbook/index.adoc:183
 #, no-wrap
 msgid "Nodes"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:30
+#: content/source/docs/rorbook/index.adoc:32
 #, no-wrap
 msgid ""
 "*Nodes* are essentially zero-dimensional ball joints. They occupy no space, "
@@ -86,13 +91,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:31 pregen/source/docs/rorbook/index.adoc:214
+#: content/source/docs/rorbook/index.adoc:33 content/source/docs/rorbook/index.adoc:216
 #, no-wrap
 msgid "Beams"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:34
+#: content/source/docs/rorbook/index.adoc:36
 #, no-wrap
 msgid ""
 "*Beams* are the visible connections between nodes. Beams do not have any "
@@ -104,27 +109,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:36
+#: content/source/docs/rorbook/index.adoc:38
 msgid ""
 "If you have ever played that old game Pontifex, you should be familiar with "
 "these concepts."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:37
+#: content/source/docs/rorbook/index.adoc:39
 #, no-wrap
 msgid "Issues"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:40
+#: content/source/docs/rorbook/index.adoc:42
 msgid ""
 "This is, of course, not a perfect simulation, and there are some issues with "
 "it."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:42
+#: content/source/docs/rorbook/index.adoc:44
 msgid ""
 "Much like atoms, nodes are constantly in movement. Nodes in RoR behave much "
 "like atoms in a solid. They are generally in a fixed position, but tend to "
@@ -135,7 +140,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:43
+#: content/source/docs/rorbook/index.adoc:45
 msgid ""
 "Because nodes occupy no space, they tend to exert a high amount of force to "
 "a small surface area. Consequently, nodes tend to penetrate a "
@@ -143,7 +148,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:44
+#: content/source/docs/rorbook/index.adoc:46
 msgid ""
 "Nodes act as ball joints to the beams that are connected to them. In order "
 "to get any kind of coherent and stable structure out of them, it is "
@@ -151,13 +156,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/rorbook/index.adoc:45
+#: content/source/docs/rorbook/index.adoc:47
 #, no-wrap
 msgid "Set up a working environment"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:48
+#: content/source/docs/rorbook/index.adoc:50
 msgid ""
 "Building vehicles for RoR can be done with several applications. No "
 "application is better than the other, it really comes down to what you feel "
@@ -165,20 +170,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:50
+#: content/source/docs/rorbook/index.adoc:52
 msgid ""
 "There does not exist, at this time, a totally compatible editing application "
 "which will produce a usable truck file on export. This is under development."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:51
+#: content/source/docs/rorbook/index.adoc:53
 #, no-wrap
 msgid "Editorizer"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:54
+#: content/source/docs/rorbook/index.adoc:56
 msgid ""
 "<<{baseurl}/editorizer/index.adoc#,*Editorizer*>> is a free, custom piece of "
 "software made by forum member Ben. It is a simple 3D working environment "
@@ -187,13 +192,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:55
+#: content/source/docs/rorbook/index.adoc:57
 #, no-wrap
 msgid "Blender"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:58
+#: content/source/docs/rorbook/index.adoc:60
 msgid ""
 "<<{baseurl}/blender-plugins/index.adoc#,*Blender*>> is a free 3D graphics "
 "program. With the RoR exporter, it supports node/beam placement along with "
@@ -201,26 +206,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:59
+#: content/source/docs/rorbook/index.adoc:61
 #, no-wrap
 msgid "AC3D"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:62
+#: content/source/docs/rorbook/index.adoc:64
 msgid ""
 "<<{baseurl}/ac3d-plugins/index.adoc#,*AC3D*>> is a non-free software for "
 "modeling."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:63
+#: content/source/docs/rorbook/index.adoc:65
 #, no-wrap
 msgid "Text editor"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:66
+#: content/source/docs/rorbook/index.adoc:68
 msgid ""
 "It is entirely possible to create a truck for RoR entirely in text "
 "editor. See the <<{baseurl}/truck-description-file/index.adoc#,Truck "
@@ -228,19 +233,19 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/rorbook/index.adoc:67
+#: content/source/docs/rorbook/index.adoc:69
 #, no-wrap
 msgid "Land-based Vehicles and Basics"
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:69
+#: content/source/docs/rorbook/index.adoc:71
 #, no-wrap
 msgid "Basic Vehicle Requirements"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:74
+#: content/source/docs/rorbook/index.adoc:76
 msgid ""
 "There are certain necessities for a truck that you need to have in place in "
 "order for it to function within Rigs of Rods. Not including certain sections "
@@ -253,20 +258,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:75
+#: content/source/docs/rorbook/index.adoc:77
 #, no-wrap
 msgid "File Format"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:78
+#: content/source/docs/rorbook/index.adoc:80
 msgid ""
 "Your vehicle should have a file format/suffix depending on its type. The "
 "following table shows the types of vehicle and their formats."
 msgstr ""
 
 #. type: delimited block |
-#: pregen/source/docs/rorbook/index.adoc:88
+#: content/source/docs/rorbook/index.adoc:90
 #, no-wrap
 msgid ""
 "| *Vehicle Type* | *File Format*\n"
@@ -280,7 +285,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:91
+#: content/source/docs/rorbook/index.adoc:93
 msgid ""
 "For example, if I'm making a truck for Rigs of Rods, I might call it "
 "mytruck.truck, although obviously, what comes before the suffix is entirely "
@@ -288,24 +293,24 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:92
+#: content/source/docs/rorbook/index.adoc:94
 #, no-wrap
 msgid "Directory"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:95
+#: content/source/docs/rorbook/index.adoc:97
 msgid "There are two different places to put your vehicle files."
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:96
+#: content/source/docs/rorbook/index.adoc:98
 #, no-wrap
 msgid "Vehicles Folder"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:99
+#: content/source/docs/rorbook/index.adoc:101
 msgid ""
 "While editing your vehicle, it is best to put it in the \"vehicles\" folder "
 "(`C:\\Documents and Settings\\Rigs of Rods\\vehicles` on Windows "
@@ -316,13 +321,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:100
+#: content/source/docs/rorbook/index.adoc:102
 #, no-wrap
 msgid "Zip Files"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:103
+#: content/source/docs/rorbook/index.adoc:105
 msgid ""
 "When one is preparing to release a vehicle, one ought to transfer it to a "
 "zip file. This makes the file more portable and easier to release on the "
@@ -334,13 +339,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:104
+#: content/source/docs/rorbook/index.adoc:106
 #, no-wrap
 msgid "Title"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:107
+#: content/source/docs/rorbook/index.adoc:109
 msgid ""
 "You should name your vehicle before you go about doing anything else. The "
 "title must go on the very first line of the file. For example, if I want my "
@@ -350,13 +355,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:108
+#: content/source/docs/rorbook/index.adoc:110
 #, no-wrap
 msgid "Globals"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:111
+#: content/source/docs/rorbook/index.adoc:113
 msgid ""
 "Here, we set our vehicle's mass, the mass of the load nodes and the material "
 "to be used on your vehicle. If you're planning on using a mesh, then you can "
@@ -366,7 +371,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:117
+#: content/source/docs/rorbook/index.adoc:119
 #, no-wrap
 msgid ""
 "globals\n"
@@ -375,7 +380,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:120
+#: content/source/docs/rorbook/index.adoc:122
 msgid ""
 "The globals section comes before the nodes and beams. The first number, *dry "
 "mass*, defines the mass, in kilograms, our vehicle will attempt to be. (each "
@@ -389,13 +394,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:121 pregen/source/docs/rorbook/index.adoc:374
+#: content/source/docs/rorbook/index.adoc:123 content/source/docs/rorbook/index.adoc:376
 #, no-wrap
 msgid "Engine"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:124
+#: content/source/docs/rorbook/index.adoc:126
 msgid ""
 "This section is not necessary for a trailer or other load (unless you want "
 "to be able to get in your trailer or load [to activate custom flares on the "
@@ -406,26 +411,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:125
+#: content/source/docs/rorbook/index.adoc:127
 #, no-wrap
 msgid "Nodes & Beams"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:128
+#: content/source/docs/rorbook/index.adoc:130
 msgid ""
 "You'll need nodes and beams - these are what make up any vehicle you see "
 "in-game. See <<First Beams and Nodes>>."
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:129
+#: content/source/docs/rorbook/index.adoc:131
 #, no-wrap
 msgid "Cameras & Cinecam"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:132
+#: content/source/docs/rorbook/index.adoc:134
 msgid ""
 "These two sections are not at all needed if you're making a trailer or other "
 "load, unless you need to be able to enter the trailer (for example, to "
@@ -433,30 +438,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:134
+#: content/source/docs/rorbook/index.adoc:136
 msgid "However, all the other types of vehicle do need these sections."
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:135
+#: content/source/docs/rorbook/index.adoc:137
 #, no-wrap
 msgid "Cameras"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:137
+#: content/source/docs/rorbook/index.adoc:139
 #, no-wrap
 msgid "Cameras location"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:137
+#: content/source/docs/rorbook/index.adoc:139
 #, no-wrap
 msgid "cameras.png"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:144
+#: content/source/docs/rorbook/index.adoc:146
 #, no-wrap
 msgid ""
 "cameras\n"
@@ -465,12 +470,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:147
+#: content/source/docs/rorbook/index.adoc:149
 msgid "'''"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:149
+#: content/source/docs/rorbook/index.adoc:151
 msgid ""
 "The above guide image and example should prove quite helpful in creating "
 "cameras. The cameras section has to come after the nodes and beam sections, "
@@ -482,7 +487,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:151
+#: content/source/docs/rorbook/index.adoc:153
 msgid ""
 "The first node is the centre node, and it must be aligned with both the rear "
 "and the left nodes, as is visible in the guide image. The rear node must be "
@@ -493,13 +498,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:152
+#: content/source/docs/rorbook/index.adoc:154
 #, no-wrap
 msgid "Cinecam"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:159
+#: content/source/docs/rorbook/index.adoc:161
 #, no-wrap
 msgid ""
 "cinecam\n"
@@ -508,7 +513,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:162
+#: content/source/docs/rorbook/index.adoc:164
 msgid ""
 "The cinecam node is a node suspended with 8 beams used to define the "
 "position of the interior/first-person camera of your vehicle. Like the "
@@ -516,21 +521,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:164
+#: content/source/docs/rorbook/index.adoc:166
 msgid ""
 "The first 3 values define the position of the cinecam node, and are fairly "
 "self-explanatory. Like the nodes section, these values are in metres."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:166
+#: content/source/docs/rorbook/index.adoc:168
 msgid ""
 "The next 8 values are nodes. Rigs of Rods will create beams from each of "
 "these nodes to your cinecam, in order to hold it in place."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:168
+#: content/source/docs/rorbook/index.adoc:170
 msgid ""
 "The final 2 values define the spring and the damping factors of the beams "
 "that support your camera. The spring factor defines how stiff the beams are "
@@ -539,20 +544,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:170
+#: content/source/docs/rorbook/index.adoc:172
 msgid ""
 "Those 2 values are *optional*, and if you don't include them the values will "
 "default to a spring rate of 8000.00 and a damping factor of 800.00."
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:171
+#: content/source/docs/rorbook/index.adoc:173
 #, no-wrap
 msgid "The End"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:174
+#: content/source/docs/rorbook/index.adoc:176
 msgid ""
 "The final requirement for the file is a simple three-letter word, "
 "\"end\". This is the very last line of your file and simply closes your "
@@ -562,13 +567,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:175
+#: content/source/docs/rorbook/index.adoc:177
 #, no-wrap
 msgid "First beams and nodes"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:180
+#: content/source/docs/rorbook/index.adoc:182
 msgid ""
 "Nodes and beams are the building blocks of vehicles and loads in Rigs of "
 "Rods. Anything can be simulated with nodes and beams if the right settings "
@@ -577,7 +582,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:184
+#: content/source/docs/rorbook/index.adoc:186
 msgid ""
 "Think back to geometry class. Remember points? Nodes are essentially "
 "points. All beams are simply defined as a link between two nodes. A node is "
@@ -585,7 +590,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:190
+#: content/source/docs/rorbook/index.adoc:192
 #, no-wrap
 msgid ""
 ";number,    x,    y,    z, options\n"
@@ -593,37 +598,37 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:193
+#: content/source/docs/rorbook/index.adoc:195
 #, no-wrap
 msgid "*Number*: Each node has a number, starting from zero.\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:194
+#: content/source/docs/rorbook/index.adoc:196
 #, no-wrap
 msgid "*X*: The x-position of the node on a Cartesian coordinate system.\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:195
+#: content/source/docs/rorbook/index.adoc:197
 #, no-wrap
 msgid "*Y*: The y-position of the node on a Cartesian coordinate system.\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:196
+#: content/source/docs/rorbook/index.adoc:198
 #, no-wrap
 msgid "*Z*: The z-position of the node on a Cartesian coordinate system.\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:198
+#: content/source/docs/rorbook/index.adoc:200
 #, no-wrap
 msgid "*Options*: Options can change the way nodes behave. Valid options are:\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:209
+#: content/source/docs/rorbook/index.adoc:211
 #, no-wrap
 msgid ""
 "** `f`: Nodes with this option will not produce sparks when contacting hard "
@@ -649,13 +654,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:210
+#: content/source/docs/rorbook/index.adoc:212
 #, no-wrap
 msgid "set_node_defaults"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:213
+#: content/source/docs/rorbook/index.adoc:215
 msgid ""
 "set_node_defaults is a command which can be inserted anywhere within the "
 "nodes section to change the way nodes following the command behave. For "
@@ -665,7 +670,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:217
+#: content/source/docs/rorbook/index.adoc:219
 msgid ""
 "Beams are the structural components of your truck/airplane/boat/hovering "
 "death machine. These are like those line segments you learned about in "
@@ -675,13 +680,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:218
+#: content/source/docs/rorbook/index.adoc:220
 #, no-wrap
 msgid "set_beam_defaults"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:221
+#: content/source/docs/rorbook/index.adoc:223
 msgid ""
 "set_beam_defaults is a command which can be inserted anywhere within the "
 "beams section to change the way beams following the command behave. The "
@@ -690,7 +695,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:226
+#: content/source/docs/rorbook/index.adoc:228
 #, no-wrap
 msgid ""
 "                 ;springiness, damping, deformation threshold constant, "
@@ -701,7 +706,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:228
+#: content/source/docs/rorbook/index.adoc:230
 #, no-wrap
 msgid ""
 "*Springiness*: Defines the stiffness of the beam. Higher values make the "
@@ -709,7 +714,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:230
+#: content/source/docs/rorbook/index.adoc:232
 #, no-wrap
 msgid ""
 "*Damping*: Defines the beam's resistance to motion. Higher values make the "
@@ -717,7 +722,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:232
+#: content/source/docs/rorbook/index.adoc:234
 #, no-wrap
 msgid ""
 "*Deformation Threshold Constant*: The amount of force which must be applied "
@@ -726,7 +731,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:234
+#: content/source/docs/rorbook/index.adoc:236
 #, no-wrap
 msgid ""
 "*Breaking Threshold Constant*: The amount of force which must be applied to "
@@ -734,7 +739,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:236
+#: content/source/docs/rorbook/index.adoc:238
 #, no-wrap
 msgid ""
 "*Beam Diameter*: The size of the beam, visually speaking. Measured in "
@@ -743,7 +748,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:238
+#: content/source/docs/rorbook/index.adoc:240
 #, no-wrap
 msgid ""
 "*Plastic Deformation Coefficient*: The amount of force (a factor) to deform "
@@ -756,20 +761,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:240
+#: content/source/docs/rorbook/index.adoc:242
 msgid ""
 "For more information, see "
 "<<{baseurl}/truck-description-file/index.adoc#set_beam_defaults,set_beam_defaults>>."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:241
+#: content/source/docs/rorbook/index.adoc:243
 #, no-wrap
 msgid "Rigidity"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:246
+#: content/source/docs/rorbook/index.adoc:248
 msgid ""
 "Welcome to the guide to Rigidity in Rigs of Rods, This guide is to making a "
 "sturdy vehicle for Rigs of Rods, by interconnecting the nodes in a \"X\" to "
@@ -777,61 +782,61 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:248
+#: content/source/docs/rorbook/index.adoc:250
 msgid ""
 "If you do not have a \"X\" shape interconnecting your beams, your chassis "
 "will be very Flimsy, Which in turn is bad, right?"
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:249
+#: content/source/docs/rorbook/index.adoc:251
 #, no-wrap
 msgid "Preparing your chassis"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:252
+#: content/source/docs/rorbook/index.adoc:254
 msgid ""
 "Once you have completed your <<First beams and nodes>>, your chassis should "
 "be a basic chassis, that is easy to work with."
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:253
+#: content/source/docs/rorbook/index.adoc:255
 #, no-wrap
 msgid "Basic chassis"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:253
+#: content/source/docs/rorbook/index.adoc:255
 #, no-wrap
 msgid "chassis-box-1.png"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:256
+#: content/source/docs/rorbook/index.adoc:258
 msgid "After that, you will begin the process of interconnecting the beams."
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:257
+#: content/source/docs/rorbook/index.adoc:259
 #, no-wrap
 msgid "Chassis with interconnected beams"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:257
+#: content/source/docs/rorbook/index.adoc:259
 #, no-wrap
 msgid "chassis-box-2.png"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:260
+#: content/source/docs/rorbook/index.adoc:262
 msgid "Just do that with the box/chassis/creation until you have it all covered."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:262
+#: content/source/docs/rorbook/index.adoc:264
 msgid ""
 "(DO NOT use `Interconnect` in the Editorizer on large objects, it will "
 "interconnect every node to each other, which in turn will double, or even "
@@ -839,13 +844,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:263
+#: content/source/docs/rorbook/index.adoc:265
 #, no-wrap
 msgid "Conclusion"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:266
+#: content/source/docs/rorbook/index.adoc:268
 msgid ""
 "After you have completed that task, you should go continue on to the "
 "<<Wheels>> section, that is where you will learn to add wheels to your newly "
@@ -853,13 +858,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:267
+#: content/source/docs/rorbook/index.adoc:269
 #, no-wrap
 msgid "Wheels"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:270
+#: content/source/docs/rorbook/index.adoc:272
 msgid ""
 "Wheels are simply structures that the game creates automatically out of "
 "standard features to make creating vehicles easier. They are simply "
@@ -871,13 +876,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:271
+#: content/source/docs/rorbook/index.adoc:273
 #, no-wrap
 msgid "wheel"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:274
+#: content/source/docs/rorbook/index.adoc:276
 msgid ""
 "<<{baseurl}/truck-description-file/index.adoc#wheels,Wheels>> are the most "
 "basic wheels in the game. The width of a wheel is determined by the distance "
@@ -888,19 +893,19 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:275
+#: content/source/docs/rorbook/index.adoc:277
 #, no-wrap
 msgid "Rim geometry"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:275
+#: content/source/docs/rorbook/index.adoc:277
 #, no-wrap
 msgid "wheel-geometry-1.png"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:278
+#: content/source/docs/rorbook/index.adoc:280
 msgid ""
 "The optional snode option allows for game-managed "
 "<<{baseurl}/axle-rigidity/index.adoc#,Axle Rigidity>>. This will keep the "
@@ -909,20 +914,20 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:279
+#: content/source/docs/rorbook/index.adoc:281
 #, no-wrap
 msgid "wheel-geometry-2.png"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:282
+#: content/source/docs/rorbook/index.adoc:284
 msgid ""
 "Nodes 2 and 3 would be mounted to the chassis with wheels mounted on nodes "
 "1,2 and 3,4"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:289
+#: content/source/docs/rorbook/index.adoc:291
 #, no-wrap
 msgid ""
 "wheels\n"
@@ -935,14 +940,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:292
+#: content/source/docs/rorbook/index.adoc:294
 msgid ""
 "First step: The snode is Disabled (The data is 9999), the nodes 1 and 4 are "
 "hanging just down."
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:299
+#: content/source/docs/rorbook/index.adoc:301
 #, no-wrap
 msgid ""
 "wheels\n"
@@ -955,7 +960,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:302
+#: content/source/docs/rorbook/index.adoc:304
 msgid ""
 "Second step: You type 3 to the snode option of the wheel 1,2. Now node 1 "
 "will always have the ambition to be at the same \"line\" like the nodes 2 "
@@ -963,7 +968,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:309
+#: content/source/docs/rorbook/index.adoc:311
 #, no-wrap
 msgid ""
 "wheels\n"
@@ -976,7 +981,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:313
+#: content/source/docs/rorbook/index.adoc:315
 msgid ""
 "Third step: You type 2 to the snode option of the wheel 3,4.  Now all nodes "
 "will be on one level / line even node 1 and 4 aren't mounted primary to the "
@@ -984,13 +989,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:314
+#: content/source/docs/rorbook/index.adoc:316
 #, no-wrap
 msgid "wheel2"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:317
+#: content/source/docs/rorbook/index.adoc:319
 msgid ""
 "This feature improves the default wheels section by splitting wheels into "
 "rims and tires. This allows the player to set tire pressure with the "
@@ -998,7 +1003,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:319
+#: content/source/docs/rorbook/index.adoc:321
 msgid ""
 "<<{baseurl}/truck-description-file/index.adoc#wheels2,Wheels2>> (also known "
 "as the \"complex wheel model\") allows you to separate the wheel [rim] from "
@@ -1009,43 +1014,43 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: pregen/source/docs/rorbook/index.adoc:323
+#: content/source/docs/rorbook/index.adoc:325
 #, no-wrap
 msgid "Inflated"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:324
+#: content/source/docs/rorbook/index.adoc:326
 #, no-wrap
 msgid "Inflated tire"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:324
+#: content/source/docs/rorbook/index.adoc:326
 #, no-wrap
 msgid "wheel-tire-inflated.jpg"
 msgstr ""
 
 #. type: Block title
-#: pregen/source/docs/rorbook/index.adoc:327
+#: content/source/docs/rorbook/index.adoc:329
 #, no-wrap
 msgid "Deflated"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:328
+#: content/source/docs/rorbook/index.adoc:330
 #, no-wrap
 msgid "Deflated tire"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:328
+#: content/source/docs/rorbook/index.adoc:330
 #, no-wrap
 msgid "wheel-tire-deflated.jpg"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:332
+#: content/source/docs/rorbook/index.adoc:334
 msgid ""
 "The adjustable tire pressure allows you to adjust handling in "
 "real-time. Lower pressure creates more grip while higher pressure creates "
@@ -1053,13 +1058,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:333
+#: content/source/docs/rorbook/index.adoc:335
 #, no-wrap
 msgid "Meshwheels"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:336
+#: content/source/docs/rorbook/index.adoc:338
 msgid ""
 "<<{baseurl}/truck-description-file/index.adoc#meshwheels,Meshwheels>> takes "
 "advantage of a mesh's static nature. It also creates a smoother tire. The "
@@ -1067,7 +1072,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:338
+#: content/source/docs/rorbook/index.adoc:340
 msgid ""
 "Meshwheels are very similar to normal wheels, but require specification of "
 "the wheel rim radius. Likewise, the direction the wheel is facing must be "
@@ -1075,51 +1080,51 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:339
+#: content/source/docs/rorbook/index.adoc:341
 #, no-wrap
 msgid "Correct rim mesh"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:339
+#: content/source/docs/rorbook/index.adoc:341
 #, no-wrap
 msgid "mesh-rim.jpg"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:341
+#: content/source/docs/rorbook/index.adoc:343
 #, no-wrap
 msgid "Tire texture"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:341
+#: content/source/docs/rorbook/index.adoc:343
 #, no-wrap
 msgid "mesh-wheel-mapping.jpg"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:344
+#: content/source/docs/rorbook/index.adoc:346
 msgid ""
 "There is no need to model a tire. The actual one will be added dynamically "
 "and will still flex."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:346
+#: content/source/docs/rorbook/index.adoc:348
 msgid ""
 "Tire material should be slightly different to other tire materials as it "
 "covers both the tire face and the tire wall."
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:347
+#: content/source/docs/rorbook/index.adoc:349
 #, no-wrap
 msgid "Notes"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:350
+#: content/source/docs/rorbook/index.adoc:352
 msgid ""
 "The mesh should be centered (Where should the wheel be placed in the L/R "
 "direction? Should it face left or right?) and of the right size for the "
@@ -1129,37 +1134,37 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:351
+#: content/source/docs/rorbook/index.adoc:353
 msgid ""
 "All wheels are able to do skid steering. See the "
 "<<braked_steering,steering>> chapter."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:352
+#: content/source/docs/rorbook/index.adoc:354
 msgid "It is considered good form to keep your rays between 10 and 20."
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:353
+#: content/source/docs/rorbook/index.adoc:355
 #, no-wrap
 msgid "Axles"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:356
+#: content/source/docs/rorbook/index.adoc:358
 msgid ""
 "This section defines axles on a vehicle, allowing more accurate distribution "
 "of torque among the wheels."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:358
+#: content/source/docs/rorbook/index.adoc:360
 msgid "Sample axle section"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:364
+#: content/source/docs/rorbook/index.adoc:366
 #, no-wrap
 msgid ""
 "axles\n"
@@ -1168,7 +1173,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:367
+#: content/source/docs/rorbook/index.adoc:369
 msgid ""
 "The axle section introduces open differentials, and Spooled (aka locked) "
 "differentials. By adding axles to your vehicle file you override the "
@@ -1180,13 +1185,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:368
+#: content/source/docs/rorbook/index.adoc:370
 #, no-wrap
 msgid "Problems?"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:371
+#: content/source/docs/rorbook/index.adoc:373
 msgid ""
 "Wheel weight has a big effect on top speed since heavy wheels have lots of "
 "rolling resistance in RoR. Try to make the wheels as light as possible. If "
@@ -1196,7 +1201,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:373
+#: content/source/docs/rorbook/index.adoc:375
 msgid ""
 "Used together with fusedrag and realistic truck weight, real torque is often "
 "enough so there's no need to have several thousand hp engines. That makes "
@@ -1204,7 +1209,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:377
+#: content/source/docs/rorbook/index.adoc:379
 msgid ""
 "The engine sections are used for vehicles which are driven through their "
 "wheels (trucks). Together, they specify the type of engine being used (truck "
@@ -1212,26 +1217,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:378
+#: content/source/docs/rorbook/index.adoc:380
 #, no-wrap
 msgid "engine"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:381
+#: content/source/docs/rorbook/index.adoc:383
 msgid ""
 "This section specifies torque, gearing and RPM ranges of the engine being "
 "used."
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:382 pregen/source/docs/rorbook/index.adoc:427
+#: content/source/docs/rorbook/index.adoc:384 content/source/docs/rorbook/index.adoc:429
 #, no-wrap
 msgid "Syntax"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:389
+#: content/source/docs/rorbook/index.adoc:391
 #, no-wrap
 msgid ""
 "engine\n"
@@ -1242,7 +1247,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:392
+#: content/source/docs/rorbook/index.adoc:394
 #, no-wrap
 msgid ""
 "*Minimum RPM* - The engine speed in which the automatic transmission "
@@ -1250,7 +1255,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:393
+#: content/source/docs/rorbook/index.adoc:395
 #, no-wrap
 msgid ""
 "*Maximum RPM* - The engine speed in which the automatic transmission "
@@ -1258,7 +1263,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:394
+#: content/source/docs/rorbook/index.adoc:396
 #, no-wrap
 msgid ""
 "*Torque* - A number representing the 'torque' of the engine. The higher the "
@@ -1266,7 +1271,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:395
+#: content/source/docs/rorbook/index.adoc:397
 #, no-wrap
 msgid ""
 "*Differential ratio* - A global gear conversion ratio. (Final gear reduction "
@@ -1274,7 +1279,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:396
+#: content/source/docs/rorbook/index.adoc:398
 #, no-wrap
 msgid ""
 "*Rear gear ratio* - Gear ratio of reverse. For every turn of the wheel the "
@@ -1283,7 +1288,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:397
+#: content/source/docs/rorbook/index.adoc:399
 #, no-wrap
 msgid ""
 "*Neutral gear ratio* - Gear ratio of neutral gear. 1.0 is a good one as it "
@@ -1291,13 +1296,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:398
+#: content/source/docs/rorbook/index.adoc:400
 #, no-wrap
 msgid "*First gear ratio* - Gear ratio of 1st gear\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:400
+#: content/source/docs/rorbook/index.adoc:402
 #, no-wrap
 msgid ""
 "*Second/etc gear ratio* - Gear ratio of second/etc gears.\n"
@@ -1306,18 +1311,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:402
+#: content/source/docs/rorbook/index.adoc:404
 msgid "====== Detailed Syntax"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:404
+#: content/source/docs/rorbook/index.adoc:406
 #, no-wrap
 msgid "*Torque*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:406
+#: content/source/docs/rorbook/index.adoc:408
 msgid ""
 "RoR uses a Flat torque model, usually correct for large intercooled turbo "
 "diesels. The unit is unknown: Neither N.m nor ft.lbf Tuning torque in RoR is "
@@ -1328,20 +1333,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:408
+#: content/source/docs/rorbook/index.adoc:410
 msgid ""
 "Engine Inertia also has a *VERY* important role in engine behavior since "
 "this value also determines how fast a vehicle can accelerate."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:410
+#: content/source/docs/rorbook/index.adoc:412
 #, no-wrap
 msgid "*Differential ratio*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:412
+#: content/source/docs/rorbook/index.adoc:414
 msgid ""
 "Differential ratio represents gear reduction ratio between input pinion gear "
 "and the ring gear of the differential. This parameter acts as global gear "
@@ -1352,13 +1357,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:414
+#: content/source/docs/rorbook/index.adoc:416
 #, no-wrap
 msgid "*Gear ratios*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:416
+#: content/source/docs/rorbook/index.adoc:418
 msgid ""
 "Gear ratios of forward gears. For every turn of the wheel must engine turn "
 "this many times (not counting the differential ratio). When setting various "
@@ -1370,13 +1375,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:417
+#: content/source/docs/rorbook/index.adoc:419
 #, no-wrap
 msgid "More information"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:420
+#: content/source/docs/rorbook/index.adoc:422
 msgid ""
 "A great source of practical gear ratios is from "
 "link:http://roadranger.com/Roadranger/productssolutions/transmissions/index.htm[Eaton "
@@ -1389,7 +1394,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:422
+#: content/source/docs/rorbook/index.adoc:424
 msgid ""
 "If you know a little about vehicles there is a "
 "link:http://grimmjeeper.com/gears.html[Gear Ratio Guide], but a decent "
@@ -1398,20 +1403,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:423
+#: content/source/docs/rorbook/index.adoc:425
 #, no-wrap
 msgid "engoption"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:426
+#: content/source/docs/rorbook/index.adoc:428
 msgid ""
 "This optional section allows the user to specify whether the engine is for a "
 "car or heavy truck and the engine inertia of the vehicle."
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:433
+#: content/source/docs/rorbook/index.adoc:435
 #, no-wrap
 msgid ""
 "engoption\n"
@@ -1419,13 +1424,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:436
+#: content/source/docs/rorbook/index.adoc:438
 #, no-wrap
 msgid "*Engine inertia*: the engines resistance to change in RPM.\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:437
+#: content/source/docs/rorbook/index.adoc:439
 #, no-wrap
 msgid ""
 "*Engine type*: the type of engine inside the vehicle. Use (c) for car "
@@ -1433,30 +1438,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:439
+#: content/source/docs/rorbook/index.adoc:441
 msgid "====== Detailed syntax"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:441
+#: content/source/docs/rorbook/index.adoc:443
 #, no-wrap
 msgid "*Engine inertia*\n"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:442
+#: content/source/docs/rorbook/index.adoc:444
 #, no-wrap
 msgid "Different inertia models."
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:442
+#: content/source/docs/rorbook/index.adoc:444
 #, no-wrap
 msgid "engine-inertia-models.png"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:445
+#: content/source/docs/rorbook/index.adoc:447
 msgid ""
 "The default game value is 10.0, which is correct for a large diesel engine, "
 "Use higher values to make engines accelerate more slowly and stall more "
@@ -1466,7 +1471,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:447
+#: content/source/docs/rorbook/index.adoc:449
 msgid ""
 "With a high value of inertia the engines RPM is not likely to change when "
 "resistance is met. As an example, when changing gears a high inertia will "
@@ -1477,27 +1482,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:449
+#: content/source/docs/rorbook/index.adoc:451
 msgid ""
 "If your engine doesn't change its RPM's during gear change, your engine "
 "inertia is too high"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:451
+#: content/source/docs/rorbook/index.adoc:453
 msgid ""
 "If a vehicle is feeling sluggish, and hard to brake, it is better to "
 "decrease the inertia than increase the brake force, and torque."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:453
+#: content/source/docs/rorbook/index.adoc:455
 #, no-wrap
 msgid "*Engine type*\n"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:455
+#: content/source/docs/rorbook/index.adoc:457
 msgid ""
 "Using `c` for cars or `t` for trucks specifies characteristics of the "
 "engines. Car engines use a different sound to truck engines and have no "
@@ -1505,32 +1510,32 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:456
+#: content/source/docs/rorbook/index.adoc:458
 #, no-wrap
 msgid "Torque curve"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:458
+#: content/source/docs/rorbook/index.adoc:460
 #, no-wrap
 msgid "Torque curve for a small diesel engine."
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:458
+#: content/source/docs/rorbook/index.adoc:460
 #, no-wrap
 msgid "engine-torque-curve.png"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:461
+#: content/source/docs/rorbook/index.adoc:463
 msgid ""
 "This section allows you to define a torque curve for your vehicle. It is "
 "optional."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:463
+#: content/source/docs/rorbook/index.adoc:465
 msgid ""
 "This allows you to assign predefined torque curves or your own custom curves "
 "to a truck. Predefined options are: `default`, `diesel`, `turbodiesel`, "
@@ -1539,12 +1544,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:465
+#: content/source/docs/rorbook/index.adoc:467
 msgid "Predefined Curve Example:"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:470
+#: content/source/docs/rorbook/index.adoc:472
 #, no-wrap
 msgid ""
 "torquecurve\n"
@@ -1552,14 +1557,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:473
+#: content/source/docs/rorbook/index.adoc:475
 msgid ""
 "The first number is RPM where the power begins, and the second defines power "
 "as a percent of total torque."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:475
+#: content/source/docs/rorbook/index.adoc:477
 msgid ""
 "It's suitable to define the torque to the engine RPM set in the engine "
 "definition plus 25% ( multiply the value with 1.25) to get the overev area "
@@ -1567,17 +1572,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:477
+#: content/source/docs/rorbook/index.adoc:479
 msgid "The following example would be good for a maximum engine RPM set to 2800."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:479
+#: content/source/docs/rorbook/index.adoc:481
 msgid "Custom curve example:"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:490
+#: content/source/docs/rorbook/index.adoc:492
 #, no-wrap
 msgid ""
 "torquecurve\n"
@@ -1591,14 +1596,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:493
+#: content/source/docs/rorbook/index.adoc:495
 msgid ""
 "Engine dying in idle and first gear? Just define a single higher peak value "
 "where you want the engine to idle...  like adding"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/rorbook/index.adoc:501
+#: content/source/docs/rorbook/index.adoc:503
 #, no-wrap
 msgid ""
 "...\n"
@@ -1609,20 +1614,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:504
+#: content/source/docs/rorbook/index.adoc:506
 msgid ""
 "to the example above in the right spot will result the engine idle a little "
 "bit higher then 800 rpm in first gear."
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/rorbook/index.adoc:505
+#: content/source/docs/rorbook/index.adoc:507
 #, no-wrap
 msgid "Suspension"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:508
+#: content/source/docs/rorbook/index.adoc:510
 msgid ""
 "Suspension is a flexible component which connects a car's body to its "
 "wheels. because of its flexibility, suspension components soften out bumps "
@@ -1630,31 +1635,31 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:509
+#: content/source/docs/rorbook/index.adoc:511
 #, no-wrap
 msgid "Suspension types"
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:511
+#: content/source/docs/rorbook/index.adoc:513
 #, no-wrap
 msgid "Coilovers"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:514
+#: content/source/docs/rorbook/index.adoc:516
 msgid ""
 "Coilover springs (standing for 'coil-over-oil') are extremely simple to "
 "model in RoR, since the game's shocks simulate them directly."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:516
+#: content/source/docs/rorbook/index.adoc:518
 msgid "Things to keep in mind:"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:518
+#: content/source/docs/rorbook/index.adoc:520
 #, no-wrap
 msgid ""
 "*Spring* is the measure of resistance change to the shock's of position, or "
@@ -1664,7 +1669,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:520
+#: content/source/docs/rorbook/index.adoc:522
 #, no-wrap
 msgid ""
 "*Damping* is a measure of how fast the shocks can change their length: the "
@@ -1681,13 +1686,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:521
+#: content/source/docs/rorbook/index.adoc:523
 #, no-wrap
 msgid "Leaf springs"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:524
+#: content/source/docs/rorbook/index.adoc:526
 msgid ""
 "Leaf spring suspension is a very simple (in real life; it is much harder to "
 "model in RoR) and efficient design found on almost all trucks using beam "
@@ -1695,7 +1700,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:526
+#: content/source/docs/rorbook/index.adoc:528
 msgid ""
 "The design consists of a spring and a shackle, the spring is a long metal "
 "arc that bend when a force is exerted on the spring. One end of the spring "
@@ -1705,7 +1710,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:528
+#: content/source/docs/rorbook/index.adoc:530
 msgid ""
 "A fully working "
 "link:http://www.rigsofrods.com/repository/repo_files/view/674[concept "
@@ -1713,31 +1718,31 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:529
+#: content/source/docs/rorbook/index.adoc:531
 #, no-wrap
 msgid "Leaf spring concept"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:529
+#: content/source/docs/rorbook/index.adoc:531
 #, no-wrap
 msgid "Leafspring_ingame.jpg"
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/rorbook/index.adoc:531
+#: content/source/docs/rorbook/index.adoc:533
 #, no-wrap
 msgid "Suspension geometries"
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:533
+#: content/source/docs/rorbook/index.adoc:535
 #, no-wrap
 msgid "Dependent suspension"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:536
+#: content/source/docs/rorbook/index.adoc:538
 msgid ""
 "The wheels of each axle are securely connected to each other using non "
 "independent suspension systems. The force from every bump that a wheel on "
@@ -1748,12 +1753,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:538
+#: content/source/docs/rorbook/index.adoc:540
 msgid "====== Beam axle"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:540
+#: content/source/docs/rorbook/index.adoc:542
 msgid ""
 "Beam axles are an extremely simple form of suspension, almost always seen on "
 "the back axles of vans and semi trailers. The wheels are directly attached "
@@ -1761,14 +1766,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:542
+#: content/source/docs/rorbook/index.adoc:544
 msgid ""
 "The easiest way to create a beam axle is to use "
 "<<axle-rigidity/index.adoc#,Axle Rigidity>> nodes."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:544
+#: content/source/docs/rorbook/index.adoc:546
 msgid ""
 "The lateral location of a beam axle can be controlled in a number of ways; "
 "the easiest way in RoR simply to weakly truss the two arms that hold the "
@@ -1777,106 +1782,106 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:545
+#: content/source/docs/rorbook/index.adoc:547
 #, no-wrap
 msgid "Simple beam axle"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:545
+#: content/source/docs/rorbook/index.adoc:547
 #, no-wrap
 msgid "beam-axle-simple.jpg"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:546
+#: content/source/docs/rorbook/index.adoc:548
 #, no-wrap
 msgid "Panhard rod"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:546
+#: content/source/docs/rorbook/index.adoc:548
 #, no-wrap
 msgid "beam-axle-panhard-rod.jpg"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:547
+#: content/source/docs/rorbook/index.adoc:549
 #, no-wrap
 msgid "Watt's linkage"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:547
+#: content/source/docs/rorbook/index.adoc:549
 #, no-wrap
 msgid "beam-axle-watts-linkage.jpg"
 msgstr ""
 
 #. type: Labeled list
-#: pregen/source/docs/rorbook/index.adoc:549 pregen/source/docs/rorbook/index.adoc:573 pregen/source/docs/rorbook/index.adoc:586 pregen/source/docs/rorbook/index.adoc:594 pregen/source/docs/rorbook/index.adoc:615 pregen/source/docs/rorbook/index.adoc:628
+#: content/source/docs/rorbook/index.adoc:551 content/source/docs/rorbook/index.adoc:575 content/source/docs/rorbook/index.adoc:588 content/source/docs/rorbook/index.adoc:596 content/source/docs/rorbook/index.adoc:617 content/source/docs/rorbook/index.adoc:630
 #, no-wrap
 msgid "Legend"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:551
+#: content/source/docs/rorbook/index.adoc:553
 msgid "[blue]#Axle.#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:552
+#: content/source/docs/rorbook/index.adoc:554
 msgid "[olive]#Frame and trailing arms.#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:553
+#: content/source/docs/rorbook/index.adoc:555
 msgid "[lime]#Simple truss for lateral location / Watt's Linkage / Panhard rod#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:554
+#: content/source/docs/rorbook/index.adoc:556
 msgid "[fuchsia]#Holder#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:555
+#: content/source/docs/rorbook/index.adoc:557
 msgid "[yellow]#Trusses and A-arms to hold linkage in place#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:556
+#: content/source/docs/rorbook/index.adoc:558
 msgid "[red]#Connector for Watt's linkage and axle#"
 msgstr ""
 
 #. type: Labeled list
-#: pregen/source/docs/rorbook/index.adoc:557 pregen/source/docs/rorbook/index.adoc:599
+#: content/source/docs/rorbook/index.adoc:559 content/source/docs/rorbook/index.adoc:601
 #, no-wrap
 msgid "Example trucks"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:559
+#: content/source/docs/rorbook/index.adoc:561
 msgid ""
 "link:{exampledir}/beam-axle-demo.truck[An example truck using a beam axle on "
 "the rear, with simple truss for lateral location]"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:560
+#: content/source/docs/rorbook/index.adoc:562
 msgid ""
 "link:{exampledir}/panhard-rod-demo.truck[Panhard rod method of lateral "
 "location]"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:561
+#: content/source/docs/rorbook/index.adoc:563
 msgid ""
 "link:{exampledir}/watts-linkage-demo.truck[Watt's linkage method of laterial "
 "location]"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:562
+#: content/source/docs/rorbook/index.adoc:564
 msgid ""
 "A truck which uses the Four Link method of of laterial location is "
 "link:http://rigsofrods.com/repository/repo_files/view/852[Box5Diesel's F650 "
@@ -1884,24 +1889,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:564
+#: content/source/docs/rorbook/index.adoc:566
 msgid "====== De Dion tube"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:565
+#: content/source/docs/rorbook/index.adoc:567
 #, no-wrap
 msgid "De Dion tube"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:565
+#: content/source/docs/rorbook/index.adoc:567
 #, no-wrap
 msgid "de-dion-tube.jpg"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:568
+#: content/source/docs/rorbook/index.adoc:570
 msgid ""
 "De Dion tube suspension is a relatively complex form of suspension, which "
 "falls in between the categories of independent and non independent "
@@ -1912,35 +1917,35 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:570
+#: content/source/docs/rorbook/index.adoc:572
 msgid ""
 "The wheels connected to the tube are kept parallel, regardless of body roll "
 "or suspension travel on either side... The tube's length can change."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:572
+#: content/source/docs/rorbook/index.adoc:574
 msgid "Due to their complexity, De Dion tubes are uncommon on modern vehicles."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:575
+#: content/source/docs/rorbook/index.adoc:577
 msgid "[blue]#A-arms#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:576
+#: content/source/docs/rorbook/index.adoc:578
 msgid "[lime]#De Dion tube#"
 msgstr ""
 
 #. type: Labeled list
-#: pregen/source/docs/rorbook/index.adoc:577 pregen/source/docs/rorbook/index.adoc:619 pregen/source/docs/rorbook/index.adoc:633
+#: content/source/docs/rorbook/index.adoc:579 content/source/docs/rorbook/index.adoc:621 content/source/docs/rorbook/index.adoc:635
 #, no-wrap
 msgid "Example truck"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:579
+#: content/source/docs/rorbook/index.adoc:581
 msgid ""
 "link:{exampledir}/de-dion-tube-demo.truck[An example truck using a de Dion "
 "tube on the rear.] Since a telescoping tube cannot be directly modeled in "
@@ -1949,12 +1954,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:581
+#: content/source/docs/rorbook/index.adoc:583
 msgid "====== Walking beam"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:583
+#: content/source/docs/rorbook/index.adoc:585
 msgid ""
 "Walking beam is a special form of suspension: It solidly links two axles "
 "together, meaning that all four wheels on those axles must move in "
@@ -1964,86 +1969,86 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:584
+#: content/source/docs/rorbook/index.adoc:586
 #, no-wrap
 msgid "Back of a truck"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:584
+#: content/source/docs/rorbook/index.adoc:586
 #, no-wrap
 msgid "walking-beam.png"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:588
+#: content/source/docs/rorbook/index.adoc:590
 msgid "[blue]#Axles#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:589
+#: content/source/docs/rorbook/index.adoc:591
 msgid "[lime]#Simple truss for lateral location#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:590
+#: content/source/docs/rorbook/index.adoc:592
 msgid "[olive]#Frame and trailing arms#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:591
+#: content/source/docs/rorbook/index.adoc:593
 msgid "[yellow]#Frame for walking beam#"
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:592
+#: content/source/docs/rorbook/index.adoc:594
 #, no-wrap
 msgid "Walking beam diagram"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:592
+#: content/source/docs/rorbook/index.adoc:594
 #, no-wrap
 msgid "walking-beam-diagram.jpg"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:596
+#: content/source/docs/rorbook/index.adoc:598
 msgid "[black]#Structural beams#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:597
+#: content/source/docs/rorbook/index.adoc:599
 msgid "[lime]#Suspension#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:598
+#: content/source/docs/rorbook/index.adoc:600
 msgid "[blue]#Shocks#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:601
+#: content/source/docs/rorbook/index.adoc:603
 msgid ""
 "link:{exampledir}/walking-beam-demo.truck[An example truck using simple "
 "walking beam suspension on the rear.]"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:602
+#: content/source/docs/rorbook/index.adoc:604
 msgid ""
 "link:http://repository.rigsofrods.com/show/walking.zip[A fully working "
 "concept vehicle is also available in the repository.]"
 msgstr ""
 
 #. type: Title =====
-#: pregen/source/docs/rorbook/index.adoc:603
+#: content/source/docs/rorbook/index.adoc:605
 #, no-wrap
 msgid "Independent suspension"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:606
+#: content/source/docs/rorbook/index.adoc:608
 msgid ""
 "There are no significant connections between wheels in independent "
 "suspension setups. They are therefore much more suited to vehicles where "
@@ -2051,12 +2056,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:608
+#: content/source/docs/rorbook/index.adoc:610
 msgid "====== Swing axle"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:610
+#: content/source/docs/rorbook/index.adoc:612
 msgid ""
 "The swing axle is a small step up from the beam axle. Although it is the "
 "most common form of suspension on Pricorde's trucks, it probably produces "
@@ -2065,36 +2070,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:612
+#: content/source/docs/rorbook/index.adoc:614
 msgid ""
 "Because of its strange handling characteristics, swing axle suspension is "
 "uncommon in modern trucks."
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:613
+#: content/source/docs/rorbook/index.adoc:615
 #, no-wrap
 msgid "Swing axle"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:613
+#: content/source/docs/rorbook/index.adoc:615
 #, no-wrap
 msgid "swing-axle.jpg"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:617
+#: content/source/docs/rorbook/index.adoc:619
 msgid "[blue]#Axles.#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:618
+#: content/source/docs/rorbook/index.adoc:620
 msgid "[olive]#Trusses and A-arm for axles.#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:621
+#: content/source/docs/rorbook/index.adoc:623
 msgid ""
 "link:{exampledir}/swing-axle-demo.truck[An example truck using swing axles "
 "on the rear.] The axles on this truck are quite short, which encourages the "
@@ -2102,12 +2107,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:623
+#: content/source/docs/rorbook/index.adoc:625
 msgid "====== Double wishbone"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:625
+#: content/source/docs/rorbook/index.adoc:627
 msgid ""
 "Double wishbone suspension is most common in racing cars and larger "
 "passenger cars. The wheels are kept perpendicular to the road through the "
@@ -2116,36 +2121,36 @@ msgid ""
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
-#: pregen/source/docs/rorbook/index.adoc:626
+#: content/source/docs/rorbook/index.adoc:628
 #, no-wrap
 msgid "Double wishbone"
 msgstr ""
 
 #. type: Target for macro image
-#: pregen/source/docs/rorbook/index.adoc:626
+#: content/source/docs/rorbook/index.adoc:628
 #, no-wrap
 msgid "double-wishbone.jpg"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:630
+#: content/source/docs/rorbook/index.adoc:632
 msgid "[lime]#Upper wishbones.#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:631
+#: content/source/docs/rorbook/index.adoc:633
 msgid "[blue]#Lower wishbones.#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:632
+#: content/source/docs/rorbook/index.adoc:634
 msgid ""
 "[olive]#Extra truss arms. Hydros could go here when modelling steering "
 "axles.#"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/rorbook/index.adoc:634
+#: content/source/docs/rorbook/index.adoc:636
 msgid ""
 "link:{exampledir}/double-wishbone-demo.truck[An example truck using double "
 "wishbone suspension on the rear.] The front axles also carry double wishbone "

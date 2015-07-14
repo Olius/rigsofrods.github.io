@@ -22,6 +22,7 @@
 
 /Gemfile.lock
 
+/source/blog/*
 /source/localizable/blog/2*
 /source/localizable/docs
 /source/localizable/download

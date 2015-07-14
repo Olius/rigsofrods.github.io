@@ -5,7 +5,7 @@
     h1
       = I18n.t('blog.title')
 
-  - blog.articles[0...10].each do |article|
+  - blog.local_articles[0...10].each do |article|
     .small-12.columns
       .bloglist#header
         h2

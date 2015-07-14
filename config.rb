@@ -63,7 +63,8 @@ end
 #end
 
 activate :blog do |blog|
-  blog.prefix = "#{I18n.locale}/blog"
+  blog.prefix    = "{lang}/blog"
+  blog.sources   = "{year}-{month}-{day}-{title}/index.html"
   blog.permalink = "{year}-{month}-{day}-{title}.html"
 end
 

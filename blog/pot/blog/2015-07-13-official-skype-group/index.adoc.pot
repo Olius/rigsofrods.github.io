@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-07-14 03:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:1 blog/source/blog/2015-07-13-official-skype-group/index.adoc:15
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:4
+msgid "title: \"Official Skype group\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:6
+msgid "date: \"2015-07-13\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:8
+msgid "firstname: \"Artem\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:10
+msgid "lastname: \"Vorotnikov\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:12
+msgid "profile: \"https://github.com/skybon\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:14
+msgid "nick: \"skybon\""
+msgstr ""
+
+#. type: Title =
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:16
+#, no-wrap
+msgid "Official Skype group"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:37
+msgid ""
+"Say hello to the *official Skype group*. Approved and watched over by the "
+"dev team. Honestly!"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:39
+msgid "No GTA V discussions or useless spam please."
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:40
+msgid "link:{skype-uri}[Click to join.]"
+msgstr ""

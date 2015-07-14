@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-07-14 03:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:1 blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:10
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:9
+msgid ""
+"title: \"[Image heavy] Some pictures. :3\" date: \"2015-02-20\" firstname: "
+"\"Moncef\" lastname: \"Ben Slimane\" profile: \"https://github.com/Max98\" "
+"nick: \"max98\""
+msgstr ""
+
+#. type: Title =
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:11
+#, no-wrap
+msgid "[Image heavy] Some pictures. :3"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:30
+msgid ""
+"I was just bored, decided to post few little screenshots of what's upcoming "
+"with RoR 0.4.5 (a.k.a. 0.4.0.7 NextStable)."
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:32
+msgid ""
+"The changelog is being updated but it is visible "
+"link:http://www.rigsofrods.com/wiki/pages/Changelog[here]"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:34
+#, no-wrap
+msgid "*Something new here, the Main menu!*\n"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:35
+#, no-wrap
+msgid "http://i.imgur.com/YjO7PWr.jpg"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:39
+#, no-wrap
+msgid ""
+"*The rig editor:*\n"
+"(loading a vehicle)\n"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:40
+#, no-wrap
+msgid "http://i.imgur.com/i5BB27h.png"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:43
+msgid "(vehicle loaded)"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:44
+#, no-wrap
+msgid "http://i.imgur.com/t4UipjO.png"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:47
+msgid "(few options)"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:48
+#, no-wrap
+msgid "http://i.imgur.com/6uxEIxc.png"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:51
+#, no-wrap
+msgid "*Ingame settings:*\n"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:52
+#, no-wrap
+msgid "http://i.imgur.com/DuslgZQ.jpg"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:54
+#, no-wrap
+msgid "http://i.imgur.com/g9IJt96.jpg"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:57
+msgid "(ingame key mapping)"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:58
+#, no-wrap
+msgid "http://i.imgur.com/aJoqUSh.jpg"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:61
+#, no-wrap
+msgid "*Game informations:*\n"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:62
+#, no-wrap
+msgid "http://i.imgur.com/oy42oJg.jpg"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:65
+#, no-wrap
+msgid "*Tuned selector:*\n"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:66
+#, no-wrap
+msgid "http://i.imgur.com/GlmAGvQ.jpg"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:69
+#, no-wrap
+msgid "*Hydrax:*\n"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:70
+#, no-wrap
+msgid "http://i.imgur.com/Q68RvAl.jpg"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:72
+#, no-wrap
+msgid "http://i.imgur.com/fyB8qkR.jpg"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:75
+#, no-wrap
+msgid "*Pause menu:*\n"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:77
+msgid "(and possibility to change maps/go back to menu without exiting the game)"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:78
+#, no-wrap
+msgid "http://i.imgur.com/6wiCMZS.jpg"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:81
+#, no-wrap
+msgid "*Edit:*\n"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:83
+#, no-wrap
+msgid "*Bonus picture:*\n"
+msgstr ""
+
+#. type: Target for macro image
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:84
+#, no-wrap
+msgid "http://www.rigsofrods.com/attachment.php?attachmentid=525673&d=1423349077"
+msgstr ""

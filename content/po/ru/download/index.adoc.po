@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-05 16:21+0300\n"
+"POT-Creation-Date: 2015-07-14 00:08+0300\n"
 "PO-Revision-Date: 2015-07-05 00:08+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -20,46 +20,46 @@ msgstr ""
 "X-Generator: Gtranslator 2.91.7\n"
 
 #. type: Title =
-#: pregen/source/download/index.adoc:1
+#: content/source/download/index.adoc:1
 #, no-wrap
 msgid "Download"
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/download/index.adoc:10
+#: content/source/download/index.adoc:10
 #, no-wrap
 msgid "Windows"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:13
+#: content/source/download/index.adoc:13
 msgid ""
 "Download the latest stable release link:http://sourceforge.net/projects/"
 "rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:14
+#: content/source/download/index.adoc:14
 msgid ""
 "Preview builds for upcoming versions may be found link:http://www.rigsofrods."
 "com/threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[here]"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:15
+#: content/source/download/index.adoc:15
 msgid ""
 "If you want to build from source see <<{baseurl}/docs/compile-windows/index."
 "adoc#,Compiling on Windows>>"
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/download/index.adoc:16
+#: content/source/download/index.adoc:16
 #, no-wrap
 msgid "Linux"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:19
+#: content/source/download/index.adoc:19
 msgid ""
 "Packages for various distributions: link:http://www.rigsofrods.com/"
 "threads/113517-Collection-of-prepuilt-packages-for-various-Linux-"
@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:20
+#: content/source/download/index.adoc:20
 msgid ""
 "Build from source, see <<{baseurl}/docs/compile-linux/index.adoc#,Compiling "
 "on Linux>> (recommended, see tip at the beginning of the page if you are "
@@ -75,53 +75,53 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/download/index.adoc:21
+#: content/source/download/index.adoc:21
 #, no-wrap
 msgid "OS X"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:24
+#: content/source/download/index.adoc:24
 msgid ""
 "Unfortunately, due to lack of OS X coders, there is no up to date build of "
 "the latest version available."
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:26
+#: content/source/download/index.adoc:26
 msgid ""
 "If you want to build from source see <<{baseurl}/docs/compile-osx/index."
 "adoc#,Compiling on OS X>>"
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/download/index.adoc:27
+#: content/source/download/index.adoc:27
 #, no-wrap
 msgid "Overview / Readme / FAQ"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:30
+#: content/source/download/index.adoc:30
 msgid ""
 "You can find more information about the latest stable release here: "
 "<<{baseurl}/docs/release-notes/0.38/index.adoc#,Gaggenau>>"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:32
+#: content/source/download/index.adoc:32
 msgid ""
 "Many questions are answered in the documentation, have a look around: "
 "<<{baseurl}/docs/index.adoc#,Documentation index>>"
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/download/index.adoc:33
+#: content/source/download/index.adoc:33
 #, no-wrap
 msgid "License"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:36
+#: content/source/download/index.adoc:36
 msgid ""
 "Rigs of Rods is free and open source software under the GPL v3 license, "
 "meaning it is both free as in speech (you can modify it) and free as in beer "
@@ -129,13 +129,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/download/index.adoc:37
+#: content/source/download/index.adoc:37
 #, no-wrap
 msgid "Legacy"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/download/index.adoc:39
+#: content/source/download/index.adoc:39
 msgid ""
 "If you are interested in Rigs of Rods' history check out the museum link:"
 "http://sourceforge.net/projects/rigsofrods/files/rigsofrods/museum/[here]"

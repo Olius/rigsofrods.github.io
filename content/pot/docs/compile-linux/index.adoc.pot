@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-07 23:16+0300\n"
+"POT-Creation-Date: 2015-07-14 03:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: pregen/source/docs/compile-linux/index.adoc:1
+#: content/source/docs/compile-linux/index.adoc:1
 #, no-wrap
 msgid "Compiling on Linux"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:15
+#: content/source/docs/compile-linux/index.adoc:15
 msgid ""
 "If you just want to install RoR without much hassle then have a look at "
 "these shell scripts, they bundle all necessary steps: "
@@ -31,32 +31,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:17
+#: content/source/docs/compile-linux/index.adoc:17
 msgid ""
 "Ready made packages for various Linux distributions are available "
 "link:http://rigsofrods.com/threads/113517-Collection-of-prepuilt-packages-for-various-Linux-distributions[here]."
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/compile-linux/index.adoc:18
+#: content/source/docs/compile-linux/index.adoc:18
 #, no-wrap
 msgid "Getting the required build dependencies"
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/compile-linux/index.adoc:20
+#: content/source/docs/compile-linux/index.adoc:20
 #, no-wrap
 msgid "Installing required packages usually found in repositories"
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/compile-linux/index.adoc:22
+#: content/source/docs/compile-linux/index.adoc:22
 #, no-wrap
 msgid "Ubuntu"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/compile-linux/index.adoc:27
+#: content/source/docs/compile-linux/index.adoc:27
 #, no-wrap
 msgid ""
 "sudo apt update\n"
@@ -69,13 +69,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: pregen/source/docs/compile-linux/index.adoc:29
+#: content/source/docs/compile-linux/index.adoc:29
 #, no-wrap
 msgid "Gentoo"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/compile-linux/index.adoc:37
+#: content/source/docs/compile-linux/index.adoc:37
 #, no-wrap
 msgid ""
 "mkdir /etc/portage\n"
@@ -87,13 +87,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/compile-linux/index.adoc:39
+#: content/source/docs/compile-linux/index.adoc:39
 #, no-wrap
 msgid "Compiling and installing missing packages"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:41
+#: content/source/docs/compile-linux/index.adoc:41
 msgid ""
 "You have to install all software which is not available in your "
 "distributions' repository by hand. This is necessary to fulfill the required "
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:43
+#: content/source/docs/compile-linux/index.adoc:43
 #, no-wrap
 msgid ""
 "*Please note*: OGRE shipped with some distributions does not have support "
@@ -111,13 +111,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/compile-linux/index.adoc:44
+#: content/source/docs/compile-linux/index.adoc:44
 #, no-wrap
 msgid "Downloading the source code"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/compile-linux/index.adoc:49
+#: content/source/docs/compile-linux/index.adoc:49
 #, no-wrap
 msgid ""
 "git clone https://github.com/RigsOfRods/rigs-of-rods.git\n"
@@ -125,13 +125,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/compile-linux/index.adoc:51
+#: content/source/docs/compile-linux/index.adoc:51
 #, no-wrap
 msgid "Configuring the source code"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:53
+#: content/source/docs/compile-linux/index.adoc:53
 msgid ""
 "There are two different ways to configure your RoR build, either via Command "
 "Line Interface (aka CLI) or via GUI interface. CLI is the most straight "
@@ -140,13 +140,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/compile-linux/index.adoc:54
+#: content/source/docs/compile-linux/index.adoc:54
 #, no-wrap
 msgid "CLI"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/compile-linux/index.adoc:65
+#: content/source/docs/compile-linux/index.adoc:65
 #, no-wrap
 msgid ""
 "cmake -DROR_USE_MYGUI=\"TRUE\" \\\n"
@@ -160,75 +160,75 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: pregen/source/docs/compile-linux/index.adoc:67
+#: content/source/docs/compile-linux/index.adoc:67
 #, no-wrap
 msgid "GUI"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:71
+#: content/source/docs/compile-linux/index.adoc:71
 msgid ""
 "The cmake GUI might not be provided on all in systems.  To start the cmake "
 "gui run `cmake-gui .`"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:73
+#: content/source/docs/compile-linux/index.adoc:73
 msgid "press `Configure`"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:74
+#: content/source/docs/compile-linux/index.adoc:74
 msgid ""
 "select `Unix Makefiles` and `Use default native compilers` (that are the "
 "default options) and press `Finish`"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:75
+#: content/source/docs/compile-linux/index.adoc:75
 msgid "press `Configure` again until all list entries are white"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:76
+#: content/source/docs/compile-linux/index.adoc:76
 msgid ""
 "look at the log window for information and errors (look for red lines with "
 "\" &gt; \" in front)"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:77
+#: content/source/docs/compile-linux/index.adoc:77
 msgid "enable the components you want to compile in: ROR_*"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:78
+#: content/source/docs/compile-linux/index.adoc:78
 msgid "press `Configure` again until the `Generate` button is click-able"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:79
+#: content/source/docs/compile-linux/index.adoc:79
 msgid "press `Generate`"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:80
+#: content/source/docs/compile-linux/index.adoc:80
 msgid "close cmake-gui"
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/compile-linux/index.adoc:81
+#: content/source/docs/compile-linux/index.adoc:81
 #, no-wrap
 msgid "Building the source code"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:83
+#: content/source/docs/compile-linux/index.adoc:83
 msgid "To start building simply run `make`"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:85
+#: content/source/docs/compile-linux/index.adoc:85
 msgid ""
 "You can speed up compilation by making use of multithreading. Just add a "
 "-j**x** flag where *x* is the number of simultaneous build jobs you want "
@@ -236,20 +236,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: pregen/source/docs/compile-linux/index.adoc:86
+#: content/source/docs/compile-linux/index.adoc:86
 #, no-wrap
 msgid "Updating existing sources"
 msgstr ""
 
 #. type: Plain text
-#: pregen/source/docs/compile-linux/index.adoc:89
+#: content/source/docs/compile-linux/index.adoc:89
 msgid ""
 "If you already got the sources and just want to update, follow the steps "
 "below:"
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/compile-linux/index.adoc:93
+#: content/source/docs/compile-linux/index.adoc:93
 #, no-wrap
 msgid ""
 "cd rigs-of-rods\n"
@@ -257,7 +257,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/compile-linux/index.adoc:97
+#: content/source/docs/compile-linux/index.adoc:97
 #, no-wrap
 msgid ""
 "rm -f CMakeCache.txt\n"
@@ -266,7 +266,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: pregen/source/docs/compile-linux/index.adoc:99
+#: content/source/docs/compile-linux/index.adoc:99
 #, no-wrap
 msgid "make\n"
 msgstr ""
