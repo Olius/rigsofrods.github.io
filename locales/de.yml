@@ -7,10 +7,10 @@ de:
       title: "Startseite"
     download:
       title: "Herunterladen"
-        tip: "Das Spiel herunterladen"
+      tip: "Das Spiel herunterladen"
     repository:
       title: "Repository"
-        tip: "Mods hoch- und herunterladen"
+      tip: "Mods hoch- und herunterladen"
     forum:
       title: "Forum"
       index:
@@ -24,8 +24,10 @@ de:
         tip: "Finde was du brauchst"
     blog:
       title: "Blog"
+      tip: "Blog lesen"
     docs:
       title: "Dokumentation"
+      tip: "Dokumentation studieren"
     multiplayer:
       title: "Mehrspieler"
 

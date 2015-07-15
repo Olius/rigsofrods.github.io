@@ -23,8 +23,10 @@ en:
         tip: "Find what you need"
     blog:
       title: "Blog"
+      tip: "Read the blog"
     docs:
       title: "Docs"
+      tip: "Read the docs"
     multiplayer:
       title: "Multiplayer"
 
