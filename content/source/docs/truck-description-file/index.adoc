@@ -486,6 +486,46 @@ engoption
 TIP: Use the "Engine inertia" value to make the engine start faster.
 With a value of 0.1, the engine will start instantly. With a value of 10, the engine requires about 30 seconds of cranking before it starts. Values between 1 and 3.5 are great for vehicles that you drive frequently, or race vehicles and the like that you want to start fast. However, using a higher value makes it harder to stall the engine. Making something to tow a lot of weight? Raise it up to 9 or 10 and it won't really stall, ever. (With values over 10, it may not start at all, so be careful.)
 
+==== Engturbo
+[yellow-background]#[ 0.4.5.0+ ]#
+
+Engine's Turbo settings.
+
+There are 2 versions in this section:
+
+===== Version 1
+With this version you have more control over the power added to the engine, but this can end up in unrealistic simulation if the values are not correctly chosen. Turbo is always giving 20 PSI at max rpm. (Which is not realistic.)
+
+* *ver*: [red]#Positive real number#; Turbo's simulation version, leave it as 1 for this type of simulation.
+* *inertiaFactor*: [red]#Positive real number#; Turbo's inertia, how much time it will take for the turbo to spool up. Big turbos tend to have Values between 2 and 6, while small turbos are between 0.1 and 1.
+* *numTurbo*: [red]#Real number <0 - 4>#; The number of turbos in the engine. No effects for the moment.
+* *additionalTorque*: [red]#Positive real number#; Torque in Nm that will be added at max turbo rpm.
+* *engine_rpm_op*: [red]#Positive real number#; Engine's RPM at which turbo will start to spool up.
+
+[source]
+----
+engturbo
+;ver, inertiaFactor, numTurbo, additionalTorque, engine_rpm_op
+1, 0.2, 1, 430, 3200
+----
+
+
+===== Version 2
+With this version you have less control over the power added, but you can end up with a realistic simulation depending on the maxPSI value.
+
+* *ver*: [red]#Positive real number#; Turbo's simulation version, leave it as 2 for this type of simulation.
+* *inertiaFactor*: [red]#Positive real number#; Turbo's inertia, how much time it will take for the turbo to spool up. Big turbos tend to have Values between 2 and 6, while small turbos are between 0.1 and 1.
+* *numTurbo*: [red]#Real number <0 - 4>#; The number of turbos in the engine. No effects for the moment.
+* *maxPSI*: [red]#Positive real number#; Max PSI the turbo will give. for each 14.7 psi added, the power out is multiplied per 2. (This is not perfect, but it is theoretical)
+* *engine_rpm_op*: [red]#Positive real number#; Engine's RPM at which turbo will start to spool up.
+
+[source]
+----
+engturbo
+;ver, inertiaFactor, numTurbo, maxPSI, engine_rpm_op
+2, 1.5, 1, 30, 3200
+----
+
 ==== Brakes
 
 Parameters::
