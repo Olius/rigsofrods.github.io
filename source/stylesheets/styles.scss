@@ -200,6 +200,13 @@
 	vertical-align: middle;
 }
 
+// Media slider
+#media-slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 // Download section
 .actiondownload {
 	margin: 0 0 5px;

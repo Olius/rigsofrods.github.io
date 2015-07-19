@@ -65,6 +65,9 @@ ru:
         about: "Rigs of Rods развивается с 2005 года при участии сотен добровольцев со всего мира. Игра свободна и доступна на условиях <a href='https://www.gnu.org/Copyleft/' title='Авторское лево'>авторского лева</a>, лицензии <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='Лицензия GPLv3'>GPLv3</a>."
         foss: "Наша игра была, есть и будет свободным программным обеспечением."
         community: "Более того, наше сообщество примет любую помощь со стороны неравнодушных игроков. Если ты хочешь нам помочь, то скачай исходный код игры <a href='https://github.com/rigsofrods/rigs-of-rods'>на GitHub</a>."
+    media:
+      title: "Взгляни сам"
+      preface: "Оцени ролики и скриншоты из игры."
     getting-started:
       title: "Ну что, начнём?"
       content:

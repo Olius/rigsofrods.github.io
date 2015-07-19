@@ -65,6 +65,9 @@ en:
         about: "Rigs of Rods has been developed since 2005 by hundreds of volunteers around the world. It is open source and available under the <a href='https://www.gnu.org/copyleft/' title='Copyleft licensing'>copyleft</a>-style <a href='http://www.gnu.org/licenses/gpl-3.0.html' title='The GPLv3 license'>GPLv3</a> license."
         foss: "The game is and will always be free software."
         community: "Moreover, as volunteer-developed software, our community welcomes all kinds of contributions. In case you would like to give a hand, you can find the source code <a href='https://github.com/rigsofrods/rigs-of-rods'>at GitHub</a>."
+    media:
+      title: "See for yourself"
+      preface: "Check out the video and screenshots of the game."
     getting-started:
       title: "Getting Started"
       content:
