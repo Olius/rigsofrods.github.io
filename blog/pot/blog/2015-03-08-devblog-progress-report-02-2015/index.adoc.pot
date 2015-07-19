@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-14 03:13+0300\n"
+"POT-Creation-Date: 2015-07-19 09:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:1 blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:10
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:1 blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:15
 #, no-wrap
 msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:9
-msgid ""
-"title: \"DevBlog: Progress report 02/2015\" date: \"2015-03-08\" firstname: "
-"\"Petr\" lastname: \"Ohlídal\" profile: \"https://github.com/only-a-ptr\" "
-"nick: \"only_a_ptr\""
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:4
+msgid "title: \"DevBlog: Progress report 02/2015\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:6
+msgid "date: \"2015-03-08\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:8
+msgid "firstname: \"Petr\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:10
+msgid "lastname: \"Ohlídal\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:12
+msgid "profile: \"https://github.com/only-a-ptr\""
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:14
+msgid "nick: \"only_a_ptr\""
 msgstr ""
 
 #. type: Title =
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:11
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:16
 #, no-wrap
 msgid "DevBlog: Progress report 02/2015"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:30
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:35
 msgid "Hi all RoR fans!"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:32
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:37
 msgid ""
 "Another month has passed and it's time for me to write a progress report. In "
 "fact, the report is already slightly overdue because I've been really busy "
@@ -52,7 +74,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:38
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:43
 msgid ""
 "To shortly iterate what's been hapenning: I've been working on rig editor, "
 "specifically adding panels to edit properties of nodes/beams and other beam "
@@ -70,13 +92,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:40
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:45
 #, no-wrap
 msgid "Status of planned 0.4.5 release"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:43
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:48
 msgid ""
 "Current development effort aims towards a stable release with version number "
 "0.4.5. This long-awaited release will fix many long-standing bugs, bring UI "
@@ -84,7 +106,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:45
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:50
 msgid ""
 "The major development problem regarding this project is vehicle support. In "
 "the past, version 0.4.0.x broke compatibility with older vehicles and forced "
@@ -98,7 +120,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:47
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:52
 msgid ""
 "I'd like to explain the cause of the current situation. When I analyzed "
 "RoR's vehicle loading code back in 2013, I discovered that the problem is in "
@@ -129,7 +151,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:49
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:54
 msgid ""
 "My solution to this issue was developing new vehicle parser: one that would "
 "read all data first and only then process them, in a given order, to avoid "
@@ -147,7 +169,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:51
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:56
 msgid ""
 "In a near future, I'll publish a new test build of NextStable, along with "
 "all latest fixes and compatibility enhancements, and I'll begin to sort out "
@@ -156,6 +178,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:52
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:57
 msgid "Stay tuned."
 msgstr ""
