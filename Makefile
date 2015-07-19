@@ -3,10 +3,9 @@ LINGUAS="ru"
 server: clean translate
 	bundle exec middleman server --verbose
 
-deploy: clean translate
+build: clean translate
 	rm -rf build/*
-	- bundle exec middleman build
-	bundle exec middleman deploy
+	bundle exec middleman build
 
 clean: clean-po
 	rm -rf build/* source/blog/2* source/localizable/docs source/localizable/download
