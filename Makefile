@@ -12,7 +12,7 @@ clean: clean-po
 	rm -rf build/* source/blog/2* source/localizable/docs source/localizable/download
 
 clean-po:
-	find {blog,content}/po | grep ".po~" | xargs rm -f
+	find blog/po content/po | grep ".po~" | xargs rm -f
 
 translate:
 	po4a-bulk-translate content/source asciidoc adoc content/po source/localizable $(LINGUAS)
