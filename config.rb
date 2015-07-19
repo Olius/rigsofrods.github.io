@@ -42,7 +42,7 @@ Slim::Engine.disable_option_validator!
 
 activate :i18n, :mount_at_root => false
 
-set :asciidoc_attributes, %w(source-highlighter='coderay' safe='unsafe')
+set :asciidoc_attributes, %w(source-highlighter=highlightjs)
 
 page "/", :layout => false
 page "/locale-select", :layout => false
