@@ -81,6 +81,8 @@ ru:
       alternative: "другие версии..."
 
   blog:
+    archive:
+      title: "Архив блога разработки"
     title: "Блог разработки Rigs of Rods"
     readmore: "Далее"
     archivelink: "Старые записи можно найти в <a href='/ru/blog/archive/' title='Архив записей'>архиве</a>..."

@@ -17,6 +17,6 @@
 	#content
     	= yield
 
-	a.previous href="/blog"
+	a.previous href="/#{I18n.locale}/blog"
 		span.fa.fa-arrow-left>
 		b = I18n.t('blog.backtoindex')

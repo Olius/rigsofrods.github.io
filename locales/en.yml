@@ -81,6 +81,8 @@ en:
       alternative: "alternative downloads..."
 
   blog:
+    archive:
+      title: "Development Blog Archive"
     title: "Rigs of Rods Development Blog"
     readmore: "Read more"
     archivelink: "View older posts in <a href='/en/blog/archive/' title='Posts archive'>the archive</a>..."

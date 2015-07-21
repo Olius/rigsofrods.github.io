@@ -3,14 +3,14 @@
 .row.main-start
   .small-12.columns
     h1
-      Development Blog Archive
+      = I18n.t('blog.archive.title')
   hr
 
-  - blog.articles.each do |article|
+  - blog.local_articles.each do |article|
 	  .small-9.columns.bloglist
     	h3
-        a href="#{article.url}">
-          = article.title
+        a href="#{article.url}"
+          = article.metadata[:page]['title']
       .details
         span.author#author
           = article.metadata[:page]['author']
