@@ -1,4 +1,32 @@
 = Rigs of Rods website
+Artem Vorotnikov <https://github.com/skybon[@skybon]>
+:agpl-uri: http://www.gnu.org/licenses/agpl.html
+
+:github-org: RigsOfRods
+:github-repo: rigsofrods.github.io
+
+:travis-build-uri: https://travis-ci.org/RigsOfRods/rigsofrods.github.io
+:travis-build-badge: https://travis-ci.org/{github-org}/{github-repo}.svg
+
+:foundation-uri: http://foundation.zurb.com/
+:slim-uri: http://slim-lang.org/
+:asciidoctor-uri: http://asciidoctor.org/
+:yaml-uri: http://yaml.org/
+:ruby-uri: https://ruby-lang.org/
+:gettext-uri: https://gnu.org/software/gettext/
+:po4a-uri: https://po4a.alioth.debian.org/
+:po4a-bulk-uri: https://github.com/skybon/po4a-bulk/
+:middleman-uri: https://middlemanapp.com/
+:gh-pages-uri: https://pages.github.com/
+
+:middleman-logo: https://middlemanapp.com/images/mm-blue-w-text.svg
+:ruby-logo: https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg
+:slim-logo: http://slim-lang.com/img/slim-logo.png
+
+image:{ruby-logo}[link="{ruby-uri}", width=20px, "Written in Ruby"]
+image:{slim-logo}[link="{slim-uri}", width=20px, "Templated in Slim"]
+image:{middleman-logo}[link="{middleman-uri}", width=20px, "Baked by Middleman"]
+image:{travis-build-badge}[link="{travis-build-uri}", "Build status"]
 
 This is the source code for Rigs of Rods website. It is 100% static, fast and secure but uses a myriad of web tech to compile and run as intended.
 
@@ -6,19 +34,19 @@ This is the source code for Rigs of Rods website. It is 100% static, fast and se
 Here is the list and description of all technologies used to build and run the website.
 
 === Design
-* _http://foundation.zurb.com/[Foundation]_: loud shout out to the folks behind this framework that made rapid creation of nice looking websites possible.
+* _{foundation-uri}[Foundation]_: loud shout out to the folks behind this framework that made rapid creation of nice looking websites possible.
 
 === Layouts, content and data
 This is the core content of the website. Layouts, forms, prose, all written using this troika.
 
-* _http://slim-lang.org[Slim]_: this is a templating language used instead of pure HTML. It allows to write layouts and custom pages faster (no more closing tags, really!) as well as embed select code for baking the website.
-* _http://asciidoctor.org[AsciiDoc]_: the syntax used for all content pages. This markup is much more featureful than _Markdown_, _reStructuredText_ or _MediaWiki_.
-* _http://yaml.org/[YAML]_: the format of front matter and data lists. You can see it both in .yml files and at the top of some others delimited with `---`.
+* _{slim-uri}[Slim]_: this is a templating language used instead of pure HTML. It allows to write layouts and custom pages faster (no more closing tags, really!) as well as embed select code for baking the website.
+* _{asciidoctor-uri}[AsciiDoc]_: the syntax used for all content pages. This markup is much more featureful than _Markdown_, _reStructuredText_ or _MediaWiki_.
+* _{yaml-uri}[YAML]_: the format of front matter and data lists. You can see it both in .yml files and at the top of some others delimited with `---`.
 
 === Coding
 The cogs of the website.
 
-* _https://ruby-lang.org[Ruby]_: compile-time logic for site generator.
+* _{ruby-uri}[Ruby]_: compile-time logic for site generator.
 * _JavaScript_: client-side runtime code. Examples: smooth scrolling, locale-based redirection.
 
 === Translation
@@ -30,8 +58,8 @@ Special one and my favourite. Our website uses two distinct translation systems 
 ==== Content pages
 This is pure prose and having wall of texts in a single data file is unfeasible. Hence we take a different approach here.
 
-* _https://www.gnu.org/software/gettext/[gettext]_: internationalization system used in Rigs of Rods and thousands of other software projects. Translations are stored as .po files which contain pairs of source string and translation along with some meta info about the author, group, language etc.
-* _https://po4a.alioth.debian.org/[po4a]_ and _https://github.com/skybon/po4a-bulk[po4a-bulk]_: gettext is a tool originally designed for software and software only. However, po4a authors beg to differ. This handy tool allows creation of gettext templates out of different document formats (AsciiDoc, man, POD and others) and generation of translated versions. _po4a-bulk_ is a wrapper around po4a written by https://github.com/skybon[yours truly] for handling large sets of files with po4a.
+* _{gettext-uri}[gettext]_: internationalization system used in Rigs of Rods and thousands of other software projects. Translations are stored as .po files which contain pairs of source string and translation along with some meta info about the author, group, language etc.
+* _{po4a-uri}[po4a]_ and _{po4a-bulk-uri}[po4a-bulk]_: gettext is a tool originally designed for software and software only. However, po4a authors beg to differ. This handy tool allows creation of gettext templates out of different document formats (AsciiDoc, man, POD and others) and generation of translated versions. _po4a-bulk_ is a wrapper around po4a written by https://github.com/skybon[yours truly] for handling large sets of files with po4a.
 
 For every content file in /content directory *po4a-bulk* calls *po4a* which in turn calls *gettext*. Resulting PO files can be edited by hand (say hello to good ol' notepad) or via dedicated tool (http://projects.gnome.org/gtranslator/[GTranslator], https://poedit.net[POedit], https://userbase.kde.org/Lokalize[Lokalize] and others).
 
@@ -43,7 +71,7 @@ For every content file in /content directory *po4a-bulk* calls *po4a* which in t
 
 == Commands
 * `make server` - Start a test server: examine the website at localhost:4567.
-* `make deploy` - Build and deploy the website.
+* `make build` - Build the website locally.
 
 ''''
 * `make gettextize` - update gettext template files.
@@ -54,4 +82,6 @@ For every content file in /content directory *po4a-bulk* calls *po4a* which in t
 See the link:CONTRIBUTING.adoc[Contributing Guide] for more information.
 
 == License
-Rigs of Rods website source code is available under the terms of link:http://www.gnu.org/licenses/agpl.html[GNU Affero General Public License v3] or any later version.
+image:https://upload.wikimedia.org/wikipedia/commons/0/06/AGPLv3_Logo.svg[link={agpl-uri}, width=100px, "GNU Affero General Public License v3"]
+
+Rigs of Rods website source code is available under the terms of link:{agpl-uri}[GNU Affero General Public License v3] or any later version.
