@@ -1,8 +1,9 @@
 = wrap_layout :base_content do
 
-	#header
-		h1
-			= current_page.metadata[:page]['title']
-		.details
-	#content
+	article
+		header
+			h1
+				= current_page.metadata[:page]['title']
+			.details
+		#content
 			= yield

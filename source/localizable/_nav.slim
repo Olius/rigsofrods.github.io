@@ -3,21 +3,19 @@ ruby:
 		@entry_url == current_page.url ? {tag: 'li', class: 'active'} : {tag: 'li'}
 	end
 
-.row.contain-to-grid.main-header
-	.small-9.small-centered.columns
-		.fixed.main-header
-			nav.top-bar role="navigation"
-				ul.title-area
-					li.name
-						h1
-							a href="/#{I18n.locale}/"
-								| Rigs of Rods
-				section.top-bar-section
-					ul.left
-						- data.menu.list.each do |entry|
-							- @entry_url = "/#{I18n.locale}#{entry[:url]}"
-							*nav_current
-								a href="#{@entry_url}"
-									=> entry[:pre]
-									span<
-										= I18n.t(entry[:id])
+.fixed.contain-to-grid.top-bar-margin
+	nav.top-bar data-topbar="" role="navigation"
+		ul.title-area
+			li.name
+				h1
+					a href="/#{I18n.locale}/"
+						| Rigs of Rods
+		section.top-bar-section
+			ul.left
+				- data.menu.list.each do |entry|
+					- @entry_url = "/#{I18n.locale}#{entry[:url]}"
+					*nav_current
+						a href="#{@entry_url}"
+							=> entry[:pre]
+							span<
+								= I18n.t(entry[:id])

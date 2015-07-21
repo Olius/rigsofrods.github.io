@@ -1,21 +1,22 @@
 = wrap_layout 'base_content' do
 
-	#header
-		h1
-			= current_page.metadata[:page]['title']
-		.details
-			span.author#author
-				=> current_page.metadata[:page]['firstname']
-				= current_page.metadata[:page]['lastname']
-			br
-			span.email#email
-				a href="#{current_page.metadata[:page]['profile']}"
-					| @#{current_page.metadata[:page]['nick']}
-			br
-			span#revdate
-				= current_page.metadata[:page]['date']
-	#content
-    	= yield
+	article
+		header
+			h1
+				= current_page.metadata[:page]['title']
+			.details
+				span.author#author
+					=> current_page.metadata[:page]['firstname']
+					= current_page.metadata[:page]['lastname']
+				br
+				span.email#email
+					a href="#{current_page.metadata[:page]['profile']}"
+						| @#{current_page.metadata[:page]['nick']}
+				br
+				span#revdate
+					= current_page.metadata[:page]['date']
+		#content
+    		= yield
 
 	a.previous href="/#{I18n.locale}/blog"
 		span.fa.fa-arrow-left>

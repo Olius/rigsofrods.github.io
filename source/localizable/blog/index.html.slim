@@ -7,7 +7,7 @@
 
   - blog.local_articles[0...10].each do |article|
     .small-12.columns
-      .bloglist#header
+      header.bloglist
         h2
           = article.metadata[:page]['title']
         .details

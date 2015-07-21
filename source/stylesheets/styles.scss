@@ -74,7 +74,7 @@
 #toc.toc ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:0+rem(.5em);margin-bottom:.5em}
 #toc.toc.toc-right{padding-left:0;padding-right:15em}
 #toc.toc.toc-right #toc.toc{border-right-width:0;border-left:1px solid #efefed;}}@media only screen and (min-width:1280px){#toc.toc{padding-left:20em;padding-right:0}
-#toc.toc{width:50vh}
+#toc.toc{width:$row-width/3}
 #toc.toc #toctitle{font-size:1.375em}
 #toc.toc>ul{font-size:.95em}
 #toc.toc ul ul{padding-left:1.25em}
@@ -82,17 +82,13 @@
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
 
-// Header
-
-.main-header
-{
-	background: $topbar-bg-color;
-	width: 100%;
-	z-index: 1001;
-	margin: 0 0 $topbar-height;
-}
+// Top bar
 
 // Main section
+
+.main-start {
+}
+
 // Start promo
 .start {
     background: url(/images/bg-start.jpg);
@@ -214,13 +210,13 @@
 
 // Footer
 
-.footer {
+footer {
   background: #ca6100;
   font-family: sans-serif;
   font-size: 15px;
   color: rgba(255,255,255,0.8);
   margin: 15px 0px 0px 0px;
-  padding: 40px 0;
+  padding: 40px 0 40px 0;
   width: 100%;
 	a {
 		color: rgba(255,255,255,0.8);
@@ -230,18 +226,18 @@
 	}
 }
 
-.footer p {
+footer p {
 	line-height: 20px;
 }
 
-.footer h4 {
+footer h4 {
 	font-size: 18px;
 	line-height: 20px;
 	margin: 0 0 5px;
 	color: #fff;
 }
 
-.footer ul {
+footer ul {
   line-height: 20px;
   font-size: 13px;
   list-style: none;
@@ -328,6 +324,10 @@ ul.none {
 	font-style: italic;
 }
 
+//article h1, article h2, article h3, article h4, article h5, article h6 {
+//	padding-top: $topbar-height;
+//}
+
 h1, h2, h3, h4, .title, .download-wrapper>a {
     font-family: "Open Sans";
     font-weight: 300;
@@ -344,14 +344,14 @@ $bloglist-h: 2em;
 #summary>*>h2 {font-size: $bloglist-h * 0.9 * 0.8}
 
 /* Customizations */
-#header>h1:first-child{margin-top:2.25rem;margin-bottom:0}
-#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
-/*#header h1 {border-top: 1px solid #ddddd8;}*/
-#header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;display:flex;flex-flow:row wrap}
-#header .details span:first-child{margin-left:-.125em}
-#header .details br{display:none}
-#header .details br+span:before{content:"\00a0\2013\00a0"}
-#header .details br+span.author:before{content:"\00a0\22c5\00a0"}
-#header .details br+span#revremark:before{content:"\00a0|\00a0"}
+header>h1:first-child{margin-top:2.25rem;margin-bottom:0}
+header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
+/*header h1 {border-top: 1px solid #ddddd8;}*/
+header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;display:flex;flex-flow:row wrap}
+header .details span:first-child{margin-left:-.125em}
+header .details br{display:none}
+header .details br+span:before{content:"\00a0\2013\00a0"}
+header .details br+span.author:before{content:"\00a0\22c5\00a0"}
+header .details br+span#revremark:before{content:"\00a0|\00a0"}
 
 #content {margin-top: 1.25em;}
