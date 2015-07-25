@@ -12,6 +12,9 @@ profile: "https://github.com/Max98"
 
 nick: "max98"
 
+tags:
+  - Development
+
 ---
 = [Image heavy] Some pictures. :3
 :firstname: Moncef

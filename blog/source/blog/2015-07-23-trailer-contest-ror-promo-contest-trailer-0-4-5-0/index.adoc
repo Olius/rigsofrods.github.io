@@ -12,6 +12,11 @@ profile: "https://github.com/Max98"
 
 nick: "Max98"
 
+tags:
+  - Development
+  - Community
+  - Trailer contest
+
 ---
 = RoR Promo Contest Trailer 0.4.5.0
 :firstname: Moncef

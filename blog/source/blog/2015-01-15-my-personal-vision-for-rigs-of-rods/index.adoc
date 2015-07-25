@@ -12,6 +12,9 @@ profile: "https://github.com/Hiradur"
 
 nick: "Hiradur"
 
+tags:
+  - Development
+
 ---
 = My personal vision for Rigs of Rods
 :firstname: Niklas

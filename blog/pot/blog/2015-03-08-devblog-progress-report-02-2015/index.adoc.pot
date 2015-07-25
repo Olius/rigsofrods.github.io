@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-19 09:19+0300\n"
+"POT-Creation-Date: 2015-07-25 16:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:1 blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:15
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:1 blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:18
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -52,19 +52,29 @@ msgstr ""
 msgid "nick: \"only_a_ptr\""
 msgstr ""
 
-#. type: Title =
+#. type: Plain text
 #: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:16
+msgid "tags:"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:17
+msgid "Development"
+msgstr ""
+
+#. type: Title =
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:19
 #, no-wrap
 msgid "DevBlog: Progress report 02/2015"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:35
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:38
 msgid "Hi all RoR fans!"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:37
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:40
 msgid ""
 "Another month has passed and it's time for me to write a progress report. In "
 "fact, the report is already slightly overdue because I've been really busy "
@@ -74,7 +84,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:43
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:46
 msgid ""
 "To shortly iterate what's been hapenning: I've been working on rig editor, "
 "specifically adding panels to edit properties of nodes/beams and other beam "
@@ -92,13 +102,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:45
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:48
 #, no-wrap
 msgid "Status of planned 0.4.5 release"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:48
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:51
 msgid ""
 "Current development effort aims towards a stable release with version number "
 "0.4.5. This long-awaited release will fix many long-standing bugs, bring UI "
@@ -106,7 +116,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:50
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:53
 msgid ""
 "The major development problem regarding this project is vehicle support. In "
 "the past, version 0.4.0.x broke compatibility with older vehicles and forced "
@@ -120,7 +130,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:52
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:55
 msgid ""
 "I'd like to explain the cause of the current situation. When I analyzed "
 "RoR's vehicle loading code back in 2013, I discovered that the problem is in "
@@ -151,7 +161,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:54
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:57
 msgid ""
 "My solution to this issue was developing new vehicle parser: one that would "
 "read all data first and only then process them, in a given order, to avoid "
@@ -169,7 +179,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:56
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:59
 msgid ""
 "In a near future, I'll publish a new test build of NextStable, along with "
 "all latest fixes and compatibility enhancements, and I'll begin to sort out "
@@ -178,6 +188,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:57
+#: blog/source/blog/2015-03-08-devblog-progress-report-02-2015/index.adoc:60
 msgid "Stay tuned."
 msgstr ""

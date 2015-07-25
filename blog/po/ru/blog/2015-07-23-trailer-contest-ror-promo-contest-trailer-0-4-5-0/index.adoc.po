@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-25 15:00+0300\n"
+"POT-Creation-Date: 2015-07-25 16:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:1
-#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:15
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:20
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -53,25 +53,45 @@ msgstr ""
 msgid "nick: \"Max98\""
 msgstr ""
 
-#. type: Title =
+#. type: Plain text
 #: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:16
+msgid "tags:"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:17
+msgid "Development"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:18
+msgid "Community"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:19
+msgid "Trailer contest"
+msgstr ""
+
+#. type: Title =
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:21
 #, no-wrap
 msgid "RoR Promo Contest Trailer 0.4.5.0"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:35
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:40
 msgid "Hello everyone there!"
 msgstr ""
 
 #. type: Target for macro image
-#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:36
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:41
 #, no-wrap
 msgid "http://www.rigsofrods.com/images/imported/2015/03/kaeGBsS-1.png"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:40
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:45
 msgid ""
 "Few months ago, when we were officially nominated developers, someone whom I "
 "don't remember the name, was also asked to make a video trailer for RoR. But "
@@ -80,7 +100,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:41
+#: blog/source/blog/2015-07-23-trailer-contest-ror-promo-contest-trailer-0-4-5-0/index.adoc:46
 msgid ""
 "http://www.rigsofrods.com/threads/119952-Trailer-contest-RoR-Promo-Contest-"
 "Trailer-0-4-5-0[Read more]"

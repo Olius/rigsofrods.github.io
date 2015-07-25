@@ -12,6 +12,10 @@ profile: "https://github.com/Max98"
 
 nick: "Max98"
 
+tags:
+  - News
+  - Development
+
 ---
 = Test Build 4 released!
 :firstname: Moncef

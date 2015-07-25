@@ -12,6 +12,10 @@ profile: "https://github.com/skybon"
 
 nick: "skybon"
 
+tags:
+  - Development
+  - Website
+
 ---
 = Coming Soon: New Home page and Wiki
 :firstname: Artem

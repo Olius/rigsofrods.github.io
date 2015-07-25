@@ -12,6 +12,9 @@ profile: "https://github.com/skybon"
 
 nick: "skybon"
 
+tags:
+  - Community
+
 ---
 = Official Skype group
 :firstname: Artem

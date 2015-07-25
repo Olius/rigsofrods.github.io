@@ -12,6 +12,9 @@ profile: "https://github.com/only-a-ptr"
 
 nick: "only_a_ptr"
 
+tags:
+  - Development
+
 ---
 = DevBlog: Progress report 04/2015
 :firstname: Petr

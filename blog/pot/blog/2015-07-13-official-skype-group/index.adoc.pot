@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-19 09:19+0300\n"
+"POT-Creation-Date: 2015-07-25 16:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:1 blog/source/blog/2015-07-13-official-skype-group/index.adoc:15
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:1 blog/source/blog/2015-07-13-official-skype-group/index.adoc:18
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -52,25 +52,35 @@ msgstr ""
 msgid "nick: \"skybon\""
 msgstr ""
 
-#. type: Title =
+#. type: Plain text
 #: blog/source/blog/2015-07-13-official-skype-group/index.adoc:16
+msgid "tags:"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:17
+msgid "Community"
+msgstr ""
+
+#. type: Title =
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:19
 #, no-wrap
 msgid "Official Skype group"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:37
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:40
 msgid ""
 "Say hello to the *official Skype group*. Approved and watched over by the "
 "dev team. Honestly!"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:39
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:42
 msgid "No GTA V discussions or useless spam please."
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:40
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:43
 msgid "link:{skype-uri}[Click to join.]"
 msgstr ""

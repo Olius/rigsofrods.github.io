@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-19 09:19+0300\n"
+"POT-Creation-Date: 2015-07-25 16:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:1 blog/source/blog/2015-05-31-test-build-3-released/index.adoc:15
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:1 blog/source/blog/2015-05-31-test-build-3-released/index.adoc:19
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -52,25 +52,40 @@ msgstr ""
 msgid "nick: \"max98\""
 msgstr ""
 
-#. type: Title =
+#. type: Plain text
 #: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:16
+msgid "tags:"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:17
+msgid "News"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:18
+msgid "Development"
+msgstr ""
+
+#. type: Title =
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:20
 #, no-wrap
 msgid "Test Build 3 released!"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:35
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:39
 msgid "Say hello to the new test build! Changelog:"
 msgstr ""
 
 #. type: Labeled list
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:36
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:40
 #, no-wrap
 msgid "only_a_ptr"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:38
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:42
 msgid ""
 "fixed 0.4.0.7's malformed flexbodies bug. Flexbodies were spawned deformed, "
 "see screenshots in "
@@ -81,7 +96,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:39
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:43
 msgid ""
 "Added built-in profiler. I incorporated "
 "link:https://floodyberry.wordpress.com/2009/10/07/high-performance-cplusplus-profiling/[this "
@@ -94,7 +109,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:40
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:44
 msgid ""
 "Added ror.cfg option to disable flexbody LODs By profiling, I discovered "
 "that the slowest part of vehicle loading are flexbodies, but not their "
@@ -104,7 +119,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:41
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:45
 msgid ""
 "Added flexbody cache support After disabling the flexbody LODs, the slowest "
 "part of rig loading was flexbody generation. To speed things up, I "
@@ -114,62 +129,62 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:44
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:48
 msgid "Other than that:"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:46
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:50
 msgid ""
 "I have improved flexbodies calculation, they are faster, even faster than "
 "0.4.0.7:"
 msgstr ""
 
 #. type: Target for macro image
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:47
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:51
 #, no-wrap
 msgid "http://www.rigsofrods.com/attachment.php?attachmentid=534555&d=1433028432"
 msgstr ""
 
 #. type: Target for macro image
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:48
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:52
 #, no-wrap
 msgid "http://www.rigsofrods.com/attachment.php?attachmentid=534557&d=1433028471"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:51
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:55
 msgid "RoRConfig is also updated to support 0.4.5.0's features. (like Skidmarks)"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:53
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:57
 msgid "PSSM shadows are included in this release but they are badly glitched."
 msgstr ""
 
 #. type: Target for macro image
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:54
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:58
 #, no-wrap
 msgid "http://i.imgur.com/oB0vf4Q.jpg"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:56
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:60
 msgid "We hope you can enjoy this and help us improve RoR!"
 msgstr ""
 
 #. type: Labeled list
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:57
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:61
 #, no-wrap
 msgid "Download Test Build 3 from"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:59
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:63
 msgid "link:https://yadi.sk/d/EwlR835egzbnM[Yandex.Disk]"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:59
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:63
 msgid "link:http://www.mediafire.com/download/lxuxtl6szx9t6b7/Rigs+of+rods+0.4.5.0-dev+Test+Build+3.zip[MediaFire]"
 msgstr ""

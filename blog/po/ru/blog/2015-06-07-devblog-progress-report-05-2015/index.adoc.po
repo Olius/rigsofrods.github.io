@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-19 08:24+0300\n"
+"POT-Creation-Date: 2015-07-25 16:08+0300\n"
 "PO-Revision-Date: 2015-07-14 03:31+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:1
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:15
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:18
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
@@ -56,31 +56,41 @@ msgstr "profile: \"https://github.com/only-a-ptr\""
 msgid "nick: \"only_a_ptr\""
 msgstr "nick: \"only_a_ptr\""
 
-#. type: Title =
+#. type: Plain text
 #: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:16
+msgid "tags:"
+msgstr ""
+
+#. type: Plain text
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:17
+msgid "Development"
+msgstr ""
+
+#. type: Title =
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:19
 #, no-wrap
 msgid "DevBlog: Progress report 05/2015"
 msgstr "Отчёт о разработке за май 2015"
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:35
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:38
 #, no-wrap
 msgid "*Hello RoR fans!*\n"
 msgstr "*Привет фанатам RoR!*\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:37
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:40
 msgid "Late as usual, I bring you an overview of development done during May."
 msgstr "Хоть и с опозданием, но публикуем обзор разработки RoR за май."
 
 #. type: Title ==
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:38
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:41
 #, no-wrap
 msgid "The project"
 msgstr "Оргвопросы"
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:41
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:44
 msgid ""
 "I'm happy to state RoR has a healthy link:https://github.com/RigsOfRods/rigs-"
 "of-rods/pulse[pulse]. The GitHub repository is greatly helping our "
@@ -95,7 +105,7 @@ msgstr ""
 "видимость и новых разработчиков."
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:43
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:46
 msgid ""
 "Hiradur worked hard to set up link:https://travis-ci.org/RigsOfRods/rigs-of-"
 "rods[Travis CI] for RoR. It's a continuous integration service - it builts "
@@ -110,7 +120,7 @@ msgstr ""
 "платформенность - краеугольный камень разработки.\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:45
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:48
 msgid ""
 "Max98 had a great idea to set up link:https://gitter.im/RigsOfRods/rigs-of-"
 "rods[Gitter] discussion board for RoR. Gitter is a browser based chat "
@@ -125,13 +135,13 @@ msgstr ""
 "по себе привлекает новых людей, готовых внести вклад в разработку игры.\n"
 
 #. type: Title ==
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:46
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:49
 #, no-wrap
 msgid "The 0.4.5-NextStable"
 msgstr "The 0.4.5-NextStable"
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:49
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:52
 msgid ""
 "It's still in development, there's still no release date and the purpose has "
 "slowly and silently changed. Original plan was to only make RoR stable, "
@@ -152,7 +162,7 @@ msgstr ""
 "\"Любые улучшения, ничего не ломающие и не тормозящие движок\"."
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:51
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:54
 msgid ""
 "The fix of the month are definitely FlexBodies. Somewhere between 0.39 and "
 "0.4.0x they became malformed, as reported in link:https://github.com/"
@@ -164,7 +174,7 @@ msgstr ""
 "об ошибке]). Исправлены и ускорены в тестовой сборке 3, спасибо Max98."
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:53
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:56
 msgid ""
 "Another improvement is speed of vehicle loading. During testing, I got angry "
 "about vehicles taking too long to load, so I incorporated a tiny link:"
@@ -203,13 +213,13 @@ msgstr ""
 "оптимизации загрузки других частей RoR в дальнейшем."
 
 #. type: Title ==
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:54
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:57
 #, no-wrap
 msgid "The future"
 msgstr "Будущее"
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:57
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:60
 msgid ""
 "I've done enough dreaming in the last devblog post. Now I'm back to the "
 "boring but necessary fixing of vehicle/map compatibility. Current work: "
@@ -232,6 +242,6 @@ msgstr ""
 "Да, это размывает фокус разработки, но таковы запросы сообщества."
 
 #. type: Plain text
-#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:58
+#: blog/source/blog/2015-06-07-devblog-progress-report-05-2015/index.adoc:61
 msgid "Have fun playing RoR!"
 msgstr "Приятной игры в RoR!"
