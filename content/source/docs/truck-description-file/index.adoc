@@ -77,7 +77,7 @@ Every keyword (directive, inline-section or section) which has parameters should
 ** *b*: Another option
 ** *c* or *C*:  Case insensitive option.
 
-Practical examples of this style: <<Set inertia defaults>>, <<Shocks>>, <<Shocks2>>, <<Slide Nodes>>
+Practical examples of this style: <<Set_inertia_defaults>>, <<Shocks>>, <<Shocks2>>, <<Slide Nodes>>
 
 == Truck File Syntax
 
