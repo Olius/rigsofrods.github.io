@@ -524,12 +524,19 @@ With this version you have less control over the power added, but you can end up
 * *engine_rpm_op*: [silver]#optional#; [red]#Positive real number#; [lime]#default = 0#; Engine's RPM at which turbo will start to spool up.
 * *BOV*: [silver]#optional#; [red]#Boolean: 0 (disabled) / 1 (enabled)#; [lime]#default = 0#; Enable blow off valve.
 * *BOV_minPSI*: [silver]#optional#; [red]#Positive real number#; [lime]#default = 11#; Minimum pressure (in Psi) at which the blow off valve starts to operate.
+* *wastegate*: [silver]#optional#; [red]#Boolean: 0 (disabled) / 1 (enabled)#; [lime]#default = 0#; Enables or disable the wastegate.
+* *wastegate_maxpsi*: [silver]#optional#; [red]#Positive real number#; [lime]#default = 20#; maxPSI on which the wastegate will limit the turbo.
+* *wastegate_threshold*; [silver]#optional#; [red]#Positive real number#; [lime]#default = 0#; Wastegate's threshold. (Optimal values between 0.01 and 0.1)
+* *antilag*; [silver]#(optional)#; [red]#Boolean: 0 (disabled) / 1 (enabled)#; [lime]#default = 0#; Enables or disable the anti-lag system.
+* *antilag_chance*; [silver]#(optional)#; [red]#Positive real number (range [0 - 1])#; [lime]#default = 0.9975#; Random number which calculates the chances of the anti lag's combustion. The lower the number, the more the chances. (Optimal values between 0.95 and 0.99)
+* *antilag_minRPM*; [silver]#(optional)#; [red]#Positive real number#; [lime]#default = 3000#; Minimum engine's RPM on which the anti lag system start to work.
+* *antilag_power*; [silver]#(optional)#; [red]#Positive real number#; [lime]#default = 170#; Power factor which will be used to sustain the turbo's spinning while anti lag is working.
 
 [source]
 ----
 engturbo
-;type, inertiaFactor, numTurbo, maxPSI, engine_rpm_op, BOV, BOV_minPSI
-2, 3, 1, 30, 4000, 1, 11
+;type, inertiaFactor, numTurbos, maxPSI, rpm_op, bov, bov_minPSI, wastegate, wastegate_maxpsi, wastegate_threshold, antilag, antilag_chance, antilag_minRPM, antilag_power
+2, 4, 1, 35, 3500, 1, 11, 1, 32, 0.02, 1, 0.9985, 3000, 250
 ----
 
 ==== Brakes
