@@ -329,6 +329,10 @@ article h1, article h2, article h3, article h4, article h5, article h6 {
 	padding-top: $topbar-height;
 }
 
+.blog-entry {
+    margin: 2rem 0 2rem 0;
+}
+
 h1, h2, h3, h4, .title, .download-wrapper>a {
     font-family: "Open Sans";
     font-weight: 300;
