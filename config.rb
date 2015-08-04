@@ -69,11 +69,14 @@ activate :blog do |blog|
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+# Returns all pages under a certain directory.
+  def sub_pages(dir)
+    sitemap.resources.select do |resource|
+      resource.path.start_with?(dir)
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 
