@@ -24,6 +24,7 @@ Ready to develop? Please select your destination:
 == Tutorials
 
 * <<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you create your own truck, train, vehicle or boat>>
+* <<shadows/index.adoc#,Shadows tutorial>>
 
 == Specifications
 
