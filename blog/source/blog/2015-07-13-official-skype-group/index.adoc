@@ -12,8 +12,7 @@ profile: "https://github.com/skybon"
 
 nick: "skybon"
 
-tags:
-  - Community
+tags: ["Community"]
 
 ---
 = Official Skype group

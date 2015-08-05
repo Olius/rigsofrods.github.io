@@ -12,10 +12,7 @@ profile: "https://github.com/skybon"
 
 nick: "skybon"
 
-tags:
-  - Development
-  - Community
-  - Social media
+tags: ["Development", "Community", "Social media"]
 
 ---
 = Social media feeds

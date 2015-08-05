@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-05 08:55+0300\n"
-"PO-Revision-Date: 2015-08-04 06:59+0300\n"
+"POT-Creation-Date: 2015-08-05 13:08+0300\n"
+"PO-Revision-Date: 2015-08-05 13:18+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
 "Language: \n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:1
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:20
+#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
@@ -58,55 +58,52 @@ msgstr "nick: \"skybon\""
 
 #. type: Plain text
 #: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:16
-msgid "tags:"
-msgstr "tags:"
-
-#. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:17
-msgid "Development"
-msgstr "Разработка"
-
-#. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:18
-msgid "Community"
-msgstr "Сообщество"
-
-#. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:19
-msgid "Social media"
-msgstr "Социальные сети"
+msgid "tags: [\"Development\", \"Community\", \"Social media\"]"
+msgstr "tags: [\"Разработка\", \"Сообщество\", \"Социальные сети\"]"
 
 #. type: Title =
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:21
+#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:18
 #, no-wrap
 msgid "Social media feeds"
 msgstr "Мы в социальных сетях"
 
 #. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:40
+#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:37
 msgid "Hello folks,"
 msgstr "Дорогие друзья,"
 
 #. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:42
-#, fuzzy
-#| msgid "Did you know that we have official social media feeds too now?"
+#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:39
 msgid ""
 "Did you know that, in addition to our development blog, we also have "
 "official social media feeds as well?"
-msgstr "А вы знаете, что у нас теперь есть страницы в социальных сетях"
+msgstr ""
+"А вы знаете, что помимо нашего блога разработки, у нас теперь есть и "
+"страницы в социальных сетях"
 
 #. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:44
+#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:41
 msgid "English: https://facebook.com/rigsofrods.official"
 msgstr "Английская: https://facebook.com/rigsofrods.official"
 
 #. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:45
+#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:42
 msgid "Russian: https://vk.com/rigsofrods.official"
 msgstr "Русская: https://vk.com/rigsofrods.official"
 
 #. type: Plain text
-#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:46
+#: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:43
 msgid "Follow us so you never miss fresh RoR development news."
 msgstr "Подпишитесь и будьте в курсе всех последних новостей разработки RoR."
+
+#~ msgid "tags:"
+#~ msgstr "tags:"
+
+#~ msgid "Development"
+#~ msgstr "Разработка"
+
+#~ msgid "Community"
+#~ msgstr "Сообщество"
+
+#~ msgid "Social media"
+#~ msgstr "Социальные сети"

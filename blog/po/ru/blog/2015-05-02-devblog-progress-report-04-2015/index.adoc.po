@@ -2,81 +2,79 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Artem Vorotnikov <artem@vorotnikov.me>, 2015.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-25 16:08+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2015-08-05 13:08+0300\n"
+"PO-Revision-Date: 2015-08-05 13:13+0300\n"
+"Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
+"Language-Team: русский <>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:1
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:18
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:17
 #, no-wrap
 msgid "---\n"
-msgstr ""
+msgstr "---\n"
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:4
 msgid "title: \"DevBlog: Progress report 04/2015\""
-msgstr ""
+msgstr "title: \"Отчёт о разработке за апрель 2015\""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:6
 msgid "date: \"2015-05-02\""
-msgstr ""
+msgstr "date: \"2015-05-02\""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:8
 msgid "firstname: \"Petr\""
-msgstr ""
+msgstr "firstname: \"Петр\""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:10
 msgid "lastname: \"Ohlídal\""
-msgstr ""
+msgstr "lastname: \"Оглидал\""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:12
 msgid "profile: \"https://github.com/only-a-ptr\""
-msgstr ""
+msgstr "profile: \"https://github.com/only-a-ptr\""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:14
 msgid "nick: \"only_a_ptr\""
-msgstr ""
+msgstr "nick: \"only_a_ptr\""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:16
-msgid "tags:"
-msgstr ""
-
-#. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:17
-msgid "Development"
-msgstr ""
+msgid "tags: [\"Development\"]"
+msgstr "tags: [\"Разработка\"]"
 
 #. type: Title =
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:19
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:18
 #, no-wrap
 msgid "DevBlog: Progress report 04/2015"
-msgstr ""
+msgstr "Отчёт о разработке за апрель 2015"
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:38
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:37
 #, no-wrap
 msgid "*Hello RoR fans!*\n"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:40
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:39
 msgid ""
 "Another 2 months have passed and 1 new progress report is here! It turned "
 "out everyone (including me) was so busy in march that barely any development "
@@ -89,13 +87,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:41
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:40
 #, no-wrap
 msgid "Vehicle compatibility status"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:44
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:43
 msgid ""
 "...has improved! I tested with many more vehicles and I re-thought my "
 "approach to parser design. For one thing, I began loosening the very strict "
@@ -111,7 +109,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:46
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:45
 msgid ""
 "But most importantly, I changed my philosophical approach to processing the ."
 "truck format. From the very start, I knew that the parsing process used in "
@@ -134,7 +132,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:48
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:47
 msgid ""
 "Nonetheless, I began bumping into prevailing v0.38 -> v0.4.0.7 "
 "incompatibilities, such as this one. Those will be harder to tackle because "
@@ -144,7 +142,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:50
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:49
 msgid ""
 "Again, I encourage everyone to link:http://www.rigsofrods.com/threads/119110-"
 "Test-Build-Rigs-of-rods-0-4-5-0-dev[download a test build and check his "
@@ -152,13 +150,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:51
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:50
 #, no-wrap
 msgid "Rig editor status"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:54
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:53
 msgid ""
 "The editor is still not usable, but it's progressing steadily. This time, I "
 "added support for wheels (meshwheels2 + flexbodywheels so far). There's a "
@@ -175,7 +173,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:56
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:55
 msgid ""
 "Anyway, at this point, some of you may legitimately question my efforts to "
 "create the rig editor. Although it's a nice thing to have, it doesn't seem "
@@ -188,13 +186,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:57
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:56
 #, no-wrap
 msgid "Physics of the future"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:60
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:59
 msgid ""
 "Currently, RoR can handle roughly 500 nodes + 3000 beams per vehicle. With "
 "so few elements, it's reasonable to do this work manually. However, this "
@@ -206,7 +204,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:62
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:61
 msgid ""
 "Now imagine I created a completely new physics engine which could handle "
 "roughly *ten times more N/B* than the current engine (think *5 000 nodes* "
@@ -222,7 +220,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:64
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:63
 msgid ""
 "There is only one way to deal with such a modding challenge - using a CAD-"
 "like editor where the vehicle can be modelled the way technical engineers do "
@@ -236,7 +234,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:66
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:65
 msgid ""
 "Naturally, this is only an enthusiast project done in people's free time. It "
 "may not succeed. But I'll incorporate enough scripting support to spread the "
@@ -245,6 +243,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:67
+#: blog/source/blog/2015-05-02-devblog-progress-report-04-2015/index.adoc:66
 msgid "Until then, please bear with me."
 msgstr ""

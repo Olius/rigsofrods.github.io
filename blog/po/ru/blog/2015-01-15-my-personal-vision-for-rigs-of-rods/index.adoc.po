@@ -2,75 +2,73 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Artem Vorotnikov <artem@vorotnikov.me>, 2015.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-25 16:08+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2015-08-05 13:08+0300\n"
+"PO-Revision-Date: 2015-08-05 19:14+0300\n"
+"Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
+"Language-Team: русский <>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:1
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:18
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:17
 #, no-wrap
 msgid "---\n"
-msgstr ""
+msgstr "---\n"
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:4
 msgid "title: \"My personal vision for Rigs of Rods\""
-msgstr ""
+msgstr "title: \"Моё личное видение Rigs of Rods\""
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:6
 msgid "date: \"2015-01-15\""
-msgstr ""
+msgstr "date: \"2015-01-15\""
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:8
 msgid "firstname: \"Niklas\""
-msgstr ""
+msgstr "firstname: \"Никлас\""
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:10
 msgid "lastname: \"Kersten\""
-msgstr ""
+msgstr "lastname: \"Керстен\""
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:12
 msgid "profile: \"https://github.com/Hiradur\""
-msgstr ""
+msgstr "profile: \"https://github.com/Hiradur\""
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:14
 msgid "nick: \"Hiradur\""
-msgstr ""
+msgstr "nick: \"Hiradur\""
 
 #. type: Plain text
 #: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:16
-msgid "tags:"
-msgstr ""
-
-#. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:17
-msgid "Development"
-msgstr ""
+msgid "tags: [\"Development\"]"
+msgstr "tags: [\"Разработка\"]"
 
 #. type: Title =
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:19
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:18
 #, no-wrap
 msgid "My personal vision for Rigs of Rods"
-msgstr ""
+msgstr "Моё личное видение Rigs of Rods"
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:38
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:37
 msgid ""
 "With the blog section now being back alive I though I'd give it a shot and "
 "write about my personal goals for Rigs of Rods. Every developer working on "
@@ -79,13 +77,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:39
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:38
 #, no-wrap
 msgid "My vision of Rigs of Rods"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:42
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:41
 msgid ""
 "I would like to see RoR going much faster than it currently does. RoR is "
 "usually limited by the CPU as it has to do a lot of floating point math to "
@@ -105,7 +103,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:45
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:44
 msgid ""
 "Besides a speedup in performance I would also like to see the physics "
 "calculations being moved to the server. The details are unclear yet because "
@@ -122,7 +120,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:47
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:46
 msgid ""
 "I got access to an 80-core cluster computer. My ultimate goal is that the "
 "RoR server (with physics calculations being serverside) is able to take "
@@ -140,33 +138,33 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:48
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:47
 #, no-wrap
 msgid "So, to summarize"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:50
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:49
 msgid "large performance increase"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:51
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:50
 msgid "ability to make use of any number of CPU cores, if possible"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:52
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:51
 msgid "serverside physics calculations"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:53
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:52
 msgid "OpenMPI support for use on clusters"
 msgstr ""
 
 #. type: Plain text
-#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:54
+#: blog/source/blog/2015-01-15-my-personal-vision-for-rigs-of-rods/index.adoc:53
 msgid ""
 "Keep in mind though that this is just a vision of mine yet. Work hasn't even "
 "started and it will probably take a while until it does since we would like "

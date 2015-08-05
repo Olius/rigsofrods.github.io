@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-25 16:08+0300\n"
-"PO-Revision-Date: 2015-07-14 01:37+0300\n"
+"POT-Creation-Date: 2015-08-05 13:08+0300\n"
+"PO-Revision-Date: 2015-08-05 13:14+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
 "Language: \n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-13-official-skype-group/index.adoc:1
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:18
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
@@ -58,22 +58,17 @@ msgstr "nick: \"skybon\""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-13-official-skype-group/index.adoc:16
-msgid "tags:"
-msgstr ""
-
-#. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:17
-msgid "Community"
-msgstr ""
+msgid "tags: [\"Community\"]"
+msgstr "tags: [\"Сообщество\"]"
 
 #. type: Title =
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:19
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:18
 #, no-wrap
 msgid "Official Skype group"
 msgstr "Официальная группа в Skype"
 
 #. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:40
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:39
 msgid ""
 "Say hello to the *official Skype group*. Approved and watched over by the "
 "dev team. Honestly!"
@@ -81,12 +76,12 @@ msgstr ""
 "Да здравствует *официальная группа в Skype*! Одобрено разработчиками. Честно!"
 
 #. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:42
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:41
 msgid "No GTA V discussions or useless spam please."
 msgstr "Пожалуйста, без GTA V и прочего спама."
 
 #. type: Plain text
-#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:43
+#: blog/source/blog/2015-07-13-official-skype-group/index.adoc:42
 msgid "link:{skype-uri}[Click to join.]"
 msgstr "link:{skype-uri}[Нажмите чтобы присоединиться.]"
 
