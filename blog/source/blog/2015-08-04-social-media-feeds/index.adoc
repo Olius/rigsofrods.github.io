@@ -38,7 +38,7 @@ tags:
 
 Hello folks,
 
-Did you know that we have official social media feeds too now?
+Did you know that, in addition to our development blog, we also have official social media feeds as well?
 
 * English: https://facebook.com/rigsofrods.official
 * Russian: https://vk.com/rigsofrods.official

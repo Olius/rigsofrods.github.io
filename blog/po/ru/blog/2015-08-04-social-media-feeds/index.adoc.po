@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-04 06:58+0300\n"
+"POT-Creation-Date: 2015-08-05 08:55+0300\n"
 "PO-Revision-Date: 2015-08-04 06:59+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -89,22 +89,20 @@ msgstr "Дорогие друзья,"
 
 #. type: Plain text
 #: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:42
-msgid "Did you know that we have official social media feeds too now?"
+#, fuzzy
+#| msgid "Did you know that we have official social media feeds too now?"
+msgid ""
+"Did you know that, in addition to our development blog, we also have "
+"official social media feeds as well?"
 msgstr "А вы знаете, что у нас теперь есть страницы в социальных сетях"
 
 #. type: Plain text
 #: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:44
-#| msgid ""
-#| "English: https://facebook.com/rigsofrods.official Russian: https://vk.com/"
-#| "rigsofrods.official"
 msgid "English: https://facebook.com/rigsofrods.official"
 msgstr "Английская: https://facebook.com/rigsofrods.official"
 
 #. type: Plain text
 #: blog/source/blog/2015-08-04-social-media-feeds/index.adoc:45
-#| msgid ""
-#| "English: https://facebook.com/rigsofrods.official Russian: https://vk.com/"
-#| "rigsofrods.official"
 msgid "Russian: https://vk.com/rigsofrods.official"
 msgstr "Русская: https://vk.com/rigsofrods.official"
 
