@@ -313,19 +313,41 @@ ul.none {
 
 // similar to sidebar title, but smaller font
 #toctitle {
-	@extend h3;
 	color: $subheader-font-color;
+	margin-bottom: 0.5rem;
 	//line-height: 1.45;
 	font-size: 1.375em;
 }
+
+$bloglist-h: 2em;
+.bloglist h1 {font-size: $bloglist-h * 1.2; border-bottom: 1px solid #ddddd8}
+.bloglist h2 {font-size: $bloglist-h * 0.9}
+#summary>*>h2 {font-size: $bloglist-h * 0.9 * 0.8}
+
+/* Customizations */
+//header>h1:first-child{font-size:2.75rem;padding-top:2.25rem;margin-bottom:0}
+//header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
+header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;display:flex;flex-flow:row wrap}
+header .details span:first-child{margin-left:-.125em}
+header .details br{display:none}
+header .details br+span:before{content:"\00a0\2013\00a0"}
+header .details br+span.author:before{content:"\00a0\22c5\00a0"}
+header .details br+span#revremark:before{content:"\00a0|\00a0"}
 
 // Blog
 .post-date {
 	font-style: italic;
 }
 
-article h1, article h2, article h3, article h4, article h5, article h6 {
-	margin-top: $topbar-height * -1/2;
+header h1 {
+	padding-top: $topbar-height;
+	margin-top: $topbar-height*0.5;
+	margin-bottom: 0;
+	font-size: 2.75rem;
+}
+
+article h2, article h3, article h4, article h5, article h6 {
+	margin-top: $topbar-height * -0.8;
 	padding-top: $topbar-height;
 }
 
@@ -342,22 +364,6 @@ h5, h6 {
 	font-family: "Open Sans";
 	font-weight: 500;
 }
-
-$bloglist-h: 2em;
-.bloglist h1 {font-size: $bloglist-h * 1.2; border-bottom: 1px solid #ddddd8}
-.bloglist h2 {font-size: $bloglist-h * 0.9}
-#summary>*>h2 {font-size: $bloglist-h * 0.9 * 0.8}
-
-/* Customizations */
-header>h1:first-child{font-size:2.75rem;margin-top:2.25rem;margin-bottom:0}
-header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
-/*header h1 {border-top: 1px solid #ddddd8;}*/
-header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;display:flex;flex-flow:row wrap}
-header .details span:first-child{margin-left:-.125em}
-header .details br{display:none}
-header .details br+span:before{content:"\00a0\2013\00a0"}
-header .details br+span.author:before{content:"\00a0\22c5\00a0"}
-header .details br+span#revremark:before{content:"\00a0|\00a0"}
 
 #content {margin-top: 1.25em;}
 
