@@ -26,7 +26,9 @@ Unfortunately, due to lack of OS X coders, there is no up to date build of the l
 
 === Overview / Readme / FAQ
 
-You can find more information about the latest stable release here: <<{baseurl}/docs/release-notes/0.38/index.adoc#,Gaggenau>>
+You can find more information about the latest stable release here: <<release-notes/0.38/index.adoc#,Gaggenau>>
+
+The changelog is presented <<changelog/index.adoc#,here>>.
 
 Many questions are answered in the documentation, have a look around: <<{baseurl}/docs/index.adoc#,Documentation index>>
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-05 13:18+0300\n"
+"POT-Creation-Date: 2015-08-07 23:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,24 +101,29 @@ msgstr ""
 #: content/source/download/index.adoc:30
 msgid ""
 "You can find more information about the latest stable release here: "
-"<<{baseurl}/docs/release-notes/0.38/index.adoc#,Gaggenau>>"
+"<<release-notes/0.38/index.adoc#,Gaggenau>>"
 msgstr ""
 
 #. type: Plain text
 #: content/source/download/index.adoc:32
+msgid "The changelog is presented <<changelog/index.adoc#,here>>."
+msgstr ""
+
+#. type: Plain text
+#: content/source/download/index.adoc:34
 msgid ""
 "Many questions are answered in the documentation, have a look around: "
 "<<{baseurl}/docs/index.adoc#,Documentation index>>"
 msgstr ""
 
 #. type: Title ===
-#: content/source/download/index.adoc:33
+#: content/source/download/index.adoc:35
 #, no-wrap
 msgid "License"
 msgstr ""
 
 #. type: Plain text
-#: content/source/download/index.adoc:36
+#: content/source/download/index.adoc:38
 msgid ""
 "Rigs of Rods is free and open source software under the GPL v3 license, "
 "meaning it is both free as in speech (you can modify it) and free as in beer "
@@ -126,13 +131,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: content/source/download/index.adoc:37
+#: content/source/download/index.adoc:39
 #, no-wrap
 msgid "Legacy"
 msgstr ""
 
 #. type: Plain text
-#: content/source/download/index.adoc:39
+#: content/source/download/index.adoc:41
 msgid ""
 "If you are interested in Rigs of Rods' history check out the museum "
 "link:http://sourceforge.net/projects/rigsofrods/files/rigsofrods/museum/[here]"

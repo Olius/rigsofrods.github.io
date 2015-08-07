@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-05 13:18+0300\n"
+"POT-Creation-Date: 2015-08-07 23:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: content/source/docs/release-notes/index.adoc:1
+#: content/source/download/release-notes/index.adoc:1
 #, no-wrap
 msgid "Release notes"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/release-notes/index.adoc:11
+#: content/source/download/release-notes/index.adoc:11
 msgid "<<changelog/index.adoc#,Changelog>>"
 msgstr ""
 
 #. type: Title ==
-#: content/source/docs/release-notes/index.adoc:12
+#: content/source/download/release-notes/index.adoc:12
 #, no-wrap
 msgid "Release announcements"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/release-notes/index.adoc:14
+#: content/source/download/release-notes/index.adoc:14
 msgid "<<0.38/index.adoc#,0.38 \"Gaggenau\">>"
 msgstr ""
