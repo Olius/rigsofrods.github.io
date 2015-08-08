@@ -32,3 +32,4 @@ Ready to develop? Please select your destination:
 * <<terrain-system/index.adoc#,Terrain System>>
 * <<truck-description-file/index.adoc#,Truck Description File, format used for defining vehicle behaviour ingame>>
 * <<train-documentation/index.adoc#,Train Documentation>>
+* <<hydrax-config/index.adoc#,Hydrax Config>>

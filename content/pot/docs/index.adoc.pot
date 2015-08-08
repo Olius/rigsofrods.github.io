@@ -116,6 +116,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:34
+#: content/source/docs/index.adoc:35
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/index.adoc:35
+msgid "<<hydrax-config/index.adoc#,Hydrax Config>>"
 msgstr ""

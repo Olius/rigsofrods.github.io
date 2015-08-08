@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-08 21:15+0300\n"
+"POT-Creation-Date: 2015-08-09 00:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,6 +117,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:34
+#: content/source/docs/index.adoc:35
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/index.adoc:35
+msgid "<<hydrax-config/index.adoc#,Hydrax Config>>"
 msgstr ""
