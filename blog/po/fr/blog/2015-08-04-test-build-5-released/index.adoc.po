@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-08-04-test-build-5-released/index.adoc:1 blog/source/blog/2015-08-04-test-build-5-released/index.adoc:17
+#: blog/source/blog/2015-08-04-test-build-5-released/index.adoc:1
+#: blog/source/blog/2015-08-04-test-build-5-released/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -143,8 +145,8 @@ msgstr ""
 #. type: Plain text
 #: blog/source/blog/2015-08-04-test-build-5-released/index.adoc:53
 msgid ""
-"Shadows are very FPS-yummy and sometimes conflict with terrain's "
-"layers. (E.g.: Auriga, Greece.)"
+"Shadows are very FPS-yummy and sometimes conflict with terrain's layers. (E."
+"g.: Auriga, Greece.)"
 msgstr ""
 
 #. type: Plain text
@@ -178,11 +180,10 @@ msgstr ""
 #. type: Plain text
 #: blog/source/blog/2015-08-04-test-build-5-released/index.adoc:65
 msgid ""
-"From now on, Rigs of Rods can be updated automatically by a special "
-"utility. Download the updater from "
-"http://www.rigsofrods.com/threads/120032-Testing-Purposes-Updater-V2[here].  "
-"Just put it in any version of the game and it will upgrade Rigs of Rods to "
-"the latest release.  You can also use the "
+"From now on, Rigs of Rods can be updated automatically by a special utility. "
+"Download the updater from http://www.rigsofrods.com/threads/120032-Testing-"
+"Purposes-Updater-V2[here].  Just put it in any version of the game and it "
+"will upgrade Rigs of Rods to the latest release.  You can also use the "
 "https://yadi.sk/d/OOKjBVzmiJzxs[zip archive]."
 msgstr ""
 

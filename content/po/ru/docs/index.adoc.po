@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-05 08:51+0300\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: 2015-07-06 17:38+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -120,6 +120,13 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/docs/index.adoc:33
+#, fuzzy
+#| msgid "<<train-documentation/index.adoc#,Train Documentation>>"
+msgid "<<terrain-system/index.adoc#,Terrain System>>"
+msgstr "<<train-documentation/index.adoc#,Документация по ЖД>>"
+
+#. type: Plain text
+#: content/source/docs/index.adoc:34
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
@@ -129,6 +136,6 @@ msgstr ""
 "транспортных средств>>"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:33
+#: content/source/docs/index.adoc:34
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
 msgstr "<<train-documentation/index.adoc#,Документация по ЖД>>"

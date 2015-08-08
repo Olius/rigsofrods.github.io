@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,12 +106,17 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/docs/index.adoc:33
+msgid "<<terrain-system/index.adoc#,Terrain System>>"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/index.adoc:34
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:33
+#: content/source/docs/index.adoc:34
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
 msgstr ""

@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,7 +184,6 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/shadows/index.adoc:82
 msgid ""
-"Take a look at Rigs of "
-"Rods/Resources/managed_materials/managed_mats.material for more information "
-"on how it works."
+"Take a look at Rigs of Rods/Resources/managed_materials/managed_mats."
+"material for more information on how it works."
 msgstr ""

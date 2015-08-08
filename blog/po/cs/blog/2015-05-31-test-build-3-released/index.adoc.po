@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:1 blog/source/blog/2015-05-31-test-build-3-released/index.adoc:17
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:1
+#: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -77,22 +79,21 @@ msgstr ""
 #: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:40
 msgid ""
 "fixed 0.4.0.7's malformed flexbodies bug. Flexbodies were spawned deformed, "
-"see screenshots in "
-"link:https://github.com/RigsOfRods/rigs-of-rods/issues/16[this ticket]. I "
-"fixed it by simply backporting flexbody code from 0.38.67 (last stable "
-"release). However, I'm a little worried about performance impact, the code "
-"uses precise but expensive calculations."
+"see screenshots in link:https://github.com/RigsOfRods/rigs-of-rods/"
+"issues/16[this ticket]. I fixed it by simply backporting flexbody code from "
+"0.38.67 (last stable release). However, I'm a little worried about "
+"performance impact, the code uses precise but expensive calculations."
 msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:41
 msgid ""
-"Added built-in profiler. I incorporated "
-"link:https://floodyberry.wordpress.com/2009/10/07/high-performance-cplusplus-profiling/[this "
-"library] into RoR. It works by putting tracking macros in the code (so "
-"called instrumentation) and generates a very nice HTML output. I've added "
-"instrumentation for RigSpawner class (per-function) and FlexBody generation "
-"(constructor, detailed). Profiling configuration is found in header "
+"Added built-in profiler. I incorporated link:https://floodyberry.wordpress."
+"com/2009/10/07/high-performance-cplusplus-profiling/[this library] into RoR. "
+"It works by putting tracking macros in the code (so called instrumentation) "
+"and generates a very nice HTML output. I've added instrumentation for "
+"RigSpawner class (per-function) and FlexBody generation (constructor, "
+"detailed). Profiling configuration is found in header "
 "RigLoadingProfilerControl.h. Feel free to add your own instrumentation and "
 "control headers."
 msgstr ""
@@ -143,7 +144,8 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:53
-msgid "RoRConfig is also updated to support 0.4.5.0's features. (like Skidmarks)"
+msgid ""
+"RoRConfig is also updated to support 0.4.5.0's features. (like Skidmarks)"
 msgstr ""
 
 #. type: Plain text
@@ -175,5 +177,7 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-05-31-test-build-3-released/index.adoc:61
-msgid "link:http://www.mediafire.com/download/lxuxtl6szx9t6b7/Rigs+of+rods+0.4.5.0-dev+Test+Build+3.zip[MediaFire]"
+msgid ""
+"link:http://www.mediafire.com/download/lxuxtl6szx9t6b7/Rigs+of+rods+0.4.5.0-"
+"dev+Test+Build+3.zip[MediaFire]"
 msgstr ""

@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:1 blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:17
+#: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:1
+#: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -100,25 +102,19 @@ msgstr ""
 #. type: Plain text
 #: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:45
 #, no-wrap
-msgid ""
-"*Me* - Self-invited lead coder, a code greasemonkey focused on internals and "
-"software architecture.\n"
+msgid "*Me* - Self-invited lead coder, a code greasemonkey focused on internals and software architecture.\n"
 msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:46
 #, no-wrap
-msgid ""
-"*Max98* - Cheerful enthusiast with focus on GUI and graphics. Fixed some "
-"long standing graphic bugs.\n"
+msgid "*Max98* - Cheerful enthusiast with focus on GUI and graphics. Fixed some long standing graphic bugs.\n"
 msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:47
 #, no-wrap
-msgid ""
-"*Hiradur* - Valuable compiler specialist and analyst. Keeps RoR running on "
-"Linux and inspects it with Valgrind for memory issues.\n"
+msgid "*Hiradur* - Valuable compiler specialist and analyst. Keeps RoR running on Linux and inspects it with Valgrind for memory issues.\n"
 msgstr ""
 
 #. type: Plain text
@@ -131,18 +127,17 @@ msgstr ""
 #: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:50
 msgid ""
 "At the moment, the development is aimed towards delivering a new stable "
-"release. This is very important to shake off the \"dead project\" "
-"feeling. RoR has not had a stable release in years and with new "
-"similarily-themed projects, BeamNG and SpinTires, it seemed that RoR will "
-"become history. That is, however, not going to happen. Not only RoR lives "
-"on, but it also stays unique among all competition. The planned release is "
-"dubbed NextStable and has a version number 0.4.5, which displays the "
-"significant leap from last available build 0.4.0.7. This leap is well "
-"deserved, RoR has undergone a significant facelift and got rid of some long "
-"standing bugs which annoyed and discouraged players for too long. Also, "
-"major refactoring was done on the inside, to serve as groundwork for future "
-"enhancements and stability. This is a list of the most important "
-"achievements:"
+"release. This is very important to shake off the \"dead project\" feeling. "
+"RoR has not had a stable release in years and with new similarily-themed "
+"projects, BeamNG and SpinTires, it seemed that RoR will become history. That "
+"is, however, not going to happen. Not only RoR lives on, but it also stays "
+"unique among all competition. The planned release is dubbed NextStable and "
+"has a version number 0.4.5, which displays the significant leap from last "
+"available build 0.4.0.7. This leap is well deserved, RoR has undergone a "
+"significant facelift and got rid of some long standing bugs which annoyed "
+"and discouraged players for too long. Also, major refactoring was done on "
+"the inside, to serve as groundwork for future enhancements and stability. "
+"This is a list of the most important achievements:"
 msgstr ""
 
 #. type: Plain text
@@ -150,8 +145,8 @@ msgstr ""
 msgid ""
 "RoR got main menu! Until now, RoR worked in a straightforward scenario "
 "\"start - select track - select vehicle - play - exit game\", which wasn't "
-"really player-friendly. Also, the internal startup logic was "
-"over-complicated and slow, so it received a lot of fixes. Courtesy of Max98."
+"really player-friendly. Also, the internal startup logic was over-"
+"complicated and slow, so it received a lot of fixes. Courtesy of Max98."
 msgstr ""
 
 #. type: Plain text
@@ -208,9 +203,9 @@ msgstr ""
 #. type: Plain text
 #: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:61
 msgid ""
-"It will provide a list of errors and warnings every time a vehicle "
-"spawned. This is mainly to help modders, but also to inform players of "
-"possible incompatibility of older content."
+"It will provide a list of errors and warnings every time a vehicle spawned. "
+"This is mainly to help modders, but also to inform players of possible "
+"incompatibility of older content."
 msgstr ""
 
 #. type: Plain text
@@ -245,9 +240,9 @@ msgstr ""
 #. type: Plain text
 #: blog/source/blog/2015-02-03-devblog-progress-report-01-2015/index.adoc:67
 msgid ""
-"From now on, I'll be publishing a progress report blog post every "
-"month. This idea came from Max98, big thanks to him, a dev blog is a big "
-"step forward in presenting the project. Expect future posts to be a lot more "
+"From now on, I'll be publishing a progress report blog post every month. "
+"This idea came from Max98, big thanks to him, a dev blog is a big step "
+"forward in presenting the project. Expect future posts to be a lot more "
 "detailed and to the point, this post is somewhat bland because it just has "
 "too much to sum up."
 msgstr ""

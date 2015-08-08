@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,15 +26,17 @@ msgstr ""
 #: content/source/docs/compile-linux/index.adoc:15
 msgid ""
 "If you just want to install RoR without much hassle then have a look at "
-"these shell scripts, they bundle all necessary steps: "
-"link:http://rigsofrods.com/threads/114853-Install-scripts-for-latest-snapshot-for-Debian-Ubuntu-Mint[Ubuntu/Debian/Mint]"
+"these shell scripts, they bundle all necessary steps: link:http://rigsofrods."
+"com/threads/114853-Install-scripts-for-latest-snapshot-for-Debian-Ubuntu-"
+"Mint[Ubuntu/Debian/Mint]"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/compile-linux/index.adoc:17
 msgid ""
-"Ready made packages for various Linux distributions are available "
-"link:http://rigsofrods.com/threads/113517-Collection-of-prepuilt-packages-for-various-Linux-distributions[here]."
+"Ready made packages for various Linux distributions are available link:"
+"http://rigsofrods.com/threads/113517-Collection-of-prepuilt-packages-for-"
+"various-Linux-distributions[here]."
 msgstr ""
 
 #. type: Title ==
@@ -59,12 +62,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "sudo apt update\n"
-"sudo apt install subversion mercurial git automake cmake build-essential "
-"pkg-config doxygen libfreetype6-dev libfreeimage-dev libzzip-dev scons "
-"libcurl4-openssl-dev nvidia-cg-toolkit libgl1-mesa-dev libxrandr-dev "
-"libx11-dev libxt-dev libxaw7-dev libglu1-mesa-dev libxxf86vm-dev uuid-dev "
-"libuuid1 libgtk2.0-dev libboost-all-dev libopenal-dev libois-dev libssl-dev "
-"libwxgtk3.0-dev\n"
+"sudo apt install subversion mercurial git automake cmake build-essential pkg-config doxygen libfreetype6-dev libfreeimage-dev libzzip-dev scons libcurl4-openssl-dev nvidia-cg-toolkit libgl1-mesa-dev libxrandr-dev libx11-dev libxt-dev libxaw7-dev libglu1-mesa-dev libxxf86vm-dev uuid-dev libuuid1 libgtk2.0-dev libboost-all-dev libopenal-dev libois-dev libssl-dev libwxgtk3.0-dev\n"
 msgstr ""
 
 #. type: Title ====
@@ -80,8 +78,7 @@ msgid ""
 "mkdir /etc/portage\n"
 "echo \"media-libs/freeimage ~x86\" >> /etc/portage/package.keywords\n"
 "echo \"media-libs/freeimage\" >> /etc/portage/package.unmask\n"
-"emerge -av cmake devil boost nvidia-cg-toolkit subversion wxGTK freeimage "
-"zziplib\n"
+"emerge -av cmake devil boost nvidia-cg-toolkit subversion wxGTK freeimage zziplib\n"
 "eselect wxwidgets set 1\n"
 msgstr ""
 
@@ -102,11 +99,7 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/compile-linux/index.adoc:43
 #, no-wrap
-msgid ""
-"*Please note*: OGRE shipped with some distributions does not have support "
-"for Cg enabled which is needed for Rigs of Rods (otherwise shaders will be "
-"missing, e.g. completely white cars) which is why you should compile it "
-"yourself.\n"
+msgid "*Please note*: OGRE shipped with some distributions does not have support for Cg enabled which is needed for Rigs of Rods (otherwise shaders will be missing, e.g. completely white cars) which is why you should compile it yourself.\n"
 msgstr ""
 
 #. type: Title ==
@@ -229,8 +222,8 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/compile-linux/index.adoc:85
 msgid ""
-"You can speed up compilation by making use of multithreading. Just add a "
-"-j**x** flag where *x* is the number of simultaneous build jobs you want "
+"You can speed up compilation by making use of multithreading. Just add a -"
+"j**x** flag where *x* is the number of simultaneous build jobs you want "
 "(basic rule: one job per cpu core)."
 msgstr ""
 

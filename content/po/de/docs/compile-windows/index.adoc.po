@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,8 +48,9 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/compile-windows/index.adoc:20
 msgid ""
-"link:http://microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=3021d52b-514e-41d3-ad02-438a3ba730ba[DirectX "
-"SDK June 2010]"
+"link:http://microsoft.com/downloads/en/details.aspx?"
+"displaylang=en&FamilyID=3021d52b-514e-41d3-ad02-438a3ba730ba[DirectX SDK "
+"June 2010]"
 msgstr ""
 
 #. type: Plain text
@@ -59,20 +61,20 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/compile-windows/index.adoc:23
 msgid ""
-"link:http://sourceforge.net/projects/rigsofrods/files/rigsofrods/0.4-dev/[Latest "
-"RoR dependencies] (download ror-dependencies-XX.zip) (replace XX with the "
-"highest number available, download and store the zip, we will unpack it "
-"later on). (Note: 64 bit prepackaged dependencies are not available at the "
-"moment; see "
-"http://www.rigsofrods.com/threads/85875-Boost-missing-from-pre-packaged-dependencies[here])"
+"link:http://sourceforge.net/projects/rigsofrods/files/rigsofrods/0.4-dev/"
+"[Latest RoR dependencies] (download ror-dependencies-XX.zip) (replace XX "
+"with the highest number available, download and store the zip, we will "
+"unpack it later on). (Note: 64 bit prepackaged dependencies are not "
+"available at the moment; see http://www.rigsofrods.com/threads/85875-Boost-"
+"missing-from-pre-packaged-dependencies[here])"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/compile-windows/index.adoc:24
 msgid ""
 "link:https://github.com/RigsOfRods/rigs-of-rods/archive/master.zip[Latest "
-"RoR sources] (alternatively you can clone them with git from "
-"https://github.com/RigsOfRods/rigs-of-rods.git)"
+"RoR sources] (alternatively you can clone them with git from https://github."
+"com/RigsOfRods/rigs-of-rods.git)"
 msgstr ""
 
 #. type: Plain text
@@ -156,9 +158,9 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/compile-windows/index.adoc:44
 msgid ""
-"\"Where to build the binaries\": ** for a 32 bit build: "
-"`C:\\dev\\rigsofrods-source\\build_x86` ** for a 64 bit build: "
-"`C:\\dev\\rigsofrods-source\\build_x64`"
+"\"Where to build the binaries\": ** for a 32 bit build: `C:\\dev\\rigsofrods-"
+"source\\build_x86` ** for a 64 bit build: `C:\\dev\\rigsofrods-source"
+"\\build_x64`"
 msgstr ""
 
 #. type: Target for macro image
@@ -212,10 +214,9 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/compile-windows/index.adoc:62
 msgid ""
-"Navigate in Windows explorer to the folder "
-"`C:\\dev\\rigsofrods-source\\build_x86` (or build_x64 for 64 bit) and open "
-"the file RoR.sln. Visual Studio should open. (if you are asked, open with "
-"Visual Studio for C++)"
+"Navigate in Windows explorer to the folder `C:\\dev\\rigsofrods-source"
+"\\build_x86` (or build_x64 for 64 bit) and open the file RoR.sln. Visual "
+"Studio should open. (if you are asked, open with Visual Studio for C++)"
 msgstr ""
 
 #. type: Target for macro image
@@ -228,8 +229,8 @@ msgstr ""
 #: content/source/docs/compile-windows/index.adoc:66
 msgid ""
 "In Visual Studio, do the following: from the menu: Build -> build Solution "
-"(this can take some time, around 15 minutes on an average dualcore/ i7-2600K "
-": 9min)"
+"(this can take some time, around 15 minutes on an average dualcore/ "
+"i7-2600K : 9min)"
 msgstr ""
 
 #. type: Target for macro image
@@ -255,8 +256,8 @@ msgstr ""
 #: content/source/docs/compile-windows/index.adoc:76
 msgid ""
 "Done! After building you will find RoR ready to use in the bin\\Release "
-"directory.  You can navigate with the Windows explorer to "
-"`C:\\dev\\rigsofrods-source\\bin\\Release\\` and use it the same way as game "
+"directory.  You can navigate with the Windows explorer to `C:\\dev"
+"\\rigsofrods-source\\bin\\Release\\` and use it the same way as game "
 "directory if it was installed there."
 msgstr ""
 
@@ -281,28 +282,28 @@ msgid ""
 "common issues are the DirectX libraries. To include them manually to the "
 "project, right-click on RoR \"folder\" (the folder on the left in Visual "
 "Studio, where the project is) and click Properties. A popup window should "
-"appear, then go to Configuration properties and then to VC++ "
-"directories. Please add to *Libraries directory* this path (note: use \";\" "
-"to separate the various paths): `C:\\Program Files\\Microsoft DirectX SDK "
-"(<your version>)\\Lib\\x86`. You have to change your version with the "
-"version that's installed on your machine. The simplest way to do it is to "
-"browse the program file folder. *Don't remove or add anything else*"
+"appear, then go to Configuration properties and then to VC++ directories. "
+"Please add to *Libraries directory* this path (note: use \";\" to separate "
+"the various paths): `C:\\Program Files\\Microsoft DirectX SDK (<your "
+"version>)\\Lib\\x86`. You have to change your version with the version "
+"that's installed on your machine. The simplest way to do it is to browse the "
+"program file folder. *Don't remove or add anything else*"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/compile-windows/index.adoc:83
 msgid ""
 "If you are unable to compile RoR at all or strange errors comes up (like RPC "
-"errors), you missed to update to latest version both Boost or DirectX "
-"SDK. This is an important step before continue."
+"errors), you missed to update to latest version both Boost or DirectX SDK. "
+"This is an important step before continue."
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/compile-windows/index.adoc:85
 msgid ""
 "If you are unable to compile RoR, ensure your build is set to Release mode, "
-"not debug mode (see "
-"http://www.rigsofrods.com/threads/85875-Boost-missing-from-pre-packaged-dependencies)"
+"not debug mode (see http://www.rigsofrods.com/threads/85875-Boost-missing-"
+"from-pre-packaged-dependencies)"
 msgstr ""
 
 #. type: Plain text

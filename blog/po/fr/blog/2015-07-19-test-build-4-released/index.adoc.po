@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:1 blog/source/blog/2015-07-19-test-build-4-released/index.adoc:17
+#: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:1
+#: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -74,7 +76,8 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:41
-msgid "We are getting closer and closer to the 0.4.5 release with each test build."
+msgid ""
+"We are getting closer and closer to the 0.4.5 release with each test build."
 msgstr ""
 
 #. type: Plain text
@@ -102,7 +105,8 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:49
-msgid "Added flexbody_lods & flexbody_cache_system configs to the ingame options."
+msgid ""
+"Added flexbody_lods & flexbody_cache_system configs to the ingame options."
 msgstr ""
 
 #. type: Plain text
@@ -139,7 +143,8 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:56
-msgid "Removed current PSSM shadows technique, currently not working correctly."
+msgid ""
+"Removed current PSSM shadows technique, currently not working correctly."
 msgstr ""
 
 #. type: Plain text
@@ -227,20 +232,21 @@ msgstr ""
 #. type: Plain text
 #: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:74
 msgid ""
-"A car that uses the new turbo code: "
-"http://www.rigsofrods.com/threads/118984-Lotus-76-1-for-current-and-future-ror-versions-(Updated-for-test-build-4)[Lotus-76-1-for-current-and-future-ror-versions-(Updated-for-test-build-4)]"
+"A car that uses the new turbo code: http://www.rigsofrods.com/threads/118984-"
+"Lotus-76-1-for-current-and-future-ror-versions-(Updated-for-test-build-4)"
+"[Lotus-76-1-for-current-and-future-ror-versions-(Updated-for-test-build-4)]"
 msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:76
 msgid ""
-"Have fun and don't forget to "
-"https://github.com/RigsOfRods/rigs-of-rods/issues[report bugs]."
+"Have fun and don't forget to https://github.com/RigsOfRods/rigs-of-rods/"
+"issues[report bugs]."
 msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-19-test-build-4-released/index.adoc:77
 msgid ""
-"http://www.rigsofrods.com/threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev#post1383984[Download "
-"here!]"
+"http://www.rigsofrods.com/threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-"
+"dev#post1383984[Download here!]"
 msgstr ""

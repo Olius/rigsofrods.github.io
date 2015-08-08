@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,10 +25,10 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:13
 msgid ""
-"http://download.rigsofrods.com[Download] - "
-"http://www.rigsofrods.com/threads/76237-0.38.33-first-stable-0.38-release[Discussion] "
-"- http://www.rigsofrods.com/forums/108-Game-Support-(windows)[Support] - "
-"<<changelog/index.adoc#,Changelog>>"
+"http://download.rigsofrods.com[Download] - http://www.rigsofrods.com/"
+"threads/76237-0.38.33-first-stable-0.38-release[Discussion] - http://www."
+"rigsofrods.com/forums/108-Game-Support-(windows)[Support] - <<changelog/"
+"index.adoc#,Changelog>>"
 msgstr ""
 
 #. type: Target for macro image
@@ -58,9 +59,7 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:26
 #, no-wrap
-msgid ""
-"*60* Bugtickets (bug reports) fixed & closed, several additional bugs fixed "
-"that never made it to the issuetracker.\n"
+msgid "*60* Bugtickets (bug reports) fixed & closed, several additional bugs fixed that never made it to the issuetracker.\n"
 msgstr ""
 
 #. type: Title ==
@@ -72,9 +71,7 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:30
 #, no-wrap
-msgid ""
-"*Angelscript:* the scripting was nearly redone and is now working very well "
-":)\n"
+msgid "*Angelscript:* the scripting was nearly redone and is now working very well :)\n"
 msgstr ""
 
 #. type: Plain text
@@ -82,49 +79,23 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Truck Description File additions:*\n"
-"** *Hooks* -> "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#Hooks,Truck "
-"Description File>Hooks>>\n"
-"** *Lockgroups* -> "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#Lockgroups,Truck "
-"Description File>Lockgroups>>\n"
-"** *Triggers* -> "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#Triggers,Truck "
-"Description File>Triggers>>\n"
-"** *Meshwheels2* -> "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#Meshwheels2,Truck "
-"Description File>Meshwheels2>>\n"
-"** *AntiLockBrakes* -> "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#AntiLockBrakes,Truck "
-"Description File>AntiLockBrakes>>\n"
-"** *TractionControl* -> "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#TractionControl,Truck "
-"Description File>TractionControl>>\n"
-"** *Slopebrake* ->  "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#SlopeBrake,Truck "
-"Description File>SlopeBrake>>\n"
-"** *VideoCameras & Mirrors* ->  "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#Videocamera,Truck "
-"Description File>Videocamera>>\n"
-"** *DetacherGroups* -> "
-"<<{baseurl}/docs/documentation/truck-description-file/index.adoc#Detacher_group,Truck "
-"Description File>Detacher group>>\n"
+"** *Hooks* -> <<{baseurl}/docs/documentation/truck-description-file/index.adoc#Hooks,Truck Description File>Hooks>>\n"
+"** *Lockgroups* -> <<{baseurl}/docs/documentation/truck-description-file/index.adoc#Lockgroups,Truck Description File>Lockgroups>>\n"
+"** *Triggers* -> <<{baseurl}/docs/documentation/truck-description-file/index.adoc#Triggers,Truck Description File>Triggers>>\n"
+"** *Meshwheels2* -> <<{baseurl}/docs/documentation/truck-description-file/index.adoc#Meshwheels2,Truck Description File>Meshwheels2>>\n"
+"** *AntiLockBrakes* -> <<{baseurl}/docs/documentation/truck-description-file/index.adoc#AntiLockBrakes,Truck Description File>AntiLockBrakes>>\n"
+"** *TractionControl* -> <<{baseurl}/docs/documentation/truck-description-file/index.adoc#TractionControl,Truck Description File>TractionControl>>\n"
+"** *Slopebrake* ->  <<{baseurl}/docs/documentation/truck-description-file/index.adoc#SlopeBrake,Truck Description File>SlopeBrake>>\n"
+"** *VideoCameras & Mirrors* ->  <<{baseurl}/docs/documentation/truck-description-file/index.adoc#Videocamera,Truck Description File>Videocamera>>\n"
+"** *DetacherGroups* -> <<{baseurl}/docs/documentation/truck-description-file/index.adoc#Detacher_group,Truck Description File>Detacher group>>\n"
 "** *Avionic sounds* readded\n"
-"** *Soundsources2* -> "
-"<<{baseurl}/docs/truck-description-file/index.adoc#Soundsources2,Truck "
-"Description File> Soundsources2>>\n"
+"** *Soundsources2* -> <<{baseurl}/docs/truck-description-file/index.adoc#Soundsources2,Truck Description File> Soundsources2>>\n"
 msgstr ""
 
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:43
 #, no-wrap
-msgid ""
-"*New ingame menu* The new menu is on top of the screen. Here are some "
-"in-game screenshots taken to show these features: "
-"http://www.rigsofrods.com/attachment.php?attachmentid=201546&d=1305611461[1] "
-"http://www.rigsofrods.com/attachment.php?attachmentid=201548&d=1305611482[2] "
-"http://www.rigsofrods.com/attachment.php?attachmentid=201547&d=1305611482[3] "
-"http://www.rigsofrods.com/attachment.php?attachmentid=201549&d=1305611494[4]\n"
+msgid "*New ingame menu* The new menu is on top of the screen. Here are some in-game screenshots taken to show these features: http://www.rigsofrods.com/attachment.php?attachmentid=201546&d=1305611461[1] http://www.rigsofrods.com/attachment.php?attachmentid=201548&d=1305611482[2] http://www.rigsofrods.com/attachment.php?attachmentid=201547&d=1305611482[3] http://www.rigsofrods.com/attachment.php?attachmentid=201549&d=1305611494[4]\n"
 msgstr ""
 
 #. type: Title ==
@@ -297,12 +268,12 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:100
 msgid ""
-"What about all the vehicles we have on .37 that we added, will they be on "
-".38 after we upgrade? ** Yes, the 0.38 installer does not try to uninstall "
-"old versions anymore, BUT the user directory has now the version number at "
-"the end \"Rigs of Rods\" will get \"Rigs of Rods 0.38\" so you might need to "
-"copy your old content from 0.37 over. This way 0.37 and 0.38 can run in "
-"parallel on the computer."
+"What about all the vehicles we have on .37 that we added, will they be "
+"on .38 after we upgrade? ** Yes, the 0.38 installer does not try to "
+"uninstall old versions anymore, BUT the user directory has now the version "
+"number at the end \"Rigs of Rods\" will get \"Rigs of Rods 0.38\" so you "
+"might need to copy your old content from 0.37 over. This way 0.37 and 0.38 "
+"can run in parallel on the computer."
 msgstr ""
 
 #. type: Plain text
@@ -328,27 +299,19 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:109
 #, no-wrap
-msgid ""
-"*There is no chatbox in multiplayer right now.* We are in a transition to a "
-"new chat functionality and had to remove the old. Its on the list of things "
-"that we need to patch as soon as possible.\n"
+msgid "*There is no chatbox in multiplayer right now.* We are in a transition to a new chat functionality and had to remove the old. Its on the list of things that we need to patch as soon as possible.\n"
 msgstr ""
 
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:110
 #, no-wrap
-msgid ""
-"Content management is going to be rewritten within 0.39, so we didnt fix "
-"anything there yet (Cache bugs...)\n"
+msgid "Content management is going to be rewritten within 0.39, so we didnt fix anything there yet (Cache bugs...)\n"
 msgstr ""
 
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:111
 #, no-wrap
-msgid ""
-"The airplane GUI is not click-able anymore (autopilot and power sliders, use "
-"CTRL+HOME and CTRL+PAGEUP/PAGEDOWN) we need to replace the old dashboards at "
-"some point ...\n"
+msgid "The airplane GUI is not click-able anymore (autopilot and power sliders, use CTRL+HOME and CTRL+PAGEUP/PAGEDOWN) we need to replace the old dashboards at some point ...\n"
 msgstr ""
 
 #. type: Title ==

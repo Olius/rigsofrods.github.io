@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:1 blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:17
+#: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:1
+#: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -122,10 +124,10 @@ msgstr ""
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:73
 msgid ""
 "Back in 2000s we had no swiss army knife browsers with JavaScript, modern "
-"CSS, web frameworks et al. So Content Management Systems were "
-"conceived. Based on PHP and MySQL, these monsters provide owner with a "
-"database engine. All content is stored internally; web page is generated on "
-"every single request."
+"CSS, web frameworks et al. So Content Management Systems were conceived. "
+"Based on PHP and MySQL, these monsters provide owner with a database engine. "
+"All content is stored internally; web page is generated on every single "
+"request."
 msgstr ""
 
 #. type: Plain text
@@ -134,8 +136,8 @@ msgid ""
 "It did its job then, and does today. Adding and modifying content is very "
 "easy for both owner and end user. Deployment does not require significant "
 "expertise. Simply put, you don't have to fire up an IDE or text editor "
-"because all configuration and authoring is done online with neat "
-"interface. This is how CMS became dominant in the wild."
+"because all configuration and authoring is done online with neat interface. "
+"This is how CMS became dominant in the wild."
 msgstr ""
 
 #. type: Plain text
@@ -163,25 +165,25 @@ msgid ""
 "The latter part comes with a very hefty price. Ever heard of {sql-inj}['SQL "
 "injection']? Say, access a specially crafted link and you make the database "
 "engine execute the wrong code. It is one of the top online vulnerabilities "
-"today. And do you know how this became known to the public? You guessed "
-"it. {wordpress-vuln}[Wordpress]. {drupal-vuln}[Drupal]. In short, content "
+"today. And do you know how this became known to the public? You guessed it. "
+"{wordpress-vuln}[Wordpress]. {drupal-vuln}[Drupal]. In short, content "
 "management systems."
 msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:84
 msgid ""
-"There're other exploits: "
-"{joomla-vuln}[Joomla]. *{vbulletin-vuln}[vBulletin]*. CMS are just too "
-"bloated, complex to maintain and therefore buggy."
+"There're other exploits: {joomla-vuln}[Joomla]. *{vbulletin-vuln}"
+"[vBulletin]*. CMS are just too bloated, complex to maintain and therefore "
+"buggy."
 msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:86
 msgid ""
 "Speaking of our software, right now I am aware of several 0-day "
-"vulnerabilities that could break website database "
-"instantly. Pop. Nothing. Error 403 or 404 instead of years of RoR history."
+"vulnerabilities that could break website database instantly. Pop. Nothing. "
+"Error 403 or 404 instead of years of RoR history."
 msgstr ""
 
 #. type: Title ===
@@ -231,8 +233,8 @@ msgstr ""
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:98
 msgid ""
 "What do we have today? A wall of text that really looks like a long forum "
-"post. A huge paragraph. Then another one. And another. Then a bullet "
-"list. Afterwards a video. And... that's it."
+"post. A huge paragraph. Then another one. And another. Then a bullet list. "
+"Afterwards a video. And... that's it."
 msgstr ""
 
 #. type: Plain text
@@ -252,7 +254,8 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:105
-msgid "'''' This is unacceptable so it's time to move on. Here's what awaits you."
+msgid ""
+"'''' This is unacceptable so it's time to move on. Here's what awaits you."
 msgstr ""
 
 #. type: Title ==
@@ -321,8 +324,8 @@ msgstr ""
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:123
 msgid ""
 "No more MediaWiki, no more databases. Pages are stored in plain text and may "
-"be easily edited in Notepad (although I recommend {atom-uri}[Atom], hehe ;-) "
-")."
+"be easily edited in Notepad (although I recommend {atom-uri}[Atom], "
+"hehe ;-) )."
 msgstr ""
 
 #. type: Plain text
@@ -382,9 +385,9 @@ msgstr ""
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:139
 msgid ""
 "The new website is developed with git software and {site-repo-uri}[hosted on "
-"GitHub]. This corresponds with Rigs of Rods main development which also "
-"{ror-repo-uri}[occurs on GitHub]. Therefore if you wish to report bugs or "
-"fix stuff yourself - you can do it the same way as for RoR itself."
+"GitHub]. This corresponds with Rigs of Rods main development which also {ror-"
+"repo-uri}[occurs on GitHub]. Therefore if you wish to report bugs or fix "
+"stuff yourself - you can do it the same way as for RoR itself."
 msgstr ""
 
 #. type: Title ===
@@ -424,8 +427,8 @@ msgstr ""
 #: blog/source/blog/2015-07-07-coming-soon-new-home-page-and-wiki/index.adoc:148
 msgid ""
 "What you see is a developer preview right now. We need all the help we can "
-"get for porting content, weeding out bugs. Please visit our "
-"{site-repo-uri}[GitHub repository page] for more information"
+"get for porting content, weeding out bugs. Please visit our {site-repo-uri}"
+"[GitHub repository page] for more information"
 msgstr ""
 
 #. type: Plain text

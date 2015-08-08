@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,8 +38,8 @@ msgid ""
 "use nodes with low friction to keep everything on the rail (we call them "
 "guidance nodes). Propulsed rail vehicles use standard wheels spanning the "
 "two rails. The result is a quite long wheel what may be odd on the first "
-"sight, but if you think about it real train wheels are basically the "
-"same. This also helps to keep the nodecount down. See Figure 1."
+"sight, but if you think about it real train wheels are basically the same. "
+"This also helps to keep the nodecount down. See Figure 1."
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'
@@ -119,8 +120,8 @@ msgstr ""
 #: content/source/docs/train-documentation/index.adoc:32
 msgid ""
 "Node 0 needs to be exactly in the middle of your vehicle and 0.5 meters "
-"below the rail. Otherwise it won't spawn correctly in the train "
-"spawner. Don't forget to flag it with \"c\": don't detect ground contact."
+"below the rail. Otherwise it won't spawn correctly in the train spawner. "
+"Don't forget to flag it with \"c\": don't detect ground contact."
 msgstr ""
 
 #. type: Plain text
@@ -153,31 +154,27 @@ msgstr ""
 #. type: Plain text
 #: content/source/docs/train-documentation/index.adoc:42
 #, no-wrap
-msgid ""
-"*[underline]#Beware: Due to a bug in RoR Toolkit you can't build train "
-"tracks going up- or downhill properly...#*\n"
+msgid "*[underline]#Beware: Due to a bug in RoR Toolkit you can't build train tracks going up- or downhill properly...#*\n"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/train-documentation/index.adoc:44
 msgid ""
-"First copy everything from "
-"http://www.rigsofrods.com/attachment.php?attachmentid=337492&d=1344894876[this "
-"zip] over to your map zip. IMPORTANT: Always tell the people that the map "
-"http://www.rigsofrods.com/repository/view/4339[\"Train Valley\"] is required "
-"for all other train maps"
+"First copy everything from http://www.rigsofrods.com/attachment.php?"
+"attachmentid=337492&d=1344894876[this zip] over to your map zip. IMPORTANT: "
+"Always tell the people that the map http://www.rigsofrods.com/repository/"
+"view/4339[\"Train Valley\"] is required for all other train maps"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/train-documentation/index.adoc:46
 msgid ""
-"http://www.gamefront.com/files/user/lepes[Download RoRToolkit "
-"0.37]. *[underline]#Since RoR 0.38 the Toolkit will only work after you "
-"renamed the "
-"http://www.rigsofrods.com/wiki/pages/Installing_Files_from_the_Repository_post_0.36#How_to_find_the_.22My_documents.2FRigs_of_Rods_0.38.22_folder[RoR "
-"Content folder in my documents] from \"Rigs of Rods 0.38\" to \"Rigs of "
-"Rods\".#* Start RoRToolkit, choose your map and start placing the tracks, "
-"Fig. 4."
+"http://www.gamefront.com/files/user/lepes[Download RoRToolkit 0.37]. "
+"*[underline]#Since RoR 0.38 the Toolkit will only work after you renamed the "
+"http://www.rigsofrods.com/wiki/pages/"
+"Installing_Files_from_the_Repository_post_0.36#How_to_find_the_.22My_documents.2FRigs_of_Rods_0.38.22_folder[RoR "
+"Content folder in my documents] from \"Rigs of Rods 0.38\" to \"Rigs of Rods"
+"\".#* Start RoRToolkit, choose your map and start placing the tracks, Fig. 4."
 msgstr ""
 
 #. type: Named 'title' AttributeList argument for macro 'image'

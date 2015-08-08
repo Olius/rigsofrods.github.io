@@ -105,12 +105,17 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/docs/index.adoc:33
+msgid "<<terrain-system/index.adoc#,Terrain System>>"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/index.adoc:34
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:33
+#: content/source/docs/index.adoc:34
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
 msgstr ""

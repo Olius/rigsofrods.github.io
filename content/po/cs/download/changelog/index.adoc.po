@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +58,8 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:23
-msgid "Introduced pause menu with ability to change maps ingame without restarting"
+msgid ""
+"Introduced pause menu with ability to change maps ingame without restarting"
 msgstr ""
 
 #. type: Plain text
@@ -158,7 +160,8 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:44
-msgid "Fixed deactivated trucks not properly activating other deactivated trucks"
+msgid ""
+"Fixed deactivated trucks not properly activating other deactivated trucks"
 msgstr ""
 
 #. type: Plain text
@@ -189,7 +192,12 @@ msgid "0.4.0.7"
 msgstr ""
 
 #. type: Labeled list
-#: content/source/download/changelog/index.adoc:51 content/source/download/changelog/index.adoc:75 content/source/download/changelog/index.adoc:100 content/source/download/changelog/index.adoc:117 content/source/download/changelog/index.adoc:153 content/source/download/changelog/index.adoc:166
+#: content/source/download/changelog/index.adoc:51
+#: content/source/download/changelog/index.adoc:75
+#: content/source/download/changelog/index.adoc:100
+#: content/source/download/changelog/index.adoc:117
+#: content/source/download/changelog/index.adoc:153
+#: content/source/download/changelog/index.adoc:166
 #, no-wrap
 msgid "Changes"
 msgstr ""
@@ -261,7 +269,8 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:64
-msgid "fixed \"Activate all\" causing a fps drop when trucks are set to never sleep"
+msgid ""
+"fixed \"Activate all\" causing a fps drop when trucks are set to never sleep"
 msgstr ""
 
 #. type: Plain text
@@ -336,8 +345,8 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:79
 msgid ""
-"introduced a new idle mixture computation, see: "
-"http://sourceforge.net/p/rigsofrods/codehg/ci/921ca030f421c99b8117d3912641d8578bd9f14d/"
+"introduced a new idle mixture computation, see: http://sourceforge.net/p/"
+"rigsofrods/codehg/ci/921ca030f421c99b8117d3912641d8578bd9f14d/"
 msgstr ""
 
 #. type: Plain text
@@ -409,7 +418,8 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:91
-msgid "fixed engine rpms below 800 caused rotators to switch rotation direction"
+msgid ""
+"fixed engine rpms below 800 caused rotators to switch rotation direction"
 msgstr ""
 
 #. type: Plain text
@@ -433,12 +443,14 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:95
-msgid "fixed a crash when using \"activate all trucks\" without sitting in a truck"
+msgid ""
+"fixed a crash when using \"activate all trucks\" without sitting in a truck"
 msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:96
-msgid "fixed a crash when loading a map with incomplete/missing page config file(s)"
+msgid ""
+"fixed a crash when loading a map with incomplete/missing page config file(s)"
 msgstr ""
 
 #. type: Plain text
@@ -518,8 +530,8 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:113
 msgid ""
-"fixed the multiplayer bug described in: "
-"http://www.rigsofrods.com/threads/100612#post1126688"
+"fixed the multiplayer bug described in: http://www.rigsofrods.com/"
+"threads/100612#post1126688"
 msgstr ""
 
 #. type: Plain text
@@ -558,13 +570,14 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:123
 msgid ""
-"fixed bug #1009 : Boats don't move on water.. forward or reverse : "
-"http://redmine.rigsofrods.com/issues/1009"
+"fixed bug #1009 : Boats don't move on water.. forward or reverse : http://"
+"redmine.rigsofrods.com/issues/1009"
 msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:124
-msgid "new boat default controls: easier: up/down = throttle, left/right = steer"
+msgid ""
+"new boat default controls: easier: up/down = throttle, left/right = steer"
 msgstr ""
 
 #. type: Plain text
@@ -615,9 +628,7 @@ msgstr ""
 #. type: Labeled list
 #: content/source/download/changelog/index.adoc:134
 #, no-wrap
-msgid ""
-"Improvements and fixes for the "
-"<<{baseurl}/docs/0.4-terrain-system/index.adoc#,0.4 Terrain System>>"
+msgid "Improvements and fixes for the <<{baseurl}/docs/0.4-terrain-system/index.adoc#,0.4 Terrain System>>"
 msgstr ""
 
 #. type: Plain text
@@ -653,7 +664,8 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:143
-msgid "improved menu: removed terrain edit mode, added \"reload vehicle\" feature"
+msgid ""
+"improved menu: removed terrain edit mode, added \"reload vehicle\" feature"
 msgstr ""
 
 #. type: Plain text
@@ -668,7 +680,8 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:146
-msgid "added getFileTruckName(), getTruckHash(), getTruckType() to AngelScript API"
+msgid ""
+"added getFileTruckName(), getTruckHash(), getTruckType() to AngelScript API"
 msgstr ""
 
 #. type: Plain text
@@ -777,6 +790,6 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/changelog/index.adoc:169
 msgid ""
-"New terrain format, old one is not supported anymore (see "
-"simple2-terrain.zip)"
+"New terrain format, old one is not supported anymore (see simple2-terrain."
+"zip)"
 msgstr ""

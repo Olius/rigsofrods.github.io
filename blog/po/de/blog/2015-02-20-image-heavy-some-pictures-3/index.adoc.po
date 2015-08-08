@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-08-08 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:1 blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:17
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:1
+#: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:17
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -72,8 +74,8 @@ msgstr ""
 #. type: Plain text
 #: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:39
 msgid ""
-"The changelog is being updated but it is visible "
-"link:http://www.rigsofrods.com/wiki/pages/Changelog[here]"
+"The changelog is being updated but it is visible link:http://www.rigsofrods."
+"com/wiki/pages/Changelog[here]"
 msgstr ""
 
 #. type: Plain text
@@ -203,7 +205,8 @@ msgstr ""
 
 #. type: Plain text
 #: blog/source/blog/2015-02-20-image-heavy-some-pictures-3/index.adoc:84
-msgid "(and possibility to change maps/go back to menu without exiting the game)"
+msgid ""
+"(and possibility to change maps/go back to menu without exiting the game)"
 msgstr ""
 
 #. type: Target for macro image
