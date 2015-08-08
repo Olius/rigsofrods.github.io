@@ -1,4 +1,4 @@
-LINGUAS="ru"
+LINGUAS="cs de fr ru"
 
 server: clean translate
 	bundle exec middleman server --verbose

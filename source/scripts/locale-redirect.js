@@ -1,6 +1,6 @@
 var userlang = navigator.language;
 
-var langs = ["de", "en", "fr", "ru"]
+var langs = ["cs", "de", "en", "fr", "ru"]
 
 langs.forEach(function(lang) {
   if (userlang.substring(0,2) == lang) {
