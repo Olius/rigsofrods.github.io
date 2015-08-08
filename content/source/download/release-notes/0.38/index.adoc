@@ -2,7 +2,7 @@
 :baseurl: fake/../../../..
 :imagesdir: {baseurl}/static/images
 :doctype: article
-:toc: right
+:toc: macro
 :toclevels: 5
 :idprefix:
 :sectanchors:
@@ -19,6 +19,8 @@ This page will provide all the information you need to know when upgrading your 
 0.38.33 is now the first stable considered version of the 0.38 branch.
 
 video::FJZH9My63NM[youtube]
+
+toc::[]
 
 == Bugfixes
 

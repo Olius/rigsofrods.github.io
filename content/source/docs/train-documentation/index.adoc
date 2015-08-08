@@ -2,13 +2,15 @@
 :baseurl: fake/../..
 :imagesdir: {baseurl}/../images
 :doctype: book
-:toc: right
+:toc: macro
 :toclevels: 5
 :idprefix:
 :sectanchors:
 :sectlinks:
 :sectnums:
 :last-update-label!:
+
+toc::[]
 
 == Basic Principle
 

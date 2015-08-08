@@ -3,9 +3,11 @@
 :imagesdir: {baseurl}/../images
 :doctype: book
 :idprefix:
-:toc: right
+:toc: macro
 :toclevels: 5
 :last-update-label!:
+
+toc::[]
 
 == Windows
 
