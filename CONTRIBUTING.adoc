@@ -7,17 +7,29 @@ Content pages are stored in _/content/source_ directory. Note that all pages hav
 
 (there shall be guide on metadata, front matter and attributes here, for now just copy over from existing pages)
 
+== Translate UI strings and main page
+* Copy locales/en.yml to locales/[language code].yml
+* Change "en" in line two to your language code
+* Edit sentences inside parentheses.
+
 == Creating a translation template
-*Only on Linux (for now)*: call `make translate` from website root.
+*Only on Linux*: call `make translate` from website root.
 
 == Creating a translation for a language
 Just copy the template from content/pot/_path_/index.adoc.pot to content/po/_language_/_path_/index.adoc.po.
 
+*Only on Linux*: you can also run `make updatepo` to generate missing gettext translations.
+
 == Updating translations
-*Only on Linux (for now)*: run `make updatepo` from website root.
+*Only on Linux*: run `make updatepo` from website root.
 
 == Testing it all
 You can either preview a single AsciiDoc document using an editor or test the whole website.
 
 * *AsciiDoc Live Preview*: see http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/[this page] for more information.
-* *Test the website*: *only on Linux (for now)* - run `make server` from website root. The site will become accessible at `localhost:4567`
+* *Test the website*: *only on Linux* - run `make server` from website root. The site will become accessible at `localhost:4567`
+
+== Submitting changes
+This is the trickiest part. There shall be a larger guide here. In a nutshell: all changes have to be approved by the dev team.
+
+You have to create your own "fork" (copy of this repository), make all the necessary changes and submit back a request for us to take your changes ("pull request", read more https://help.github.com/articles/using-pull-requests/[here]). We will review it and if your changeset looks fine, merge it into this repository.
