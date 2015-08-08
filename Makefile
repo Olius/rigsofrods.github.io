@@ -1,4 +1,5 @@
 LINGUAS="cs de fr ru"
+FOLDERS="blog content"
 
 server: clean translate
 	bundle exec middleman server --verbose
@@ -26,6 +27,7 @@ gettextize:
 	po4a-bulk-gettextize blog/source asciidoc adoc blog/pot
 
 updatepo:
+	./create_locales.sh $(LINGUAS) $(FOLDERS)
 	po4a-bulk-updatepo content/source asciidoc adoc content/po $(LINGUAS)
 	po4a-bulk-updatepo blog/source asciidoc adoc blog/po $(LINGUAS)
 	make clean-po
