@@ -284,16 +284,14 @@ Sample Syntax
 X,Z,Y,ROTX,ROTZ,ROTY, ObjectName
 ----
 
-{{sandbox|More lines for more objects, just like you did in the old terrn file}}
+NOTE: More lines for more objects, just like you did in the old terrn file
 
-""".Odef files are the same"""
-
-NOTE: this page will get updated with terrain system development.
+NOTE: .odef files are the same
 
 == Example Simple Terrain
 Some examples of how the 0.4 terrain system is used:
 
-* [[:Media:Simple2.zip|Simple2.zip]]
+* http://www.rigsofrods.com/wiki/images/4/47/Simple2.zip[Simple2.zip]
 
 (add your own)
 

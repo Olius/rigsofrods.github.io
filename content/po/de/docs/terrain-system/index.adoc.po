@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-08 21:32+0300\n"
+"POT-Creation-Date: 2015-08-08 23:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,7 +103,7 @@ msgstr ""
 
 #. type: Labeled list
 #: content/source/docs/terrain-system/index.adoc:30
-#: content/source/docs/terrain-system/index.adoc:305
+#: content/source/docs/terrain-system/index.adoc:303
 #, no-wrap
 msgid "File type overview"
 msgstr ""
@@ -727,139 +727,132 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/docs/terrain-system/index.adoc:288
-msgid ""
-"{{sandbox|More lines for more objects, just like you did in the old terrn "
-"file}}"
+msgid "More lines for more objects, just like you did in the old terrn file"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/terrain-system/index.adoc:290
-msgid "\"\"\".Odef files are the same\"\"\""
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:292
-msgid "this page will get updated with terrain system development."
+msgid ".odef files are the same"
 msgstr ""
 
 #. type: Title ==
-#: content/source/docs/terrain-system/index.adoc:293
+#: content/source/docs/terrain-system/index.adoc:291
 #, no-wrap
 msgid "Example Simple Terrain"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:295
+#: content/source/docs/terrain-system/index.adoc:293
 msgid "Some examples of how the 0.4 terrain system is used:"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:297
-msgid "[[:Media:Simple2.zip|Simple2.zip]]"
+#: content/source/docs/terrain-system/index.adoc:295
+msgid "http://www.rigsofrods.com/wiki/images/4/47/Simple2.zip[Simple2.zip]"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:299
+#: content/source/docs/terrain-system/index.adoc:297
 msgid "(add your own)"
 msgstr ""
 
 #. type: Title ==
-#: content/source/docs/terrain-system/index.adoc:300
+#: content/source/docs/terrain-system/index.adoc:298
 #, no-wrap
 msgid "Old Terrain System (pre 0.4)"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:302
+#: content/source/docs/terrain-system/index.adoc:300
 msgid ""
 "The old terrain system was very limited in sense of features and is obsolete "
 "since RoR version 0.4.0."
 msgstr ""
 
 #. type: Title ===
-#: content/source/docs/terrain-system/index.adoc:303
+#: content/source/docs/terrain-system/index.adoc:301
 #, no-wrap
 msgid "Overview"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:307
+#: content/source/docs/terrain-system/index.adoc:305
 msgid ""
 "`.terrn` - You define terrain name, associated .cfg name, spawn point "
 "position, ambient colour and various object positions."
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:308
+#: content/source/docs/terrain-system/index.adoc:306
 msgid ""
 "`.cfg` - You define Terrain Texture, RAW Heightmap file, World Sizes and "
 "Height, Tiles the map get divided into, Terrain LOD and additional stuff."
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:309
+#: content/source/docs/terrain-system/index.adoc:307
 msgid "`.RAW` - A greyscale image which is the heightmap of the terrain."
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:310
+#: content/source/docs/terrain-system/index.adoc:308
 msgid "`.os` - Caelum Config"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:311
+#: content/source/docs/terrain-system/index.adoc:309
 msgid "`.png/./jpg/.dds` - terrain Texture."
 msgstr ""
 
 #. type: Title ===
-#: content/source/docs/terrain-system/index.adoc:312
+#: content/source/docs/terrain-system/index.adoc:310
 #, no-wrap
 msgid "Upgrading to current terrain system"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:314
+#: content/source/docs/terrain-system/index.adoc:312
 msgid ""
 "Currently, the only way to convert to the 0.4 terrain system is by hand as "
 "the layer textures need to be remapped due to the added features."
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:316
+#: content/source/docs/terrain-system/index.adoc:314
 msgid "Just try to follow these steps (example with smallisland below):"
 msgstr ""
 
 #. type: Labeled list
-#: content/source/docs/terrain-system/index.adoc:317
+#: content/source/docs/terrain-system/index.adoc:315
 #, no-wrap
 msgid "Preparational work"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:319
+#: content/source/docs/terrain-system/index.adoc:317
 msgid "create a folder in `Rigs of Rods 0.4\\terrains\\` (i.e. `smallisland`)"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:320
+#: content/source/docs/terrain-system/index.adoc:318
 msgid "unpack the files from the old terrain zip there"
 msgstr ""
 
 #. type: Title ===
-#: content/source/docs/terrain-system/index.adoc:321
+#: content/source/docs/terrain-system/index.adoc:319
 #, no-wrap
 msgid "Terrn2"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:323
+#: content/source/docs/terrain-system/index.adoc:321
 msgid ""
 "create an empty text file named `<>.terrn2` (`smallisland.terrn2`) with the "
 "following template:"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:335
+#: content/source/docs/terrain-system/index.adoc:333
 #, no-wrap
 msgid ""
 "[General]\n"
@@ -874,7 +867,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:338
+#: content/source/docs/terrain-system/index.adoc:336
 #, no-wrap
 msgid ""
 "[Authors]\n"
@@ -882,41 +875,41 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:340
-#: content/source/docs/terrain-system/index.adoc:377
+#: content/source/docs/terrain-system/index.adoc:338
+#: content/source/docs/terrain-system/index.adoc:375
 #, no-wrap
 msgid "[Objects]\n"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:343
+#: content/source/docs/terrain-system/index.adoc:341
 msgid "Now fill that with the following info:"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:345
+#: content/source/docs/terrain-system/index.adoc:343
 msgid "[General] section::"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:346
+#: content/source/docs/terrain-system/index.adoc:344
 msgid "`Name` - the terrain name that should be shown in the loader/chooser"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:347
+#: content/source/docs/terrain-system/index.adoc:345
 msgid "`GeometryConfig` - the terrain name + .otc (i.e. smallisland.otc)"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:351
+#: content/source/docs/terrain-system/index.adoc:349
 msgid ""
 "`Water` - if \"w\" is provided in the old terrain file, add ** `Water=1` ** "
 "`WaterLine=72` (the 'w' value)  ** `WaterBottomLine=42` ( the 'w' value -30)"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:352
+#: content/source/docs/terrain-system/index.adoc:350
 msgid ""
 "`StartPosition` : the start position (X Y Z) without commas! take the first "
 "three values from the 5th or so line from the old config (REMOVE the "
@@ -925,24 +918,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:354
+#: content/source/docs/terrain-system/index.adoc:352
 msgid ""
 "`GUID` - go to http://www.guidgenerator.com/ and generate one [Authors] "
 "section::"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:355
+#: content/source/docs/terrain-system/index.adoc:353
 msgid "`terrain` - name the old author"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:357
+#: content/source/docs/terrain-system/index.adoc:355
 msgid "Afterwards your `.terr2` should look like this:"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:371
+#: content/source/docs/terrain-system/index.adoc:369
 #, no-wrap
 msgid ""
 "[General]\n"
@@ -959,7 +952,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:375
+#: content/source/docs/terrain-system/index.adoc:373
 #, no-wrap
 msgid ""
 "[Authors]\n"
@@ -968,20 +961,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: content/source/docs/terrain-system/index.adoc:379
+#: content/source/docs/terrain-system/index.adoc:377
 #, no-wrap
 msgid "OTC"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:381
+#: content/source/docs/terrain-system/index.adoc:379
 msgid ""
 "Next: create a text file named \"smallisland.otc\" (the name you provided "
 "under `GeometryConfig`) with the following template:"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:387
+#: content/source/docs/terrain-system/index.adoc:385
 #, no-wrap
 msgid ""
 "WorldSizeX=\n"
@@ -990,7 +983,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:390
+#: content/source/docs/terrain-system/index.adoc:388
 #, no-wrap
 msgid ""
 "PageSize=\n"
@@ -998,7 +991,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:394
+#: content/source/docs/terrain-system/index.adoc:392
 #, no-wrap
 msgid ""
 "Heightmap.0.0.raw.size=\n"
@@ -1007,8 +1000,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:402
-#: content/source/docs/terrain-system/index.adoc:440
+#: content/source/docs/terrain-system/index.adoc:400
+#: content/source/docs/terrain-system/index.adoc:438
 #, no-wrap
 msgid ""
 "disableCaching=1\n"
@@ -1021,80 +1014,80 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:405
+#: content/source/docs/terrain-system/index.adoc:403
 msgid "Fill that out too:"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:407
+#: content/source/docs/terrain-system/index.adoc:405
 msgid ""
 "`WorldSizeX` - size of the world in X direction, find that value in the old ."
 "cfg file as `PageWorldX`"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:408
+#: content/source/docs/terrain-system/index.adoc:406
 msgid ""
 "`WorldSizeZ` - size of the world in Z direction, find that value in the old ."
 "cfg file as `PageWorldZ`"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:409
+#: content/source/docs/terrain-system/index.adoc:407
 msgid ""
 "`WorldSizeY` - multiplier of the heightmap in Y direction, find that value "
 "in the old .cfg file as `MaxHeight`"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:410
+#: content/source/docs/terrain-system/index.adoc:408
 msgid ""
 "`PageSize` - size of the heightmap, must be 2^n+1, take `PageSize` from the "
 "old .cfg, i.e. 1025"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:411
+#: content/source/docs/terrain-system/index.adoc:409
 msgid ""
 "`PageFileFormat` - formatting of the page filename. Format: _yourmap-"
 "page-0-0.otc_"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:413
+#: content/source/docs/terrain-system/index.adoc:411
 msgid ""
 "If your terrain heightmap is in raw format provide the following settings:"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:415
+#: content/source/docs/terrain-system/index.adoc:413
 msgid ""
 "Set `Heightmap.0.0.raw.size` to the value of `Heightmap.raw.size`, i.e. "
 "`Heightmap.raw.size=1025`"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:416
+#: content/source/docs/terrain-system/index.adoc:414
 msgid ""
 "Set `Heightmap.0.0.raw.bpp` to the value of `Heightmap.raw.bpp`, i.e. "
 "`Heightmap.raw.bpp=2`"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:417
+#: content/source/docs/terrain-system/index.adoc:415
 msgid ""
 "If `Heightmap` is filled in the old terrain (`Heightmap.flip=true`), then "
 "add `Heightmap.0.0.flipX=1` to the .otc"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:419
-#: content/source/docs/terrain-system/index.adoc:459
+#: content/source/docs/terrain-system/index.adoc:417
+#: content/source/docs/terrain-system/index.adoc:457
 msgid "Our example looks like this now:"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:425
+#: content/source/docs/terrain-system/index.adoc:423
 #, no-wrap
 msgid ""
 "WorldSizeX=1000\n"
@@ -1103,7 +1096,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:428
+#: content/source/docs/terrain-system/index.adoc:426
 #, no-wrap
 msgid ""
 "PageSize=1025\n"
@@ -1111,7 +1104,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:432
+#: content/source/docs/terrain-system/index.adoc:430
 #, no-wrap
 msgid ""
 "Heightmap.0.0.raw.size=1025\n"
@@ -1120,7 +1113,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:443
+#: content/source/docs/terrain-system/index.adoc:441
 msgid ""
 "Next: create a text file named _smallisland-page-0-0.otc_ (you already "
 "provided the filename format in the main smallisland.otc\") with the "
@@ -1128,7 +1121,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:451
+#: content/source/docs/terrain-system/index.adoc:449
 #, no-wrap
 msgid ""
 "<heightmap filename=\"\">\n"
@@ -1139,7 +1132,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:455
+#: content/source/docs/terrain-system/index.adoc:453
 msgid ""
 "To avoid a shiny terrain, follow [http://www.rigsofrods.com/"
 "threads/109873-0-37-Content-Pack-Maps-0-4-0-7?"
@@ -1149,7 +1142,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:457
+#: content/source/docs/terrain-system/index.adoc:455
 msgid ""
 "Your alpha channel needs to be a bit brighter than completely black (RGB "
 "value of [1, 1, 1] instead of [0, 0, 0]), otherwise the alpha channel will "
@@ -1157,7 +1150,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:466
+#: content/source/docs/terrain-system/index.adoc:464
 #, no-wrap
 msgid ""
 "smallisland.raw\n"
@@ -1167,20 +1160,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: content/source/docs/terrain-system/index.adoc:468
+#: content/source/docs/terrain-system/index.adoc:466
 #, no-wrap
 msgid "Terrain Objects"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:470
+#: content/source/docs/terrain-system/index.adoc:468
 msgid ""
 "Create an entry under the `[Objects]` section in the terrn2-file for a "
 "filename followed by an equal sign, i.e.:"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/terrain-system/index.adoc:475
+#: content/source/docs/terrain-system/index.adoc:473
 #, no-wrap
 msgid ""
 "[Objects]\n"
@@ -1188,7 +1181,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:479
+#: content/source/docs/terrain-system/index.adoc:477
 msgid ""
 "Then create a text file named like that (i.e. _smallisland.tobj_) and copy "
 "and paste all remaining lines from the old .terrn into that file. Leave out "
@@ -1196,36 +1189,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:481
+#: content/source/docs/terrain-system/index.adoc:479
 msgid "You are done with the basics :)"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:482
+#: content/source/docs/terrain-system/index.adoc:480
 msgid ""
 "You can download the upgrade example http://www.rigsofrods.com/wiki/"
 "images/7/78/Smallisland.zip[here]"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:484
+#: content/source/docs/terrain-system/index.adoc:482
 msgid "The example looks like this at this point:"
 msgstr ""
 
 #. type: Target for macro image
-#: content/source/docs/terrain-system/index.adoc:485
+#: content/source/docs/terrain-system/index.adoc:483
 #, no-wrap
 msgid "smallisland.webp"
 msgstr ""
 
 #. type: Title ==
-#: content/source/docs/terrain-system/index.adoc:487
+#: content/source/docs/terrain-system/index.adoc:485
 #, no-wrap
 msgid "Troubleshooting"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:490
+#: content/source/docs/terrain-system/index.adoc:488
 msgid ""
 "Q: Why is everything so shiny? ** A: You might need to enable Specular "
 "Mapping (SpecularMappingEnabled=1) and darken the Alpha channel of your "
@@ -1235,21 +1228,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:492
+#: content/source/docs/terrain-system/index.adoc:490
 msgid ""
 "Q: Why are procedural roads not working anymore? ** A: They are removed to "
 "be replaced by a better system in the near future."
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:494
+#: content/source/docs/terrain-system/index.adoc:492
 msgid ""
 "Q: How to convert .RAW images? ** A: See <<{baseurl}/creating-a-raw-file/"
 "index.adoc#Automated_Image_to_raw_file_Bat_scripts,here>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/terrain-system/index.adoc:495
+#: content/source/docs/terrain-system/index.adoc:493
 msgid ""
 "Q: How to create the strange texture format the terrain uses with the "
 "different channels? ** A: See http://www.ogre3d.org/tikiwiki/tiki-index.php?"
