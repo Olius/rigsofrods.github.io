@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-09 00:55+0300\n"
-"PO-Revision-Date: 2015-08-09 00:56+0300\n"
+"POT-Creation-Date: 2015-08-09 01:24+0300\n"
+"PO-Revision-Date: 2015-08-09 01:24+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
 "Language: \n"
@@ -33,35 +33,35 @@ msgstr "toc::[]"
 #. type: Title ==
 #: content/source/download/index.adoc:12
 #, no-wrap
+msgid "Builds"
+msgstr "Сборки"
+
+#. type: Title ===
+#: content/source/download/index.adoc:13
+#, no-wrap
 msgid "Windows"
 msgstr "Windows"
 
 #. type: Plain text
-#: content/source/download/index.adoc:14
-#| msgid ""
-#| "Download the latest stable release link:http://sourceforge.net/projects/"
-#| "rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)"
-msgid ""
-"Download the latest stable release http://sourceforge.net/projects/"
-"rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)"
-msgstr ""
-"Download the latest stable release http://sourceforge.net/projects/"
-"rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)"
-
-#. type: Plain text
 #: content/source/download/index.adoc:15
-#| msgid ""
-#| "Preview builds for upcoming versions may be found link:http://www."
-#| "rigsofrods.com/threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[here]"
 msgid ""
-"Preview builds for upcoming versions may be found http://www.rigsofrods.com/"
-"threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[here]"
+"Download the latest stable release http://sourceforge.net/projects/"
+"rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)"
 msgstr ""
-"Preview builds for upcoming versions may be found http://www.rigsofrods.com/"
-"threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[here]"
+"Download the latest stable release http://sourceforge.net/projects/"
+"rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)"
 
 #. type: Plain text
 #: content/source/download/index.adoc:16
+msgid ""
+"Preview builds for upcoming versions may be found http://www.rigsofrods.com/"
+"threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[here]"
+msgstr ""
+"Preview builds for upcoming versions may be found http://www.rigsofrods.com/"
+"threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[here]"
+
+#. type: Plain text
+#: content/source/download/index.adoc:17
 msgid ""
 "If you want to build from source see <<{baseurl}/docs/compile-windows/index."
 "adoc#,Compiling on Windows>>"
@@ -69,18 +69,14 @@ msgstr ""
 "Если надо собрать из исходных кодов см. <<{baseurl}/docs/compile-windows/"
 "index.adoc#,Сборка под Windows>>"
 
-#. type: Title ==
-#: content/source/download/index.adoc:17
+#. type: Title ===
+#: content/source/download/index.adoc:18
 #, no-wrap
 msgid "Linux"
 msgstr "Linux"
 
 #. type: Plain text
-#: content/source/download/index.adoc:19
-#| msgid ""
-#| "Packages for various distributions: link:http://www.rigsofrods.com/"
-#| "threads/113517-Collection-of-prepuilt-packages-for-various-Linux-"
-#| "distributions[here]"
+#: content/source/download/index.adoc:20
 msgid ""
 "Packages for various distributions: http://www.rigsofrods.com/threads/113517-"
 "Collection-of-prepuilt-packages-for-various-Linux-distributions[here]"
@@ -89,10 +85,7 @@ msgstr ""
 "Collection-of-prepuilt-packages-for-various-Linux-distributions[здесь]"
 
 #. type: Plain text
-#: content/source/download/index.adoc:20
-#| msgid ""
-#| "If you want to build from source see <<{baseurl}/docs/compile-windows/"
-#| "index.adoc#,Compiling on Windows>>"
+#: content/source/download/index.adoc:21
 msgid ""
 "Build from source, see <<{baseurl}/docs/compile-linux/index.adoc#,Compiling "
 "on Linux>>"
@@ -100,14 +93,14 @@ msgstr ""
 "Можно собрать из исходных кодов, см. <<{baseurl}/docs/compile-linux/index."
 "adoc#,Сборка под Linux>>"
 
-#. type: Title ==
-#: content/source/download/index.adoc:21
+#. type: Title ===
+#: content/source/download/index.adoc:22
 #, no-wrap
 msgid "OS X"
 msgstr "OS X"
 
 #. type: Plain text
-#: content/source/download/index.adoc:23
+#: content/source/download/index.adoc:24
 msgid ""
 "Unfortunately, due to lack of OS X coders, there is no up to date build of "
 "the latest version available."
@@ -115,7 +108,7 @@ msgstr ""
 "К сожалению, в виду отсутствия разработчиков под OS X сборки под эту ОС нет."
 
 #. type: Plain text
-#: content/source/download/index.adoc:25
+#: content/source/download/index.adoc:26
 msgid ""
 "If you want to build from source see <<{baseurl}/docs/compile-osx/index."
 "adoc#,Compiling on OS X>>"
@@ -123,14 +116,14 @@ msgstr ""
 "Можно попробовать собрать самостоятельно, см. <<{baseurl}/docs/compile-osx/"
 "index.adoc#,Сборка под OS X>>"
 
-#. type: Title ===
-#: content/source/download/index.adoc:26
+#. type: Title ==
+#: content/source/download/index.adoc:27
 #, no-wrap
 msgid "Overview / Readme / FAQ"
 msgstr "Обзор / Прочти меня / ЧаВо"
 
 #. type: Plain text
-#: content/source/download/index.adoc:28
+#: content/source/download/index.adoc:29
 msgid ""
 "You can find more information about the latest stable release here: "
 "<<release-notes/0.38/index.adoc#,Gaggenau>>"
@@ -139,12 +132,12 @@ msgstr ""
 "Gaggenau>>"
 
 #. type: Plain text
-#: content/source/download/index.adoc:30
+#: content/source/download/index.adoc:31
 msgid "The changelog is presented <<changelog/index.adoc#,here>>."
 msgstr "Список изменений <<changelog/index.adoc#,тут>>."
 
 #. type: Plain text
-#: content/source/download/index.adoc:32
+#: content/source/download/index.adoc:33
 msgid ""
 "Many questions are answered in the documentation, have a look around: "
 "<<{baseurl}/docs/index.adoc#,Documentation index>>"
@@ -152,14 +145,14 @@ msgstr ""
 "Ответы на множество вопросов можно найти в <<{baseurl}/docs/index.adoc#,"
 "документации>>"
 
-#. type: Title ===
-#: content/source/download/index.adoc:33
+#. type: Title ==
+#: content/source/download/index.adoc:34
 #, no-wrap
 msgid "License"
 msgstr "Лицензия"
 
 #. type: Plain text
-#: content/source/download/index.adoc:35
+#: content/source/download/index.adoc:36
 msgid ""
 "Rigs of Rods is free and open source software under the GPL v3 license, "
 "meaning it is both free as in speech (you can modify it) and free as in beer "
@@ -168,17 +161,14 @@ msgstr ""
 "Rigs of Rods - свободное программное обеспечение, доступное на условиях "
 "лицензии GPLv3."
 
-#. type: Title ===
-#: content/source/download/index.adoc:36
+#. type: Title ==
+#: content/source/download/index.adoc:37
 #, no-wrap
 msgid "Legacy"
 msgstr "История"
 
 #. type: Plain text
-#: content/source/download/index.adoc:37
-#| msgid ""
-#| "If you are interested in Rigs of Rods' history check out the museum link:"
-#| "http://sourceforge.net/projects/rigsofrods/files/rigsofrods/museum/[here]"
+#: content/source/download/index.adoc:38
 msgid ""
 "If you are interested in Rigs of Rods' history check out the museum http://"
 "sourceforge.net/projects/rigsofrods/files/rigsofrods/museum/[here]"
