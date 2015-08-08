@@ -29,5 +29,6 @@ Ready to develop? Please select your destination:
 == Specifications
 
 * http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external link)]
+* <<terrain-system/index.adoc#,Terrain System>>
 * <<truck-description-file/index.adoc#,Truck Description File, format used for defining vehicle behaviour ingame>>
 * <<train-documentation/index.adoc#,Train Documentation>>
