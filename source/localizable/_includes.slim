@@ -16,19 +16,35 @@ script src="/stylesheets/owl-carousel/owl.carousel.min.js"
 script hljs.initHighlightingOnLoad();
 
 javascript:
-  $(document).foundation();
+    (function(){
+        var WebP = new Image();
+        WebP.onload = WebP.onerror = function(){
+            if(WebP.height != 2){
+                var sc = document.createElement('script');
+                sc.type = 'text/javascript';
+                sc.async = true;
+                var s = document.getElementsByTagName('script')[0];
+                sc.src = 'http://webpjs.appspot.com/js/webpjs-0.0.2.min.js';
+                s.parentNode.insertBefore(sc,s);
+            }
+        };
+        WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+    })();
 
 javascript:
-	$(document).ready(function() {
-		$('a').smoothScroll();
-		      $('').click(function(event) {
-		        event.preventDefault();
-		        var link = this;
-		        $.smoothScroll({
-		          scrollTarget: link.hash
-		        });
-		      });
-		    });
+    $(document).foundation();
+
+javascript:
+    $(document).ready(function() {
+        $('a').smoothScroll();
+        $('').click(function(event) {
+            event.preventDefault();
+            var link = this;
+            $.smoothScroll({
+                scrollTarget: link.hash
+            });
+        });
+    });
 
 javascript:
   $(document).ready(function() {
