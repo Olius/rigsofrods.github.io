@@ -19,7 +19,7 @@ do
       if !([ -r $folder/po/$lang/$basepath.po ])
       then
         echo "Moving file $basepath.pot to $basepath.po"
-        install -D $TMPDIR/$basepath.pot $folder/po/$lang/$basepath.po
+        install -Dm644 $TMPDIR/$basepath.pot $folder/po/$lang/$basepath.po
       fi
     done
     rm -rf $TMPDIR

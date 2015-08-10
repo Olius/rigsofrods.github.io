@@ -2,36 +2,39 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Artem Vorotnikov <artem@vorotnikov.me>, 2015.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2015-08-09 20:36+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-08-09 22:21+0300\n"
+"Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
+"Language-Team: русский <>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #. type: Title =
 #: content/source/docs/train-documentation/index.adoc:1
 #, no-wrap
 msgid "Train Documentation"
-msgstr ""
+msgstr "Eisenbahndokumentation"
 
 #. type: Plain text
 #: content/source/docs/train-documentation/index.adoc:14
 msgid "toc::[]"
-msgstr ""
+msgstr "toc::[]"
 
 #. type: Title ==
 #: content/source/docs/train-documentation/index.adoc:15
 #, no-wrap
 msgid "Basic Principle"
-msgstr ""
+msgstr "Grundprinzip"
 
 #. type: Plain text
 #: content/source/docs/train-documentation/index.adoc:17
@@ -46,30 +49,40 @@ msgid ""
 "sight, but if you think about it real train wheels are basically the same. "
 "This also helps to keep the nodecount down. See Figure 1."
 msgstr ""
+"Die Spuren sind einfache meshes die auf der Map platziert worden sind. Sie "
+"haben eine Kollisions-mesh auf der alle Züge fahren. Die Spurweite ist 1435 "
+"mm, welche am meisten auf der Welt verwendet wird. Reale Züge haben "
+"Flanschen, aber in RoR können diese Räder nicht solche Flanschen haben, "
+"deshalb benutzen wir nodes mit geringer Reibung um alles auf der Schiene zu "
+"behalten (wir nennen das guidance-nodes (deutsch : Führungs-nodes)). "
+"Schienenfahrzeuge benutzen die normale Antriebs-Spannung zwischen den "
+"Schienen. Das Resultat ist ein ziemlich langes Rad, das vielleicht seltsam "
+"erscheint, aber wenn du an echte Züge denkst, ist das Prinzip das Gleiche. "
+"Dies hilft auch, die nod-Anzahl niedrig zu halten. (Bild 1)"
 
 #. type: Named 'title' AttributeList argument for macro 'image'
 #: content/source/docs/train-documentation/index.adoc:18
 #, no-wrap
 msgid "Basic concept 1"
-msgstr ""
+msgstr "Grundkonzept 1"
 
 #. type: Target for macro image
 #: content/source/docs/train-documentation/index.adoc:18
 #, no-wrap
 msgid "train-basic-concept-1.webp"
-msgstr ""
+msgstr "train-basic-concept-1.webp"
 
 #. type: Named 'title' AttributeList argument for macro 'image'
 #: content/source/docs/train-documentation/index.adoc:19
 #, no-wrap
 msgid "Basic concept 2"
-msgstr ""
+msgstr "Grundkonzept 2"
 
 #. type: Target for macro image
 #: content/source/docs/train-documentation/index.adoc:19
 #, no-wrap
 msgid "train-basic-concept-2.webp"
-msgstr ""
+msgstr "train-basic-concept-2.webp"
 
 #. type: Plain text
 #: content/source/docs/train-documentation/index.adoc:22
@@ -78,6 +91,10 @@ msgid ""
 "nodecount, e.g. on a 4 axle wagon we can save approx. 120 nodes by doing "
 "this, what will give you a much better framerate. See Figure 2."
 msgstr ""
+"Die Wagons benutzen (wie die Züge in RoR) nodes mit geringer Reibung. "
+"Hauptgrund ist: die Nod-Anzahl niedrig zu halten, z.B. bei einem 4-Achsen-"
+"Wagon können wir so ca. 120 nodes sparen, was uns bessere FPS geben wird. "
+"(Bild 2)."
 
 #. type: Title ==
 #: content/source/docs/train-documentation/index.adoc:23
