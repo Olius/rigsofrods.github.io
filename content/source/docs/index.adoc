@@ -15,21 +15,26 @@ First, *a word of caution*: Rigs of Rods is under heavy development right now. F
 
 Ready to develop? Please select your destination:
 
-== Compiling the game
+== User manual
+=== Compiling the game
 * <<compile-linux/index.adoc#,Compiling on Linux>>
 * <<compile-osx/index.adoc#,Compiling on OS X>>
 * <<compile-windows/index.adoc#,Compiling on Windows>>
 
-== Tutorials
-* <<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you create your own truck, train, vehicle or boat>>
-* <<shadows/index.adoc#,Shadows tutorial>>
+=== Configuration
+* <<file-formats-and-configuration-files/index.adoc#,File Formats and Configuration Files>>
 
-== Specifications
+== Modding reference
+=== Specifications
 * http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external link)]
 * <<terrain-system/index.adoc#,Terrain System>>
 * <<truck-description-file/index.adoc#,Truck Description File, format used for defining vehicle behaviour ingame>>
 * <<train-documentation/index.adoc#,Train Documentation>>
 * <<hydrax-config/index.adoc#,Hydrax Config>>
 
-== Development
+=== Tutorials
+* <<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you create your own truck, train, vehicle or boat>>
+* <<shadows/index.adoc#,Shadows tutorial>>
+
+== Developer pages
 * <<terrain-system-ideas/index.adoc#,Ideas for future terrain development>>

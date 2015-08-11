@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-10 21:48+0300\n"
+"POT-Creation-Date: 2015-08-11 21:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,85 +55,110 @@ msgstr ""
 #. type: Title ==
 #: content/source/docs/index.adoc:18
 #, no-wrap
+msgid "User manual"
+msgstr ""
+
+#. type: Title ===
+#: content/source/docs/index.adoc:19
+#, no-wrap
 msgid "Compiling the game"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:20
+#: content/source/docs/index.adoc:21
 msgid "<<compile-linux/index.adoc#,Compiling on Linux>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:21
+#: content/source/docs/index.adoc:22
 msgid "<<compile-osx/index.adoc#,Compiling on OS X>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:22
+#: content/source/docs/index.adoc:23
 msgid "<<compile-windows/index.adoc#,Compiling on Windows>>"
 msgstr ""
 
-#. type: Title ==
-#: content/source/docs/index.adoc:23
+#. type: Title ===
+#: content/source/docs/index.adoc:24
 #, no-wrap
-msgid "Tutorials"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/index.adoc:25
-msgid ""
-"<<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you "
-"create your own truck, train, vehicle or boat>>"
+msgid "Configuration"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/index.adoc:26
-msgid "<<shadows/index.adoc#,Shadows tutorial>>"
+msgid ""
+"<<file-formats-and-configuration-files/index.adoc#,File Formats and "
+"Configuration Files>>"
 msgstr ""
 
 #. type: Title ==
 #: content/source/docs/index.adoc:27
 #, no-wrap
+msgid "Modding reference"
+msgstr ""
+
+#. type: Title ===
+#: content/source/docs/index.adoc:28
+#, no-wrap
 msgid "Specifications"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:29
+#: content/source/docs/index.adoc:30
 msgid ""
 "http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external "
 "link)]"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:30
+#: content/source/docs/index.adoc:31
 msgid "<<terrain-system/index.adoc#,Terrain System>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:31
+#: content/source/docs/index.adoc:32
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:32
+#: content/source/docs/index.adoc:33
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:33
+#: content/source/docs/index.adoc:34
 msgid "<<hydrax-config/index.adoc#,Hydrax Config>>"
 msgstr ""
 
-#. type: Title ==
-#: content/source/docs/index.adoc:34
+#. type: Title ===
+#: content/source/docs/index.adoc:35
 #, no-wrap
-msgid "Development"
+msgid "Tutorials"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/index.adoc:35
+#: content/source/docs/index.adoc:37
+msgid ""
+"<<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you "
+"create your own truck, train, vehicle or boat>>"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/index.adoc:38
+msgid "<<shadows/index.adoc#,Shadows tutorial>>"
+msgstr ""
+
+#. type: Title ==
+#: content/source/docs/index.adoc:39
+#, no-wrap
+msgid "Developer pages"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/index.adoc:40
 msgid ""
 "<<terrain-system-ideas/index.adoc#,Ideas for future terrain development>>"
 msgstr ""

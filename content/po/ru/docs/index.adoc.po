@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-10 21:48+0300\n"
-"PO-Revision-Date: 2015-08-09 00:30+0300\n"
+"POT-Creation-Date: 2015-08-11 21:16+0300\n"
+"PO-Revision-Date: 2015-08-11 21:16+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
 "Language: \n"
@@ -65,52 +65,60 @@ msgstr "Готов к разработке? Поехали:"
 #. type: Title ==
 #: content/source/docs/index.adoc:18
 #, no-wrap
+#| msgid "User manuals"
+msgid "User manual"
+msgstr "Руководство пользователя"
+
+#. type: Title ===
+#: content/source/docs/index.adoc:19
+#, no-wrap
 msgid "Compiling the game"
 msgstr "Сборка игры"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:20
+#: content/source/docs/index.adoc:21
 msgid "<<compile-linux/index.adoc#,Compiling on Linux>>"
 msgstr "<<compile-linux/index.adoc#,Сборка под Linux>>"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:21
+#: content/source/docs/index.adoc:22
 msgid "<<compile-osx/index.adoc#,Compiling on OS X>>"
 msgstr "<<compile-osx/index.adoc#,Сборка под OS X>>"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:22
+#: content/source/docs/index.adoc:23
 msgid "<<compile-windows/index.adoc#,Compiling on Windows>>"
 msgstr "<<compile-windows/index.adoc#,Сборка под Windows>>"
 
-#. type: Title ==
-#: content/source/docs/index.adoc:23
+#. type: Title ===
+#: content/source/docs/index.adoc:24
 #, no-wrap
-msgid "Tutorials"
-msgstr "Обучение"
-
-#. type: Plain text
-#: content/source/docs/index.adoc:25
-msgid ""
-"<<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you "
-"create your own truck, train, vehicle or boat>>"
-msgstr ""
-"<<rorbook/index.adoc#,Книга RoR, полноценный учебник по созданию "
-"транспортного средства>>"
+msgid "Configuration"
+msgstr "Настройка"
 
 #. type: Plain text
 #: content/source/docs/index.adoc:26
-msgid "<<shadows/index.adoc#,Shadows tutorial>>"
-msgstr "<<shadows/index.adoc#,Руководство по теням>>"
+msgid ""
+"<<file-formats-and-configuration-files/index.adoc#,File Formats and "
+"Configuration Files>>"
+msgstr ""
+"<<file-formats-and-configuration-files/index.adoc#,Форматы файлов и файлы "
+"настройки>>"
 
 #. type: Title ==
 #: content/source/docs/index.adoc:27
+#, no-wrap
+msgid "Modding reference"
+msgstr "Справочник моддера"
+
+#. type: Title ===
+#: content/source/docs/index.adoc:28
 #, no-wrap
 msgid "Specifications"
 msgstr "Спецификации"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:29
+#: content/source/docs/index.adoc:30
 msgid ""
 "http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external "
 "link)]"
@@ -119,12 +127,12 @@ msgstr ""
 "ссылка)]"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:30
+#: content/source/docs/index.adoc:31
 msgid "<<terrain-system/index.adoc#,Terrain System>>"
 msgstr "<<terrain-system/index.adoc#,Система карт>>"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:31
+#: content/source/docs/index.adoc:32
 msgid ""
 "<<truck-description-file/index.adoc#,Truck Description File, format used for "
 "defining vehicle behaviour ingame>>"
@@ -134,25 +142,45 @@ msgstr ""
 "транспортных средств>>"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:32
+#: content/source/docs/index.adoc:33
 msgid "<<train-documentation/index.adoc#,Train Documentation>>"
 msgstr "<<train-documentation/index.adoc#,Документация по ЖД>>"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:33
+#: content/source/docs/index.adoc:34
 msgid "<<hydrax-config/index.adoc#,Hydrax Config>>"
 msgstr "<<hydrax-config/index.adoc#,Настройки Hydrax>>"
 
-#. type: Title ==
-#: content/source/docs/index.adoc:34
+#. type: Title ===
+#: content/source/docs/index.adoc:35
 #, no-wrap
-msgid "Development"
-msgstr ""
+msgid "Tutorials"
+msgstr "Обучение"
 
 #. type: Plain text
-#: content/source/docs/index.adoc:35
-#, fuzzy
-#| msgid "<<terrain-system/index.adoc#,Terrain System>>"
+#: content/source/docs/index.adoc:37
+msgid ""
+"<<rorbook/index.adoc#,RoRBook, a comprehensive tutorial that will help you "
+"create your own truck, train, vehicle or boat>>"
+msgstr ""
+"<<rorbook/index.adoc#,Книга RoR, полноценный учебник по созданию "
+"транспортного средства>>"
+
+#. type: Plain text
+#: content/source/docs/index.adoc:38
+msgid "<<shadows/index.adoc#,Shadows tutorial>>"
+msgstr "<<shadows/index.adoc#,Руководство по теням>>"
+
+#. type: Title ==
+#: content/source/docs/index.adoc:39
+#, no-wrap
+msgid "Developer pages"
+msgstr "Страницы для разработчиков"
+
+#. type: Plain text
+#: content/source/docs/index.adoc:40
 msgid ""
 "<<terrain-system-ideas/index.adoc#,Ideas for future terrain development>>"
-msgstr "<<terrain-system/index.adoc#,Система карт>>"
+msgstr ""
+"<<terrain-system-ideas/index.adoc#,Идеи для разработки системы карт "
+"будущего>>"
