@@ -24,6 +24,9 @@ Ready to develop? Please select your destination:
 === Configuration
 * <<file-formats-and-configuration-files/index.adoc#,File Formats and Configuration Files>>
 
+=== Troubleshooting
+* <<errors/index.adoc#,Error reference>>
+
 == Modding reference
 === Specifications
 * http://anotherfoxguy.github.io/RoRdocs/[Doxygen documentation (external link)]
