@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-11 21:59+0300\n"
+"POT-Creation-Date: 2015-08-12 01:05+0300\n"
 "PO-Revision-Date: 2015-08-11 22:00+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -112,7 +112,6 @@ msgstr "Устранение неполадок"
 
 #. type: Plain text
 #: content/source/docs/index.adoc:29
-#| msgid "<<terrain-system/index.adoc#,Terrain System>>"
 msgid "<<errors/index.adoc#,Error reference>>"
 msgstr "<<errors/index.adoc#,Справочник по ошибкам>>"
 

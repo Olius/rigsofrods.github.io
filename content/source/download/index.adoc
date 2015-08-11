@@ -11,7 +11,7 @@ toc::[]
 
 == Builds
 === Windows
-* Download the latest stable release http://sourceforge.net/projects/rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)
+* Download the latest stable release https://github.com/RigsOfRods/rigs-of-rods/releases/download/0.4.5/Rigs_of_Rods_v0.4.5.0.exe[here] (recommended)
 * Preview builds for upcoming versions may be found http://www.rigsofrods.com/threads/119110-Test-Build-Rigs-of-rods-0-4-5-0-dev[here]
 * If you want to build from source see <<{baseurl}/docs/compile-windows/index.adoc#,Compiling on Windows>>
 

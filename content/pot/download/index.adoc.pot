@@ -42,7 +42,7 @@ msgstr ""
 #: content/source/download/index.adoc:15
 msgid ""
 "Download the latest stable release "
-"http://sourceforge.net/projects/rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] "
+"https://github.com/RigsOfRods/rigs-of-rods/releases/download/0.4.5/Rigs_of_Rods_v0.4.5.0.exe[here] "
 "(recommended)"
 msgstr ""
 

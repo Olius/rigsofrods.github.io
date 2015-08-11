@@ -1,12 +1,10 @@
-a.button.warning.actiondownload href="http://sourceforge.net/projects/rigsofrods/files/rigsofrods/#{data.version.list.current_major}/RoR-Setup-#{data.version.list.current_major}.#{data.version.list.current_minor}.exe"
+a.button.warning.actiondownload href="#{data.version.list.download}"
 	span.fa.fa-download>
 	= I18n.t('index.download.download')
 	br
 	small
 		' v. 
-		= data.version.list.current_major
-		| .
-		= data.version.list.current_minor
+		= data.version.list.current
 		=<> I18n.t('index.download.for')
 		| Windows
 
