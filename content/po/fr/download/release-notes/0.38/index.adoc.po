@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-08 23:34+0300\n"
+"POT-Creation-Date: 2015-08-13 02:23+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,10 +25,9 @@ msgstr ""
 #. type: Plain text
 #: content/source/download/release-notes/0.38/index.adoc:13
 msgid ""
-"http://download.rigsofrods.com[Download] - http://www.rigsofrods.com/"
-"threads/76237-0.38.33-first-stable-0.38-release[Discussion] - http://www."
-"rigsofrods.com/forums/108-Game-Support-(windows)[Support] - <<changelog/"
-"index.adoc#,Changelog>>"
+"http://download.rigsofrods.com[Download] - http://rigsofrods.com/"
+"threads/76237[Discussion] - http://rigsofrods.com/forums/108[Support] - "
+"<<{baseurl}/download/changelog/index.adoc#,Changelog>>"
 msgstr ""
 
 #. type: Target for macro image

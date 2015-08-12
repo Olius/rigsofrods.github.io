@@ -25,9 +25,9 @@ msgstr ""
 #: content/source/download/release-notes/0.38/index.adoc:13
 msgid ""
 "http://download.rigsofrods.com[Download] - "
-"http://www.rigsofrods.com/threads/76237-0.38.33-first-stable-0.38-release[Discussion] "
-"- http://www.rigsofrods.com/forums/108-Game-Support-(windows)[Support] - "
-"<<changelog/index.adoc#,Changelog>>"
+"http://rigsofrods.com/threads/76237[Discussion] - "
+"http://rigsofrods.com/forums/108[Support] - "
+"<<{baseurl}/download/changelog/index.adoc#,Changelog>>"
 msgstr ""
 
 #. type: Target for macro image

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-12 01:05+0300\n"
+"POT-Creation-Date: 2015-08-13 02:20+0300\n"
 "PO-Revision-Date: 2015-08-12 01:07+0300\n"
 "Last-Translator: Artem Vorotnikov <artem@vorotnikov.me>\n"
 "Language-Team: русский <>\n"
@@ -44,9 +44,6 @@ msgstr "Windows"
 
 #. type: Plain text
 #: content/source/download/index.adoc:15
-#| msgid ""
-#| "Download the latest stable release http://sourceforge.net/projects/"
-#| "rigsofrods/files/rigsofrods/0.38/RoR-Setup-0.38.67.exe[here] (recommended)"
 msgid ""
 "Download the latest stable release https://github.com/RigsOfRods/rigs-of-"
 "rods/releases/download/0.4.5/Rigs_of_Rods_v0.4.5.0.exe[here] (recommended)"

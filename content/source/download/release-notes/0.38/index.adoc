@@ -1,6 +1,6 @@
 = Gaggenau
 :baseurl: fake/../../../..
-:imagesdir: {baseurl}/static/images
+:imagesdir: {baseurl}/images
 :doctype: article
 :toc: macro
 :toclevels: 5
@@ -9,7 +9,7 @@
 :sectlinks:
 :last-update-label!:
 
-http://download.rigsofrods.com[Download] - http://www.rigsofrods.com/threads/76237-0.38.33-first-stable-0.38-release[Discussion] - http://www.rigsofrods.com/forums/108-Game-Support-(windows)[Support] - <<changelog/index.adoc#,Changelog>>
+http://download.rigsofrods.com[Download] - http://rigsofrods.com/threads/76237[Discussion] - http://rigsofrods.com/forums/108[Support] - <<{baseurl}/download/changelog/index.adoc#,Changelog>>
 
 image::0.38-badge.jpg[float="left"]
 

@@ -10,8 +10,7 @@
 :sectnums:
 :last-update-label!:
 
-If you just want to install RoR without much hassle then have a look at these shell scripts, they bundle all necessary steps:
-link:http://rigsofrods.com/threads/114853-Install-scripts-for-latest-snapshot-for-Debian-Ubuntu-Mint[Ubuntu/Debian/Mint]
+NOTE: If you just want to install RoR without much hassle then have a look at <<{baseurl}/linux-scripts/index.adoc#,the shell scripts>>, they bundle all necessary steps.
 
 Ready made packages for various Linux distributions are available link:http://rigsofrods.com/threads/113517-Collection-of-prepuilt-packages-for-various-Linux-distributions[here].
 

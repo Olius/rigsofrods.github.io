@@ -33,6 +33,11 @@ msgid "Release announcements"
 msgstr ""
 
 #. type: Plain text
-#: content/source/download/release-notes/index.adoc:14
+#: content/source/download/release-notes/index.adoc:15
+msgid "<<0.4.5/index.adoc#,0.4.5 \"NextStable\">>"
+msgstr ""
+
+#. type: Plain text
+#: content/source/download/release-notes/index.adoc:15
 msgid "<<0.38/index.adoc#,0.38 \"Gaggenau\">>"
 msgstr ""

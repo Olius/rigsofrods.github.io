@@ -11,4 +11,5 @@
 
 == Release announcements
 
+* <<0.4.5/index.adoc#,0.4.5 "NextStable">>
 * <<0.38/index.adoc#,0.38 "Gaggenau">>
