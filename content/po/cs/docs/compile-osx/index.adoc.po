@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-10 21:50+0300\n"
+"POT-Creation-Date: 2015-08-14 05:38+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,1299 +24,379 @@ msgstr ""
 
 #. type: Plain text
 #: content/source/docs/compile-osx/index.adoc:14
+msgid "toc::[]"
+msgstr ""
+
+#. type: Title ==
+#: content/source/docs/compile-osx/index.adoc:15
+#, no-wrap
+msgid "Build script to automatize building process"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:17
+msgid ""
+"There is an ongoing effort to create a shell script which fully automatizes "
+"the process of building RoR on OS X so even someone with no knowledge of "
+"coding could build RoR easily. The script is not finished yet and "
+"contributions are greatly appreciated. You can find the script on GitHub: "
+"https://github.com/Hiradur/rigsofrods-osxscripts"
+msgstr ""
+
+#. type: Labeled list
+#: content/source/docs/compile-osx/index.adoc:18
+#, no-wrap
+msgid "Features still missing"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:20
+msgid "GTK+2.0 installation"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:21
+msgid "gdk2-pixbuf installation"
+msgstr ""
+
+#. type: Title ==
+#: content/source/docs/compile-osx/index.adoc:22
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:24
+msgid ""
+"These instructions are not entirely up to date and need an experienced Mac "
+"user to update."
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:26
 msgid ""
 "Rigs of Rods is a complex beast. It has a 3D engine, physics simulator, "
 "water and sky plug-ins, input device system, networking, localization plug-"
 "in module... and so on."
 msgstr ""
 
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:16
-msgid "Some of these components are required to build RoR; some are optional."
-msgstr ""
-
 #. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:17
+#: content/source/docs/compile-osx/index.adoc:27
 #, no-wrap
 msgid "Rigs of Rods is built in 4 steps"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:19
+#: content/source/docs/compile-osx/index.adoc:29
 msgid "Download source code for RoR and supporting libraries (dependencies)"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:20
+#: content/source/docs/compile-osx/index.adoc:30
 msgid "Compile libraries"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:21
+#: content/source/docs/compile-osx/index.adoc:31
 msgid "Using CMake, create a Makefile for RoR"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:22
-msgid "Use make to build the RoR app (xcodebuild on Mac)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:24
-msgid "toc::[]"
+#: content/source/docs/compile-osx/index.adoc:32
+msgid "Use make to build the RoR app"
 msgstr ""
 
 #. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:25
-#, no-wrap
-msgid "Required tools"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:26
-#, no-wrap
-msgid "Mac OS X"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:29
-msgid "Version: 10.9 or 10.10"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:30
-#, no-wrap
-msgid "Xcode"
-msgstr ""
-
-#. type: Plain text
 #: content/source/docs/compile-osx/index.adoc:33
-msgid "Version: 5.1 (5B130a)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:34
-msgid "Notes: Requires Xcode Command Line Tools to be installed."
+#, no-wrap
+msgid "Prerequites"
 msgstr ""
 
 #. type: Plain text
 #: content/source/docs/compile-osx/index.adoc:35
-msgid "Source: Mac App Store"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:36
-#, no-wrap
-msgid "Python"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:39
-msgid "Version: 2.7.5 (OS X built-in)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:40
-msgid "Notes: Required to run RoR build scripts."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:41
-msgid "Source: Built into OS X 10.9"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:42
-#, no-wrap
-msgid "CMake"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:45
-msgid "Version: 2.8.12.2 (installed via homebrew)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:46
-msgid "Notes: see below"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:47
-msgid "Source: see below"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:48
-#, no-wrap
-msgid "Installing CMake"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:50
-msgid "Install Homebrew. http://brew.sh"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:52
 msgid ""
-"Open a terminal window and run `brew install cmake` to install CMake into a "
-"Homebrew bottle. If you already have an older version of CMake installed, "
-"Homebrew should warn you."
+"To compile RoR you will have to work with the Terminal (Finder → Go To → "
+"Utilities → Terminal)."
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:54
-msgid ""
-"Run `cmake --version` and verify it's at least 2.8.12.2 (used in this "
-"guide). If it's showing up as a different version, you may need to unlink "
-"and reinstall CMake (see above) or you have a conflicting version installed "
-"elsewhere (MacPorts, perhaps?)"
-msgstr ""
-
-#. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:56
-#, no-wrap
-msgid "Libraries (dependencies)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:61
-msgid ""
-"Rigs of Rods needs these libraries to compile.  pyBuilder.py builds the "
-"libraries in the following order.  Libraries were selected to mirror those "
-"in RoR-Dependencies-v26 for Windows.  Certain library versions from the v26 "
-"package didn't work on OS X 10.9, so these have been annotated below."
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:62
-#, no-wrap
-msgid "Build process"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:64
-msgid "First, build the simpler libraries."
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:65
-#: content/source/docs/compile-osx/index.adoc:283
-#, no-wrap
-msgid "WxWidgets"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:67
-msgid "version: 3.0.0"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:68
-msgid ""
-"notes: WxWidgets 3.0 required to build for OS X 10.9; Carbon is deprecated, "
-"which WxWidgets 2.9 used. (As of Mar 2014, RoR for Windows 0.4.0.7 uses "
-"WxWidgets 2.9.1.)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:69
-msgid ""
-"source: https://sourceforge.net/projects/wxwindows/files/3.0.0/"
-"wxWidgets-3.0.0.tar.bz2"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:71
-msgid "Build steps:"
+#: content/source/docs/compile-osx/index.adoc:37
+msgid "You need XCode Command Line Tools"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:80
+#: content/source/docs/compile-osx/index.adoc:41
 #, no-wrap
+msgid "xcode-select --install\n"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:44
 msgid ""
-"wget https://sourceforge.net/projects/wxwindows/files/3.0.0/wxWidgets-3.0.0.tar.bz2\n"
-"tar -xvf wxWidgets-3.0.0.tar.bz2; cd wxWidgets-3.0.0\n"
-"mkdir wxwidgets-release; cd wxwidgets-release\n"
-"../configure; make\n"
-"copytree wxwidgets-release/lib\n"
-"copytree wxwidgets-release/\n"
-"copytree include/wx\n"
+"You need the package manager brew to install some dependencies. See http://"
+"brew.sh for info. You should install without sudo to minimize risk of "
+"damaging your system."
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:48
+#, no-wrap
+msgid "ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\"\n"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:51
+msgid "Once brew is installed install these packages:"
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:55
+#, no-wrap
+msgid "brew install wget pkgconfig cmake git boost wxwidgets openal-soft\n"
+msgstr ""
+
+#. type: Title ==
+#: content/source/docs/compile-osx/index.adoc:57
+#, no-wrap
+msgid "Additional dependencies not found in brew repositories"
+msgstr ""
+
+#. type: Plain text
+#: content/source/docs/compile-osx/index.adoc:59
+msgid ""
+"You have to compile a number of additional dependencies first to be able to "
+"compile RoR. Except for OGRE none of these are required to build RoR but "
+"highly recommended (or else you will lack GUI, vegetation, proper sky, "
+"multiplayer and scripting)."
+msgstr ""
+
+#. type: Title ===
+#: content/source/docs/compile-osx/index.adoc:60
+#, no-wrap
+msgid "OGRE"
 msgstr ""
 
 #. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:82
+#: content/source/docs/compile-osx/index.adoc:61
 #, no-wrap
-msgid "MoFileReader"
+msgid "OGRE dependencies"
 msgstr ""
 
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:84
-msgid "Description: Reads .mo files; these are language localizations."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:85
-msgid "Version: 0.1.3: released 2012-05-20"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:86
-msgid "Sourcefile: git; see \"build process\" below"
-msgstr ""
-
-#. type: Title =====
-#: content/source/docs/compile-osx/index.adoc:88
-#: content/source/docs/compile-osx/index.adoc:108
-#: content/source/docs/compile-osx/index.adoc:186
-#: content/source/docs/compile-osx/index.adoc:235
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:74
 #, no-wrap
-msgid "Build steps"
+msgid ""
+"cd ~/rigs-of-rods/source\n"
+"wget —c O ogredeps.zip https://bitbucket.org/cabalistic/ogredeps/get/tip.zip\n"
+"unzip -o ogredeps.zip\n"
+"cd cabalistic-ogredeps-*\n"
+"cmake -DCMAKE_OSX_DEPLOYMENT_TARGET:STRING= \\\n"
+"-DCMAKE_INSTALL_PREFIX=\"~/rigs-of-rods/install\" \\\n"
+"-DOGREDEPS_BUILD_CG:BOOL=TRUE \\\n"
+".\n"
+"make -j2\n"
+"make install\n"
+msgstr ""
+
+#. type: Title ====
+#: content/source/docs/compile-osx/index.adoc:76
+#, no-wrap
+msgid "OGRE itself"
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:83
+#, no-wrap
+msgid ""
+"cd ~/rigs-of-rods/source\n"
+"wget -c -O ogre.zip http://bitbucket.org/sinbad/ogre/get/v1-8.zip\n"
+"unzip -o ogre.zip\n"
+"cd sinbad-ogre-*\n"
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:87
+#, no-wrap
+msgid ""
+"# Apply patch for OS X 10.10\n"
+"wget https://gist.github.com/Hiradur/a5573323ae2701bef6bc/download\n"
+"patch -p1 < ogre1.8osx.patch\n"
 msgstr ""
 
 #. type: delimited block -
 #: content/source/docs/compile-osx/index.adoc:94
 #, no-wrap
 msgid ""
-"git clone https://code.google.com/p/mofilereader/\n"
-"cd mofilereader/build\n"
-"cmake .\n"
-"make\n"
+"cmake -DCMAKE_INSTALL_PREFIX=\"~/rigs-of-rods/install\" \\\n"
+"-DCMAKE_BUILD_TYPE:STRING=Release \\\n"
+"-DOGRE_STATIC=1 \\\n"
+"-DOGRE_BUILD_SAMPLES:BOOL=OFF .\n"
+"make -j2\n"
+"make install\n"
 msgstr ""
 
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:96
-#: content/source/docs/compile-osx/index.adoc:118
-#, no-wrap
-msgid "Build products"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:99
-msgid "static lib: tmp/mofilereader/lib/libmoFileReader.static.a"
-msgstr ""
-
-#. type: Plain text
+#. type: delimited block =
 #: content/source/docs/compile-osx/index.adoc:100
-msgid "executable: tmp/mofilereader/bin/moReader"
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:101
-#, no-wrap
-msgid "SocketW"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:103
 msgid ""
-"Description: Streaming socket C++ library. (Networking and inter-process "
-"communication)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:104
-msgid "URL: http://www.digitalfanatics.org/cal/socketw/"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:105
-msgid "Version: r031026 (2003-10-26)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:106
-msgid "Last checked: 2014-03-24"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:107
-msgid ""
-"Source: http://www.digitalfanatics.org/cal/socketw/files/SocketW031026.tar.gz"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:110
-msgid "From RoR dependencies src/ directory"
+"After this step the environment variable \"PKG_CONFIG_PATH\" has always to "
+"be set, otherwise CMake will not be able to find OGRE. Do this now and every "
+"time you open a new Terminal:"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:116
+#: content/source/docs/compile-osx/index.adoc:104
 #, no-wrap
-msgid ""
-"tar -xvf SocketW031026.tar.gz && mv SocketW031026 SocketW\n"
-"cd SocketW/src\n"
-"patch < ../../files/SocketW.diff\n"
-"make\n"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:121
-msgid ""
-"Headers: SocketW.h, sw_base.h, sw_config.h, sw_inet.h, sw_internal.h, sw_ssl."
-"h, sw_unix.h"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:122
-msgid "Static lib: libSocketW.a"
+msgid "export PKG_CONFIG_PATH=\"~/rigs-of-rods/install/lib/pkgconfig\"\n"
 msgstr ""
 
 #. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:123
-#: content/source/docs/compile-osx/index.adoc:410
+#: content/source/docs/compile-osx/index.adoc:107
+#, no-wrap
+msgid "MyGUI"
+msgstr ""
+
+#. type: delimited block =
+#: content/source/docs/compile-osx/index.adoc:109
+msgid "A specific revision is required"
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:125
+#, no-wrap
+msgid ""
+"cd \"~/rigs-of-rods/source\"\n"
+"wget -c -O mygui.zip https://github.com/MyGUI/mygui/archive/a790944c344c686805d074d7fc1d7fc13df98c37.zip\n"
+"unzip -o mygui.zip\n"
+"cd mygui-*\n"
+"cmake -DCMAKE_INSTALL_PREFIX=\"~/rigs-of-rods/install\" \\\n"
+"-DCMAKE_BUILD_TYPE:STRING=Release \\\n"
+"-DMYGUI_BUILD_DEMOS:BOOL=OFF \\\n"
+"-DMYGUI_BUILD_DOCS:BOOL=OFF \\\n"
+"-DMYGUI_BUILD_TEST_APP:BOOL=OFF \\\n"
+"-DMYGUI_BUILD_TOOLS:BOOL=OFF \\\n"
+"-DMYGUI_BUILD_PLUGINS:BOOL=OFF .\n"
+"make -j2\n"
+"make install\n"
+msgstr ""
+
+#. type: Title ===
+#: content/source/docs/compile-osx/index.adoc:128
+#, no-wrap
+msgid "OGRE Paged Geometry"
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:140
+#, no-wrap
+msgid ""
+"cd \"~/rigs-of-rods/source\"\n"
+"git clone --depth=1 https://github.com/Hiradur/ogre-paged.git\n"
+"cd ogre-paged\n"
+"git pull\n"
+"cmake -DCMAKE_INSTALL_PREFIX=\"~/rigs-of-rods/install\" \\\n"
+"-DCMAKE_BUILD_TYPE:STRING=Release \\\n"
+"-DPAGEDGEOMETRY_BUILD_SAMPLES:BOOL=OFF .\n"
+"make -j2\n"
+"make install\n"
+msgstr ""
+
+#. type: Title ===
+#: content/source/docs/compile-osx/index.adoc:142
+#, no-wrap
+msgid "Caelum"
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:155
+#, no-wrap
+msgid ""
+"cd \"~/rigs-of-rods/source\"\n"
+"wget -c -O caelum.zip http://caelum.googlecode.com/archive/3b0f1afccf5cb75c65d812d0361cce61b0e82e52.zip\n"
+"unzip -o caelum.zip\n"
+"cd caelum-*\n"
+"cmake -DCMAKE_INSTALL_PREFIX=\"~/rigs-of-rods/install\" \\\n"
+"-DCaelum_BUILD_SAMPLES:BOOL=OFF .\n"
+"make -j2\n"
+"make install\n"
+"# important step, so the plugin can load:\n"
+"ln -sf \"~/rigs-of-rods/install/lib/libCaelum.so\" \"~/rigs-of-rods/install/lib/OGRE/\"\n"
+msgstr ""
+
+#. type: Title ===
+#: content/source/docs/compile-osx/index.adoc:157
+#, no-wrap
+msgid "MySocketW"
+msgstr ""
+
+#. type: delimited block -
+#: content/source/docs/compile-osx/index.adoc:167
+#, no-wrap
+msgid ""
+"cd \"~/rigs-of-rods/source\"\n"
+"git clone --depth=1 https://github.com/Hiradur/mysocketw.git\n"
+"cd mysocketw\n"
+"git pull\n"
+"sed -i '/^PREFIX *=/d' Makefile.conf\n"
+"make -j2 shared\n"
+"PREFIX=\"~/rigs-of-rods/install\" make install\n"
+msgstr ""
+
+#. type: Title ===
+#: content/source/docs/compile-osx/index.adoc:169
 #, no-wrap
 msgid "AngelScript"
 msgstr ""
 
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:125
-msgid "Description: Provides in-game scripting."
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:126
-#, no-wrap
-msgid "OpenAL"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:128
-msgid "Description: Audio"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:129
-msgid "Version: 1.15.1 (win32 version is 1.13)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:130
-msgid ""
-"Source code: http://kcat.strangesoft.net/openal-releases/openal-soft-1.15.1."
-"tar.bz2"
-msgstr ""
-
-#. type: Title =====
-#: content/source/docs/compile-osx/index.adoc:131
-#, no-wrap
-msgid "OpenAL build steps"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:133
-msgid "May need pthreads to be built first. This error occurs during make:"
-msgstr ""
-
 #. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:137
-#, no-wrap
-msgid "clang: warning: argument unused during compilation: '-pthread'\n"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:140
-#: content/source/docs/compile-osx/index.adoc:327
-#: content/source/docs/compile-osx/index.adoc:412
-msgid "cd to tmp directory, then:"
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:147
-#, no-wrap
-msgid ""
-"wget http://kcat.strangesoft.net/openal-releases/openal-soft-1.15.1.tar.bz2\n"
-"tar -xvf openal-soft-1.15.1.tar.bz2\n"
-"cd openal-soft-1.15.1/build\n"
-"cmake ..\n"
-"make\n"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:149
-#: content/source/docs/compile-osx/index.adoc:317
-#, no-wrap
-msgid "OIS"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:151
-msgid ""
-"Description: Object-oriented Input System. Handles input from keyboards, "
-"mice, joystick, etc."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:152
-msgid "URL: http://sourceforge.net/projects/wgois/"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:153
-msgid "Version: 1.3"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:154
-msgid "Last update: 2013-04-29"
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:155
-#, no-wrap
-msgid "PThreads"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:157
-msgid "Description: POSIX Threads"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:158
-msgid "Notes: Built into OS X."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:159
-msgid ""
-"Header path: `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX."
-"platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/pthread.h`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:160
-msgid ""
-"Library path: `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX."
-"platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libpthread.dylib`"
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:161
-#, no-wrap
-msgid "curl"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:163
-msgid "Description: \"curl groks URLs\""
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:164
-msgid "URL: http://curl.haxx.se"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:165
-msgid "Notes: Built into OS X. (.dylib only)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:166
-msgid ""
-"Header path: `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX."
-"platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/curl/curl.h`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:167
-msgid ""
-"Library path: `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX."
-"platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:170
-msgid ""
-"Read \"Important note for curl users on OS X Mavericks 10.9, here: http://"
-"curl.haxx.se/mail/archive-2013-10/0036.html"
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:172
-#, no-wrap
-msgid "Boost"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:174
-msgid "Description: Cross-platform C++ framework, used for RoR-specific code"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:175
-#: content/source/docs/compile-osx/index.adoc:300
-#, no-wrap
-msgid "Ogre"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:177
-msgid "Description: 3D engine"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:178
-msgid "Version: 1.8.1"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:179
-msgid ""
-"Notes: 1.8.1 is the latest stable release of the Ogre v1.8 tree. Ogre "
-"changes with each .x release. Currently RoR builds against the Ogre 1.8 tree."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:180
-msgid ""
-"Source: http://downloads.sourceforge.net/project/ogre/ogre/1.8/1.8.1/"
-"ogre_src_v1-8-1.tar.bz2"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:181
-#, no-wrap
-msgid "Sources file on mercurial (optional)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:183
-msgid "`cd ~/Developer` (or wherever you're building the RoR project)"
-msgstr ""
-
-#. type: Plain text
 #: content/source/docs/compile-osx/index.adoc:184
-msgid "`hg clone http://bitbucket.org/sinbad/ogre/ -u -v1-8`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:185
-msgid "Mercurial downloads 265MB of data to ogre directory."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:188
-msgid "`mkdir Ogre/build && cd Ogre/build`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:189
-msgid "(incomplete)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:191
-msgid "Building Ogre with `RoRBuilder.py`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:193
-msgid ""
-"Ogre is the trickiest library to get working. The codebase currently uses "
-"Ogre version 1.8.1 (2014-05). This is an explanation of how RoRBuilder.py "
-"does it."
-msgstr ""
-
-#. type: Title =====
-#: content/source/docs/compile-osx/index.adoc:194
-#, no-wrap
-msgid "Step 1: Patch Ogre"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:198
-msgid ""
-"Patch description for Mavericks: https://github.com/osrf/homebrew-simulation/"
-"issues/2 Patch itself (for Ogre 1.7.4): https://gist.github.com/"
-"hgaiser/7346167"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:200
-msgid ""
-"Build CppUnit: https://code.google.com/p/tonatiuh/wiki/"
-"InstallingCppUnitForMac"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:201
-msgid "Doxygen"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:202
-msgid "GLSLOptimizer"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:203
-msgid "HLSL2GLSL"
-msgstr ""
-
-#. type: Title =====
-#: content/source/docs/compile-osx/index.adoc:205
-#, no-wrap
-msgid "Step 2: Configure Ogre CMakeLists.txt"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:207
-msgid "Ogre 1.8.1"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:208
-#, no-wrap
-msgid "Change OgreOSXCocoaWindow.mm, line 235"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:212
-msgid "`NameValuePairList::const_iterator param_useNSView_pair(NULL);` to:"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:213
-msgid "`NameValuePairList::const_iterator param_useNSView_pair;`"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:214
-#, no-wrap
-msgid "Change OgreOSXCocoaWindow.mm, line 121"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:217
-msgid "`NameValuePairList::const_iterator opt(NULL);` to:"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:218
-msgid "`NameValuePairList::const_iterator opt;`"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:220
-#, no-wrap
-msgid "Build libraries which depend on Ogre"
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:222
-#, no-wrap
-msgid "PagedGeometryBuilder"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:224
-msgid "Description: Paged geometry (large landscape) library for Ogre"
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:225
-#, no-wrap
-msgid "CaelumBuilder"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:227
-msgid "Description: Sky, sun, weather library for Ogre"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:228
-msgid "Version: 0.6.1 (zip file, not gz)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:229
-msgid "Source: https://caelum.googlecode.com/files/caelum-0.6.1.zip"
-msgstr ""
-
-#. type: Title ====
-#: content/source/docs/compile-osx/index.adoc:230
-#, no-wrap
-msgid "MyGUIBuilder"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:232
-msgid "Description: GUI library for Ogre"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:233
-msgid "Version: 3.2.0"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:234
-msgid ""
-"Source: http://downloads.sourceforge.net/project/my-gui/MyGUI/MyGUI_3.2.0/"
-"MyGUI_3.2.0.zip"
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:243
 #, no-wrap
 msgid ""
-"unzip MyGUI_3.2.0.zip\n"
-"mv MyGUI_3.2.0 MyGUI\n"
-"mkdir MyGUI/build\n"
-"cd MyGUI/build\n"
-"cmake ../. -DOgre_INCLUDE_DIR=<rorbuild_root_dir>/include/osx_10.9/Ogre -DOgre_LIBRARIES=\"debug;OgreMain_d;optimized;OgreMain\" -DOgre_LIB_DIR=<rorbuild_root_dir>/lib/osx_10.9/Ogre/Release\n"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:246
-msgid ""
-"Dependencies must be in `<source-directory>/dependencies`. (same directory "
-"as `CMakeDependenciesConfig.txt`)"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:248
-#, no-wrap
-msgid "Copying Ogre and using the dynamic library"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:250
-msgid "Download Ogre 1.8.0 SDK for OS X."
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:261
-#, no-wrap
-msgid ""
-"cp /Volumes/OgreSDK/OgreSDK/include/Ogre <ror_dependencies_dir>/include/osx_10.9/Ogre\n"
-"cp /Volumes/OgreSDK/OgreSDK/include/OIS <ror_dependencies_dir>/include/osx_10.9/OIS\n"
-"cp /Volumes/OgreSDK/OgreSDK/lib/*.dylib <ror_dependencies_dir>/lib/osx_10.9/Ogre/Release/\n"
-"cp -R /Volumes/OgreSDK/OgreSDK/lib/pkgconfig <ror_dependencies_dir>/lib/osx_10.9/Ogre/Release/\n"
-"cp -R /Volumes/OgreSDK/OgreSDK/lib/release <ror_dependencies_dir>/lib/osx_10.9/Ogre/Release/\n"
-"cp /Volumes/OgreSDK/OgreSDK/lib/release/libOIS.a <ror_dependencies_dir>/lib/osx_10.9/OIS/Release/\n"
-"cp -R /Volumes/OgreSDK/OgreSDK/boost/boost <ror_dependencies_dir>/include/osx_10.9/\n"
-"mv <ror_dependencies_dir>/include/osx_10.9/boost <ror_dependencies_dir>/include/osx_10.9/Boost/\n"
-"cp -R /Volumes/OgreSDK/OgreSDK/boost/lib/*.a <ror_dependencies_dir>/lib/osx_10.9/Boost/Release/\n"
+"cd \"~/rigs-of-rods/source\"\n"
+"mkdir angelscript\n"
+"cd angelscript\n"
+"wget -c http://www.angelcode.com/angelscript/sdk/files/angelscript_2.22.1.zip\n"
+"unzip -o angelscript_*.zip\n"
+"cd sdk/angelscript/projects/gnuc macosx\n"
+"sed -i '/^LOCAL *=/d' makefile\n"
+"# make fails when making the symbolic link, this removes the existing versions\n"
+"rm -f ../../lib/*\n"
+"make -j2\n"
+"rm -f ../../lib/*\n"
+"LOCAL=\"~/rigs-of-rods/install\" make -s install\n"
 msgstr ""
 
 #. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:263
+#: content/source/docs/compile-osx/index.adoc:186
 #, no-wrap
-msgid "Build RoR"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:265
-#, no-wrap
-msgid "Gather up compiled libraries into a directory structure for CMake"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:267
-#, no-wrap
-msgid "Download RoR source"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:269
-#, no-wrap
-msgid "Configure CMake"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:271
-msgid "Packages not found so far:"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:273
-msgid "OGRE"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:274
-msgid "OGRE-Terrain"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:275
-msgid "OGRE-Paging"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:276
-msgid "OGRE-RTShaderSystem"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:277
-msgid "OIS... finds version 1.3, presumably in system?"
-msgstr ""
-
-#. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:278
-#, no-wrap
-msgid "Other docs"
-msgstr ""
-
-#. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:279
-#, no-wrap
-msgid "Build notes"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:282
-msgid ""
-"Make a directory named `tmp` in the root path of the RoR build directory. "
-"(Alongside this file.)  Build in sequential order:"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:285
-msgid "TODO"
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:287
-#, no-wrap
-msgid "Ogre dependencies"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:289
-msgid "Go here: http://www.ogre3d.org/download/source"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:290
-msgid "Download Ogre 1.8.1 Source for Linux/OSX (88.6MB)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:291
-msgid "cd to RoR master directory, then"
+msgid "Build the game"
 msgstr ""
 
 #. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:298
+#: content/source/docs/compile-osx/index.adoc:206
 #, no-wrap
 msgid ""
-"hg clone https://bitbucket.org/cabalistic/ogredeps`\n"
-"cd ogredeps`\n"
-"cmake .\n"
-"make\n"
-"sudo make install\n"
+"git clone https://github.com/RigsOfRods/rigs-of-rods.git\n"
+"cd rigs-of-rods\n"
+"git pull\n"
+"cmake -DCMAKE_INSTALL_PREFIX=\"~/rigs-of-rods/install\" \\\n"
+"-DROR_USE_MYGUI=\"TRUE\" \\\n"
+"-DROR_USE_OPENAL=\"TRUE\" \\\n"
+"-DROR_USE_SOCKETW=\"TRUE\" \\\n"
+"-DROR_USE_PAGED=\"TRUE\" \\\n"
+"-DROR_USE_CAELUM=\"TRUE\" \\\n"
+"-DROR_USE_ANGELSCRIPT=\"TRUE\" \\\n"
+"-DCMAKE_BUILD_TYPE=RELEASE \\\n"
+"-DCMAKE_CXX_FLAGS=\"-O2 -pipe -march=native\" \\\n"
+".\n"
+"make -j2\n"
+"sed -i '/^PluginFolder=/d' bin/plugins.cfg\n"
+"echo \"PluginFolder=~/rigs-of-rods/install/lib/OGRE\" >>bin/plugins.cfg\n"
+"cp -R bin \"~/rigs-of-rods/install\"\n"
 msgstr ""
 
 #. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:302
+#: content/source/docs/compile-osx/index.adoc:209
 msgid ""
-"http://downloads.sourceforge.net/project/ogre/ogre-dependencies-mac/1.8/"
-"Ogre_Xcode4_Templates_20130325.pkg.zip[Get Xcode 4 templates here]"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:305
-#, no-wrap
-msgid ""
-"Install Command Line Tools (Mavericks) for Xcode\n"
-"\thttps://developer.apple.com/downloads/index.action\n"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:308
-msgid ""
-"Download Cg (v3.1, Cg is legacy, last checked 2014-04): http://developer."
-"download.nvidia.com/cg/Cg_3.1/Cg-3.1_April2012.dmg"
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:312
-#, no-wrap
-msgid "cmake -D BOOST_ROOT=<ror-dependencies-dir>/src/Boost/boost -D BOOST_LIBRARYDIR=<rorbuild_root_dir>/libs/x86/Boost -D Boost_DEBUG=1 -D OGRE_DEPENDENCIES_DIR=<rorbuild_root_dir>/src/files/ogredeps/build/src -D OGRE_STATIC=1 -D CMAKE_OSX_ARCHITECTURES=i386 -D OGRE_BUILD_SAMPLES=0 -G Xcode ../Ogre\n"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:315
-msgid "open OGRE.xcodeproj"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:321
-msgid ""
-"OIS 1.3 needs to be patched to compile on OS X 10.9. It references Carbon, "
-"which is deprecated. The following patch makes it work (no joystick/gamepad "
-"support): http://sourceforge.net/p/wgois/patches/35/"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:323
-msgid ""
-"Diff file itself: http://sourceforge.net/p/wgois/patches/_discuss/"
-"thread/3aad1ad2/6d46/attachment/cocoa.diff"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:325
-msgid ""
-"There seem to be two versions of the `ois-v1-3.tar.gz` file. One has a "
-"reference to Xcode 2.4; the other has a reference to Xcode 3.0. If the wrong "
-"version is used, cocoa.diff will fail to patch chunk #1. This does not stop "
-"it from compiling, but we should distribute a copy of the OIS source (zlib "
-"license; OK as long as it isn't modified) with the appropriate cocoa.diff "
-"file."
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:335
-#, no-wrap
-msgid ""
-"wget http://sourceforge.net/p/wgois/patches/_discuss/thread/3aad1ad2/6d46/attachment/cocoa.diff\n"
-"wget http://downloads.sourceforge.net/project/wgois/Source%20Release/1.3/ois_v1-3.tar.gz\n"
-"tar -xvf ois-v1-3.tar.gz\n"
-"cp cocoa.diff ois-v1-3/\n"
-"cd ois-v1-3/\n"
-"patch -p0 < cocoa.diff\n"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:338
-msgid ""
-"Copy over the new Xcode project; this is setup for OS X 10.9's compiler."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:340
-msgid "`xcodebuild -target OIS -target OISdylib -target OISstatic`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:342
-msgid "MD5 hashes:"
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:408
-#, no-wrap
-msgid ""
-"Mac/XCode-2.2/OIS.xcodeproj/project.pbxproj\n"
-"  * unpatched v2.4\t\t:\t67cc905a253bd62b811fbe61a13757fd\n"
-"  * patched\tv2.4\t\t:\tda1050e4f55abef93a341eefac470031\n"
-"includes/mac/MacMouse.h\n"
-"  * unpatched\t\t\t:\tba394be60522be0396d496012a7106da\n"
-"  * patched\t\t\t:\tba394be60522be0396d496012a7106da\n"
-"includes/mac/CocoaMouse.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t9a9e52d0b7fd667383175ee30482be41\n"
-"includes/mac/CocoaInputManager.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t9c5dabefcd0aeb8d9c3311c7f10c15fb\n"
-"includes/mac/MacHIDManager.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t0e457b701a4588a8cf64d1621b5115ea\n"
-"includes/mac/MacKeyboard.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t768fa8613a08378e27a2179609ba8591\n"
-"includes/mac/MacHelpers.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\tafc98e9bebcbf474d9a0ad5788df32c1\n"
-"includes/mac/CocoaJoyStick.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t458db382d99a281d530daed1706eb541\n"
-"includes/mac/CocoaKeyboard.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t6c17cee71a85f22442938a849ed786ee\n"
-"includes/mac/CocoaHelpers.h\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\ta8a5839d28332779c605164b7951f105\n"
-"demos/OISConsole.cpp\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t5f43a6c8dc2eba201f94b4e9f0782a32\n"
-"src/mac/MacHIDManager.cpp\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\te28b6e083279db6752ff7e4e5ae48e29\n"
-"src/mac/MacKeyboard.cpp\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\tee0e37c2c86751a5f7e932c7bf86790e\n"
-"src/mac/MacHelpers.cpp\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\tdd7e4f453366a5c9dfdac3d8fff02a62\n"
-"src/mac/CocoaMouse.mm\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\tafd3b71a1649d4ca3935564eaea214c0\n"
-"src/mac/CocoaInputManager.mm\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t1ad299cc3fc93d54c7adfd485ebf9706\n"
-"src/mac/MacMouse.cpp\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\te36622c5e8dc65233cd3ae239b0e49f6\n"
-"src/mac/MacInputManager.cpp\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\tf5ec147d80e3d8860e237fb820d98aba\n"
-"src/mac/CocoaJoyStick.mm\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\ta9284c05588f978e66326f5c38ad5b11\n"
-"src/mac/CocoaKeyboard.mm\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\tf1db13e65a6705a07c12a868664ca43c\n"
-"src/OISInputManager.cpp\n"
-"  * unpatched\t\t\t:\n"
-"  * patched\t\t\t:\t78d78b751aa14873e8659696b9728fac\n"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:413
-msgid ""
-"wget http://www.angelcode.com/angelscript/sdk/files/angelscript_2.28.2.zip"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:414
-msgid "unzip angelscript_2.28.2.zip;mv sdk angelscript"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:415
-msgid "mkdir angelscript-release;cd angelscript-release"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:416
-msgid "cmake ../angelscript/angelscript/projects/cmake/."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:417
-msgid "make"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:422
-#, no-wrap
-msgid ""
-"Build products\t:\n"
-"\tstatic lib\t:\ttmp/angelscript/angelscript/lib/libAngelscript.a\n"
-"\texecutable\t:\ttmp/angelscript/angelscript/samples/game/bin/game\n"
-"\t\t\t\t:\t(this is a test game; avoid the zombies)\n"
-msgstr ""
-
-#. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:424
-#, no-wrap
-msgid "CMake (RoR makefile)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:427
-msgid "Use CMake to create a Makefile for RoR."
-msgstr ""
-
-#. type: Title ===
-#: content/source/docs/compile-osx/index.adoc:428
-#, no-wrap
-msgid "Notes on Ogre"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:431
-msgid "Command to run Ogre build over and over in decompressed Ogre directory:"
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:436
-#, no-wrap
-msgid ""
-"mkdir build\n"
-"cd Ogre/build\n"
-"cd ..;rm -rf ./build;mkdir build;cd build;cmake ../.\n"
-msgstr ""
-
-#. type: delimited block -
-#: content/source/docs/compile-osx/index.adoc:459
-#, no-wrap
-msgid ""
-"-- The following external packages were located on your system.\n"
-"-- This installation will have the extra features provided by these packages.\n"
-"+ zlib\n"
-"+ zziplib\n"
-"+ freeimage\n"
-"+ freetype\n"
-"+ OpenGL\n"
-"+ OpenGL ES 1.x\n"
-"+ OpenGL ES 2.x\n"
-"+ cg\n"
-"+ boost\n"
-"+ boost-thread\n"
-"+ boost-date_time\n"
-"+ boost-system\n"
-"+ boost-chrono\n"
-"+ OIS\n"
-"+ Doxygen\n"
-"+ iOS SDK\n"
-"+ Carbon\n"
-"+ Cocoa\n"
-"+ IOKit\n"
-"+ CoreVideo\n"
-msgstr ""
-
-#. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:463
-#, no-wrap
-msgid "Automated testing"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:468
-msgid ""
-"Test on clean OS X 10.9.2 install with re-imageable home directory built "
-"from a template. Push completed builds to remote Jenkins host.  Home "
-"directory rebuilt every time a build is pushed to the machine.  Re-imaged "
-"nightly, weekly, etc. depending on needs."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:470
-msgid "rorbuild automated build workflow:"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:472
-msgid ""
-"ssh in, login via GUI, and scp the files 30 seconds later (hackish, but "
-"works) and then trigger them to launch with ssh (\"open\") command."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:474
-msgid ""
-"Modified master OS X home profile, with Xcode and Python \"all set up.\""
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:476
-msgid ""
-"Upon login, auto-create cached home directory from modified master profile "
-"directory template."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:478
-msgid "Slipstreamed copy of latest rorbuild snapshot, for auto-run upon login"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:480
-msgid ""
-"Python \"check-in\" script to feed resulting build to Jenkins (running on a "
-"VPS)"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:482
-msgid ""
-"Cleanup code to log out. Home directory is wiped after account logs out."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:484
-msgid "This runs whenever we push the latest build to the machine."
-msgstr ""
-
-#. type: Title ==
-#: content/source/docs/compile-osx/index.adoc:486
-#, no-wrap
-msgid "Jenkins"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:488
-msgid "Create Standard user named `rorbuild`"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:489
-#, no-wrap
-msgid "Grant permissions"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:491
-msgid ""
-"Place `rorbuild` directory somewhere logical, where you and Jenkins can "
-"access it. e.g. `/Users/Shared/rorbuild`."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:492
-msgid "Open `Get Info` for the rorbuild directory."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:493
-msgid ""
-"Click the plus button below the folder list at the bottom. A user list pops "
-"up."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:494
-msgid "Click the `rorbuild` user in the list, then click the `Select` button."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:498
-msgid ""
-"Under `Sharing & Permissions` at the bottom of the `Get Info` window for "
-"`rorbuild` ** Click the padlock icon at the bottom and authenticate.  ** "
-"Change the `rorbuild` user's privilege level from `No Access` to `Read & "
-"Write` ** Click the gear button > `Apply to enclosed items...`"
-msgstr ""
-
-#. type: Labeled list
-#: content/source/docs/compile-osx/index.adoc:498
-#, no-wrap
-msgid "Further configuration"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:500
-msgid "`Jenkins` > `New Project` > `Rigs of Rods`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:501
-msgid "`Rigs of Rods` > `Configure`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:502
-msgid "Build schedule: `H * * * *`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:503
-msgid "Execute shell: see script below"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:504
-msgid "Change the path to point to the `build_osx.sh` script on your system."
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:506
-msgid ""
-"`echo RoRBuild | su rorbuild -S cd /Users/Shared/rorbuild/;python build_osx."
-"py`"
-msgstr ""
-
-#. type: Plain text
-#: content/source/docs/compile-osx/index.adoc:507
-msgid "Hit `Save`."
+"If your build was successful you will find the binaries to start the game in "
+"_~/rigs-of-rods/install/bin_"
 msgstr ""
